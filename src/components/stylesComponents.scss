@@ -1,0 +1,45 @@
+header {
+
+
+  .container_icon {
+  display: grid;
+   border: solid blue;
+  grid-template-areas:
+    "o mix"
+    "line line";
+    width: 100px;
+
+  .item_1 {
+    grid-area: o;
+   
+  }
+
+  .item_2 {
+    grid-area: mix;
+
+  }
+
+  .item_3 {
+    grid-area: line;
+  }
+}
+
+
+    nav {
+        margin: auto;
+        width: 50%;
+
+
+
+     ul {
+
+         display: grid;
+         grid-template-columns: repeat(4, auto);
+     }
+
+       @media (max-width: 450px) {
+ 
+        display: none;
+      }
+    }
+}
