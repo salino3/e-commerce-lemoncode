@@ -1,45 +1,45 @@
 header {
-
-
-  .container_icon {
   display: grid;
-   border: solid blue;
-  grid-template-areas:
-    "o mix"
-    "line line";
-    width: 100px;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  gap: 1rem;
+  margin: 0rem 1rem;
 
-  .item_1 {
-    grid-area: o;
-   
+  & > :last-child {
+    justify-self: end;
   }
 
-  .item_2 {
-    grid-area: mix;
 
-  }
+  nav {
+    margin: auto;
+    width: 50%;
 
-  .item_3 {
-    grid-area: line;
-  }
-}
-
-
-    nav {
-        margin: auto;
-        width: 50%;
-
-
-
-     ul {
-
-         display: grid;
-         grid-template-columns: repeat(4, auto);
-     }
-
-       @media (max-width: 450px) {
- 
-        display: none;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      
+      a {
+        text-decoration: none;
       }
+      
     }
+
+    @media (max-width: 550px) {
+      display: none;
+    }
+
+    @media (min-width: 1000px) {
+      white-space: nowrap;
+    }
+  }
+
+  .boxImages {
+    display: flex;
+    gap: 10px;
+  }
+
+  @media (max-width: 550px) {
+    grid-template-columns: auto 1fr 100%;
+  }
 }
