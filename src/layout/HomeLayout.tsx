@@ -8,7 +8,7 @@ interface Props {
 export const HomeLayout: React.FC<Props> = ({children}) => {
 
   return (
-    <div className='container_homelayout'>
+    <div >
         {children}
     </div>
   )

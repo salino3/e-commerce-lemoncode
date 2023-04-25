@@ -1,2 +1,2 @@
-export * from "./header/Header";
-export * from "./header/Navbar";
+export * from "./header";
+export * from "./actual-box";
