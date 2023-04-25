@@ -1,5 +1,6 @@
 import React from 'react';
 import { HomeLayout } from '../layout';
+import * as classes from './stylesScene';
 
 export const Home: React.FC = () => {
 

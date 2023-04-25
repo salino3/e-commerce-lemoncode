@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../stylesComponents.scss";
+import * as styles from "../stylesComponents";
+import * as classes from './header-styles';
 
 
 export const Navbar: React.FC = () => {
 
   return (
-    <nav>
-      <ul>
+    <nav className={classes.nav}>
+      <ul className={classes.ul}>
         <li>
           <Link to={"#"}>PARA MUJERES</Link>
         </li>

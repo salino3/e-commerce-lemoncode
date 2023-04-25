@@ -1,19 +1,19 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import '../stylesComponents.scss';
+import * as styles from "../stylesComponents";
+import * as classes from './header-styles';
 
 export const Header: React.FC = () => {
   return (
-    <header>
+    <header className={classes.header}>
       <div>
         <img src="/assets/shape-lines.png" alt="menu" />
       </div>
-      <div className="container_icon">
+      <div >
         <img className="img_1" src="/assets/logo.svg" alt="logo" />
-       
       </div>
       <Navbar />
-      <div className="boxImages">
+      <div className={classes.boxImages}>
         <img src="/assets/shape-2.png" alt="magnifying glass" />
         <img src="/assets/shape-heart.png" alt="heart" />
         <img src="/assets/shape.png" alt="cart" />
