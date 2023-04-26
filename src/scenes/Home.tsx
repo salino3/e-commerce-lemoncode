@@ -1,14 +1,17 @@
 import React from 'react';
+import { Description } from '../components/description';
 import { HomeLayout } from '../layout';
-import * as classes from './stylesScene';
 import { ActualBox } from '../components';
+import * as classes from './stylesScene';
 
 export const Home: React.FC = () => {
 
   return (
     <HomeLayout>
-      <h1>Home</h1>
-      <img src="../../public/assets/Rectangle-11.png" alt="home-image" />
+      <div className={classes.boxDescription}>
+      <img className={classes.imgPrimary} src="/assets/MainImage.png" alt="home-image" />
+      <Description />
+      </div>
       <ActualBox />
     </HomeLayout>
   );

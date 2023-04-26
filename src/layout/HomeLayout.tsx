@@ -1,5 +1,5 @@
 import React from 'react';
-import * as classes from './stylesLayout.scss';
+import * as classes from './stylesLayout';
 
 interface Props {
     children: React.ReactNode;
@@ -8,7 +8,7 @@ interface Props {
 export const HomeLayout: React.FC<Props> = ({children}) => {
 
   return (
-    <div >
+    <div className={classes.root} >
         {children}
     </div>
   )
