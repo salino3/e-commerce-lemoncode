@@ -2,6 +2,7 @@ import React from 'react';
 import * as classes from './styleActual';
 
 export const ActualBox: React.FC = () => {
+  
   return (
     <div className={classes.container}>
       <h2 className={classes.h2}>Actual</h2>
@@ -26,9 +27,9 @@ export const ActualBox: React.FC = () => {
           <img src="/assets/image-actual5.png" alt="image" />
           Vestidos
         </div>
-        <div className={classes.itembg}>
-        <img src="../../../public/assets/imagex.png" width={'150'} alt="sale" />
-         <div>Sale</div>
+        <div className={classes.item}>
+          <img src="/assets/Group8-sale.png" alt="sale" />
+          Sale
         </div>
       </div>
     </div>

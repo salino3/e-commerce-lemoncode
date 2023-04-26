@@ -5,7 +5,7 @@ export const header = css`
   grid-template-columns: auto auto auto auto;
   align-items: center;
   gap: 1rem;
-  margin: 0rem 1rem;
+  padding: 1rem 2rem 0rem 1rem;
 
   & > :last-child {
     justify-self: end;
@@ -42,4 +42,5 @@ export const ul = css`
 export const boxImages = css`
   display: flex;
   gap: 10px;
+  margin-right: 7rem;
 `;
