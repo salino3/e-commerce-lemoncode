@@ -6,7 +6,6 @@ export const container = css`
   display: grid;
   grid-template-rows: auto auto;
   height: 100%;
-  /* antes estaba aquí el scroll-bar */
   
 `; 
 

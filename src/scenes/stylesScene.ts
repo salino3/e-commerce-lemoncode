@@ -31,3 +31,12 @@ export const imgPrimary = css`
   }
 `;
 
+export const buttonHome = css`
+  margin: 1rem auto;
+  border: solid 1px;
+
+  &:hover {
+    background-color: #f6b750;
+    border: 0;
+  }
+`;

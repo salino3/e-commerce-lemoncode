@@ -1,7 +1,8 @@
 import React from 'react';
 import { Description } from '../components/description';
 import { HomeLayout } from '../layout';
-import { ActualBox, ExitoVentas, Header } from '../components';
+import { ActualBox, ExitoVentas, Header, NuevasColecciones } from '../components';
+import { Button } from '../commons';
 import * as classes from './stylesScene';
 
 export const Home: React.FC = () => {
@@ -15,6 +16,8 @@ export const Home: React.FC = () => {
       </div>
       <ActualBox />
       <ExitoVentas />
+      {/* <Button route={'/'} text={'Todas las colecciones'} className={classes.buttonHome} /> */}
+      <NuevasColecciones />
     </HomeLayout>
   );
 }

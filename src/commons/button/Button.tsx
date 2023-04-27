@@ -7,7 +7,6 @@ interface Props {
   text: string;
   className?: string;
   route?: string;
-  
 }
 
 export const Button: React.FC<Props> = (props) => {
