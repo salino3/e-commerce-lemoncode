@@ -15,11 +15,9 @@ export const messageTitleDesktop = css`
   font-size: 100px;
   line-height: 100%;
   color: #212429;
+  margin: auto;
 
-  @media (max-width: 700px) {
-    /* autoflow-x: auto; */
-    margin: auto;
-  }
+
 `;
 
 export const messageTitleMobile = css`
@@ -41,15 +39,13 @@ export const message = css`
   font-weight: 400;
   font-size: 24px;
   line-height: 150%;
-  width: 100%;
   color: #212429;
-  text-align: center;
+  text-align: start;
 `;
 
 export const boxButtons = css`
   display: flex;
   flex-direction: row;
-  gap: 20%;
   
   @media (max-width: 700px) {
     justify-content: center;
@@ -60,6 +56,7 @@ export const boxButtons = css`
 
   button {
     border: solid 1px;
+    margin: auto;
 
     &:hover {
       background-color: #f6b750;

@@ -2,25 +2,24 @@ import { css } from '@emotion/css';
 
 export const header = css`
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem 2rem 0rem 1rem;
+  width: 100vw;
+  margin: 0rem 1rem 1rem;
 
   & > :last-child {
     justify-self: end;
   }
 
-  @media (max-width: 550px) {
-    grid-template-columns: auto 1fr 100%;
+  @media (min-width: 725px) {
+    grid-template-columns: 5% 15% 25% auto;
   }
 `;
 
 export const nav = css`
   margin: auto;
-  width: 50%;
 
-  @media (max-width: 550px) {
+  @media (max-width: 725px) {
     display: none;
 }
 
@@ -31,7 +30,7 @@ export const nav = css`
 
 export const ul = css`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, auto);
   gap: 1rem;
 
   a {
@@ -39,8 +38,9 @@ export const ul = css`
   }
 `;
 
-export const boxImages = css`
+export const boxIcons = css`
   display: flex;
   gap: 10px;
-  margin-right: 7rem;
+  padding: 0rem 1rem;
+  margin-right: 3rem;
 `;

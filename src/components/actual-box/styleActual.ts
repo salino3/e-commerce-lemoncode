@@ -2,42 +2,40 @@ import { css } from "@emotion/css";
 
 
 export const container = css`
-  /* width: 100%; */
   box-sizing: content-box;
   display: grid;
   grid-template-rows: auto auto;
-
+  height: 100%;
+  /* antes estaba aquí el scroll-bar */
+  
 `; 
 
 export const h2 = css`
   position: relative;
-  left: 12rem;
+  left: 7rem;
   bottom: 1rem;
-  font-style: Montserrat;
-  font-weight: "700";
-  font-size: 32px;
+  margin-top: 2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   color: #212429;
-  /*  */
 
-
-/*  */
-  @media (max-width: 700px) {
-    left: 0;
-    margin: 0px auto 10px;
-  }
 `;
 
 export const content = css`
- display: flex;
- /* width: 100%; */
- place-content: center;
- gap: 20px;
- 
- @media (max-width: 700px){
-   /* autoflow-x: auto; */
-   flex-direction: column;
-  margin: auto;
- }
+  display: flex;
+  place-content: center;
+  gap: 20px;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none; /* for IE y Edge */
+  scrollbar-width: none; /* for Firefox */
 `;
 
 export const item = css`
