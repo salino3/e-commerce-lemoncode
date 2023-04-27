@@ -30,13 +30,3 @@ export const imgPrimary = css`
     border-radius: 0px 50% 0px 0px;
   }
 `;
-
-export const buttonHome = css`
-  margin: 1rem auto;
-  border: solid 1px;
-
-  &:hover {
-    background-color: #f6b750;
-    border: 0;
-  }
-`;

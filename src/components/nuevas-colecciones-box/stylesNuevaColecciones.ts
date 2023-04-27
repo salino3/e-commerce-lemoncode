@@ -68,7 +68,7 @@ export const item = css`
 `;
 
 export const buttonNuevasColecciones = css`
-  margin: 1rem auto 1rem;
+  margin: 2rem auto 1rem;
   border: solid 1px;
   width: 180px;
 
