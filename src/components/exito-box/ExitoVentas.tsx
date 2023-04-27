@@ -39,8 +39,7 @@ export const ExitoVentas: React.FC = () => {
         <div className={classes.item}>
           <svg
             onClick={() => handleClick("img1")}
-            className={cx(classes.hearthIcon, {
-              [classes.hearthRed]: redHearth.img1,
+            className={cx(classes.hearthIcon, {[classes.hearthRed]: redHearth.img1,
             })}
             width="16"
             height="14"
