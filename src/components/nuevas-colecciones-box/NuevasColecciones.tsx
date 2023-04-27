@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { Button } from '../../commons';
+import { Button, CardComponent } from '../../commons';
 import * as classes from './stylesNuevaColecciones';
 
 export const NuevasColecciones: React.FC = () => {
@@ -18,27 +18,15 @@ export const NuevasColecciones: React.FC = () => {
       <h2 className={classes.h2}>Nuevas colecciones</h2>
       {isMobile ? (
         <div className={classes.content}>
-          <div className={classes.item}>
-            <img src="/assets/nuevas-coleccion-1.png" alt="image" />
-          </div>
-          <div className={classes.item}>
-            <img src="/assets/nuevas-colecciones-2.png" alt="image" />
-          </div>
-          <div className={classes.item}>
-            <img src="/assets/nuevas-colecciones-3.png" alt="image" />
-          </div>
+          <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones-1.png" />
+          <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones-2.png" />
+          <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones-3.png" />
         </div>
       ) : (
-        <div className={classes.content}>
-          <div className={classes.item}>
-            <img src="/assets/nuevas-colecciones-4-mobile.png" alt="image" />
-          </div>
-          <div className={classes.item}>
-            <img src="/assets/nuevas-colecciones-5-mobile.png" alt="image" />
-          </div>
-          <div className={classes.item}>
-            <img src="/assets/nuevas-colecciones-6-mobile.png" alt="image" />
-          </div>
+        <div className={classes.content}>  
+          <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones-4-mobile.png" />
+          <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones-5-mobile.png" />
+          <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones-6-mobile.png" />
         </div>
       )}
     </div>

@@ -3,11 +3,9 @@ import { useMediaQuery } from "react-responsive";
 import { Button } from '../../commons';
 import * as classes from './styleDescription';
 
-
 export const Description: React.FC = () => {
 
    const isMobile: boolean = useMediaQuery({minWidth: "725px"});
-
 
   return (
     <div className={classes.container}>

@@ -3,10 +3,10 @@ import {
   ActualBox,
   ExitoVentas,
   Header,
-  NuevasColecciones,
   Description,
 } from "../components";
 import * as classes from "./home.styles";
+import { NuevasColecciones } from "../components/nuevas-colecciones-box";
 
 export const HomeLayout: React.FC = () => {
   
