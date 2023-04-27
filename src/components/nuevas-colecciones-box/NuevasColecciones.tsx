@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { Button, CardComponent } from '../../commons';
+import { CardComponent } from '../../commons';
 import * as classes from './stylesNuevaColecciones';
 
 export const NuevasColecciones: React.FC = () => {
@@ -9,12 +9,6 @@ export const NuevasColecciones: React.FC = () => {
 
   return (
     <div className={classes.container}>
-      <Button
-        route={"/"}
-        text={"Todas las colecciones"}
-        className={classes.buttonNuevasColecciones}
-      />
-
       <h2 className={classes.h2}>Nuevas colecciones</h2>
       {isMobile ? (
         <div className={classes.content}>

@@ -1,6 +1,5 @@
 import React from 'react';
 import * as classes from './styleActual';
-import { CardComponent } from '../../commons';
 
 export const ActualBox: React.FC = () => {
   

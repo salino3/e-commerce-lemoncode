@@ -4,9 +4,11 @@ import {
   ExitoVentas,
   Header,
   Description,
+  NuevasColecciones,
+  NuevosProductos,
 } from "../components";
 import * as classes from "./home.styles";
-import { NuevasColecciones } from "../components/nuevas-colecciones-box";
+import { Button } from "../commons";
 
 export const HomeLayout: React.FC = () => {
   
@@ -23,7 +25,18 @@ export const HomeLayout: React.FC = () => {
       </div>
       <ActualBox />
       <ExitoVentas />
+      <Button
+        route={"/"}
+        text={"Todos los éxitos"}
+        className={classes.buttonHomeLayout}
+      />
       <NuevasColecciones />
+      <Button
+        route={"/"}
+        text={"Todas las colecciones"}
+        className={classes.buttonHomeLayout}
+      />
+      <NuevosProductos />
     </div>
   );
 };
