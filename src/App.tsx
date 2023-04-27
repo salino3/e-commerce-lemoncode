@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { AppRouter } from './router';
 import { Header } from './components';
 
@@ -6,7 +5,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <AppRouter />
     </div>
   );

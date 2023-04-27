@@ -2,42 +2,32 @@ import { css } from "@emotion/css";
 
 
 export const container = css`
-  /* width: 100%; */
   box-sizing: content-box;
   display: grid;
   grid-template-rows: auto auto;
-
+  overflow-x: auto;
+  height: 100%;
 `; 
 
 export const h2 = css`
   position: relative;
-  left: 12rem;
+  left: 7rem;
   bottom: 1rem;
-  font-style: Montserrat;
-  font-weight: "700";
-  font-size: 32px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   color: #212429;
-  /*  */
+  margin-top: 2rem;
 
-
-/*  */
-  @media (max-width: 700px) {
-    left: 0;
-    margin: 0px auto 10px;
-  }
 `;
 
 export const content = css`
- display: flex;
- /* width: 100%; */
- place-content: center;
- gap: 20px;
- 
- @media (max-width: 700px){
-   /* autoflow-x: auto; */
-   flex-direction: column;
-  margin: auto;
- }
+  display: flex;
+  place-content: center;
+  gap: 20px;
+
 `;
 
 export const item = css`
