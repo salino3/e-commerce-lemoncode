@@ -3,17 +3,16 @@ import {css} from '@emotion/css';
 
 export const container = css`
   box-sizing: content-box;
-  display: grid;
-  grid-template-rows: auto auto;
+  display: flex;
+  /* grid-template-rows: auto auto; */
+  flex-direction: column;
   height: 100%;
 
 `;
 
 export const h2 = css`
-  position: relative;
-  left: 7rem;
-  bottom: 1rem;
-  margin-top: 2rem;
+
+  margin: 2rem 2rem 1rem;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
@@ -26,8 +25,7 @@ export const containerLinks = css`
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin-left: 7rem;
-  /* margin-bottom: 1rem; */
+  margin-left: 2rem;
 `; 
 
 export const content = css`

@@ -5,6 +5,8 @@ export const container = css`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 0rem 0.5rem;
+  box-sizing: border-box;
 
 `;
 
@@ -46,11 +48,12 @@ export const message = css`
 export const boxButtons = css`
   display: flex;
   flex-direction: row;
+  gap: 1rem;
   
   @media (max-width: 700px) {
     justify-content: center;
     margin: auto;
-    width: 400px;
+    /* width: 400px; */
     
   }
 

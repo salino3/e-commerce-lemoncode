@@ -2,17 +2,13 @@ import {css} from '@emotion/css';
 
 
 export const container = css`
-  box-sizing: content-box;
-  display: grid;
-  grid-template-rows: auto auto;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+ 
 `;
 
 export const h2 = css`
-  position: relative;
-  left: 7rem;
-  bottom: 1rem;
-  margin-top: 2rem;
+  margin: 1rem 2rem;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
@@ -48,16 +44,11 @@ export const content = css`
 `;
 
 export const item = css`
-  /* width: 176px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px; */
-
+  
   img {
       height: auto;
       object-fit: cover;
-      width: 100vw;
+      width: 95vw;
       height: auto;
       
  @media (min-width: 725px){

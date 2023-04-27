@@ -9,6 +9,7 @@ import {
 import * as classes from "./home.styles";
 
 export const HomeLayout: React.FC = () => {
+  
   return (
     <div className={classes.root}>
       <Header />

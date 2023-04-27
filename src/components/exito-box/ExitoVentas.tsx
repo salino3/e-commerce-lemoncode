@@ -30,11 +30,14 @@ export const ExitoVentas: React.FC = () => {
 
   return (
     <div className={classes.container}>
+      
+
       <h2 className={classes.h2}>Éxitos de ventas</h2>
       <div className={classes.containerLinks}>
         <Link to={"/"}>Mujeres</Link>
         <Link to={"/"}>Hombres</Link>
       </div>
+   
       <div className={classes.content}>
         <div className={classes.item}>
           <svg

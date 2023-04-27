@@ -5,7 +5,7 @@ export const header = css`
   grid-template-columns: auto auto auto;
   align-items: center;
   width: 100vw;
-  margin: 0rem 1rem 1rem;
+  margin:  1rem;
 
   & > :last-child {
     justify-self: end;
