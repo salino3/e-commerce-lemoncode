@@ -46,7 +46,6 @@ export const message = css`
 export const boxButtons = css`
   display: flex;
   flex-direction: row;
-  gap: 20%;
   
   @media (max-width: 700px) {
     justify-content: center;

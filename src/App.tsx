@@ -1,11 +1,9 @@
 import { AppRouter } from './router';
-import { Header } from './components';
 
 function App() {
 
   return (
-    <div className="App">
-      {/* <Header /> */}
+    <div>
       <AppRouter />
     </div>
   );
