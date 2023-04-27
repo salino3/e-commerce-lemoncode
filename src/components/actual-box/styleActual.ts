@@ -3,18 +3,20 @@ import { css } from "@emotion/css";
 
 export const container = css`
   box-sizing: content-box;
-  display: grid;
-  grid-template-rows: auto auto;
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  /* antes estaba aquí el scroll-bar */
-  
+
+  @media (min-width: 1200px){
+  & > div:last-of-type {
+    align-self: center;
+   }
+  }
 `; 
 
 export const h2 = css`
-  position: relative;
-  left: 7rem;
-  bottom: 1rem;
-  margin-top: 2rem;
+  
+  margin: 2rem 2rem 1rem;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
@@ -26,7 +28,7 @@ export const h2 = css`
 
 export const content = css`
   display: flex;
-  place-content: center;
+  margin: 0rem 1rem;
   gap: 20px;
   overflow-x: auto;
 
@@ -34,8 +36,12 @@ export const content = css`
     display: none;
   }
 
-  -ms-overflow-style: none; /* for IE y Edge */
-  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  @media (min-width: 725px) {
+    margin: auto 1rem;
+  }
 `;
 
 export const item = css`

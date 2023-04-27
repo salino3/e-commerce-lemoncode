@@ -1,12 +1,5 @@
 import { AppRouter } from './router';
 
-function App() {
-
-  return (
-    <div>
-      <AppRouter />
-    </div>
-  );
-}
+const App = () =>  <AppRouter />;
 
 export default App

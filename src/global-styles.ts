@@ -5,7 +5,9 @@ injectGlobal`
 
 body {
   background: white;
-  
+    width: 100%;
+    /* border: solid red; */
+
  }
 
 * {
