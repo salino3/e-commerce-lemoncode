@@ -45,12 +45,12 @@ export const content = css`
 `;
 
 export const item = css`
-
   width: 176px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+ 
 `;
 
 
