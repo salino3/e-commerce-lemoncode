@@ -11,13 +11,16 @@ export const root = css`
 export const boxDescription = css`
   display: flex;
   flex-direction: column;
-
   gap: 15px;
   margin-bottom: 3rem;
   width: 100%;
 
   @media (min-width: 725px) {
     flex-direction: row;
+    gap: 5%;
+  }
+
+  @media (min-width: 1024px) {
     gap: 150px;
   }
 `;

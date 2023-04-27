@@ -53,7 +53,6 @@ export const boxButtons = css`
   @media (max-width: 700px) {
     justify-content: center;
     margin: auto;
-    /* width: 400px; */
     
   }
 

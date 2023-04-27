@@ -44,17 +44,17 @@ export const content = css`
 `;
 
 export const item = css`
-  
   img {
-      height: auto;
-      object-fit: cover;
-      width: 95vw;
-      height: auto;
-      
- @media (min-width: 725px){
-     width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 100vw;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    height: auto;
 
-   }
+    @media (min-width: 725px) {
+      width: 100%;
+    }
   }
 `;
 

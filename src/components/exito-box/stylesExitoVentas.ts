@@ -32,11 +32,14 @@ export const content = css`
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+  gap: 10px;
   margin: auto;
 
   @media (min-width: 725px) {
     display: flex;
-    place-content: center;
+    /* place-content: center; */
+    justify-content: space-around;
+    width: 100vw;
     gap: 20px;
     overflow-x: auto;
 
@@ -51,9 +54,13 @@ export const content = css`
 
 export const hearthIcon = css`
 
-position: relative;
-left: 3rem;
-top: 2rem;
+  position: relative;
+  left: 3rem;
+  top: 2rem;
+
+  @media (min-width: 1024px) {
+    left: 6rem;
+  }
 `; 
 
 export const hearthRed = css`
@@ -61,11 +68,20 @@ export const hearthRed = css`
 `;
 
 export const item = css`
-  width: 176px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+
+  img {
+    @media (min-width: 725px) {
+      width: 100%;
+    }
+
+    @media (min-width: 1024px) {
+      width: 150%;
+    }
+  }
 `;
 
 export const span = css`
