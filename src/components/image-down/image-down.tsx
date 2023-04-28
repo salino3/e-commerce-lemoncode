@@ -5,12 +5,12 @@ export const ImageDown: React.FC = () => {
   return (
     <div className={classes.container}>
       <img src="/assets/arrobaOmix.png" alt="icon" />
-      <div>
+      <div className={classes.content}>
         <img src="/assets/woman_1.png" alt="image" />
         <img src="/assets/woman_2.png" alt="image" />
         <img src="/assets/man_7.png" alt="image" />
         <img src="/assets/woman_3.png" alt="image" />
-        <img src="/assets/man_11.png" alt="image" />
+        <img src="/assets/man_12.png" alt="image" />
         <img src="/assets/woman_4.png" alt="image" />
         <img src="/assets/man_8.png" alt="image" />
         <img src="/assets/woman_5.png" alt="image" />

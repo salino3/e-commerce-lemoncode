@@ -15,7 +15,7 @@ export const CardComponent: React.FC<Props> = (props) => {
 
   return (
     <div className={className}>
-      {svgIcon}
+      <span onClick={onClick}> {svgIcon}</span>
       <img onClick={onClick} src={routeImg} alt={alt} />
       {text} <br />
       <span>{children}</span>
