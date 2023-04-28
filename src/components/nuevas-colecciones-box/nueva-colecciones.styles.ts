@@ -27,8 +27,8 @@ export const content = css`
   @media (min-width: 725px) {
     justify-content: space-around;
     flex-direction: row;
-    overflow-x: auto;
     gap: 10px;
+    overflow-x: auto;
 
     &::-webkit-scrollbar {
       display: none;
