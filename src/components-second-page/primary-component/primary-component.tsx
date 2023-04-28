@@ -56,7 +56,9 @@ export const PrimaryComponent: React.FC = () => {
               <ListComponent h2={'Acciones'} toggleIcon={toggleIcon.img5} onClick={() => handleClick("img5")} />
             </aside>
           </div>
+          <div>
           <ImagesRopaMujeres />
+          </div>
         </div>
       )}
     </div>
