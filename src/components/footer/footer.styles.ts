@@ -5,6 +5,7 @@ export const footer = css`
 
 background-color: black;
 color: white;
+padding-bottom: 1rem;
 `
 
 
@@ -12,14 +13,21 @@ export const iconsContainer = css`
   display: flex;
   flex-direction: column;
   position: relative;
+  margin: 1rem 0rem;
 
   & > div {
-    /* width: 10em; */
     height: 5em;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 30% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 50%;
+    padding: 0.5rem 4rem;
+
+    @media (min-width: 725px) {
+      padding: 0.5rem 0rem;
+      gap: 10%;
+    }
   }
 
   @media (min-width: 725px) {
@@ -28,4 +36,19 @@ export const iconsContainer = css`
     position: relative;
     left: 2em;
   }
+`;
+
+export const boxShapes = css`
+
+ div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 4rem 2rem;
+    max-width: 50%;
+  }
+
+  /* @media (min-width: 725px) {
+    display: none;
+  } */
 `;
