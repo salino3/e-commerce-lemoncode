@@ -7,8 +7,10 @@ export const root = css`
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
+
+  
 `;
 
 export const boxDescription = css`
 
-`
+`;

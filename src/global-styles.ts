@@ -1,13 +1,19 @@
-import { injectGlobal } from '@emotion/css';
-
+import { injectGlobal } from "@emotion/css";
 
 injectGlobal`
 
 body {
   background: white;
-    width: 100%;
-    /* border: solid red; */
+  width: 100%;
+  overflow-y: auto;
 
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  
  }
 
 * {
@@ -41,5 +47,3 @@ table {
  }
 
 `;
-
-

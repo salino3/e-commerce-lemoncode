@@ -1,9 +1,11 @@
 import { css } from "@emotion/css";
 
+export const container = css`
+
+`;
 
 
 export const boxIcons = css`
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -19,16 +21,27 @@ export const boxIcons = css`
     display: flex;
     gap: 1rem;
   }
+
+  /* 
+   overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
+  */
 `;
 
 export const boxIsDesktop = css`
+  display: grid;
+  grid-template-columns: 25% 75%;
+
  
- display: grid;
- grid-template-columns: 25% 75%;
 `;
 
 export const aside = css`
-
   padding: 1rem;
 
   font-family: "Montserrat";
@@ -39,10 +52,12 @@ export const aside = css`
   color: #212429;
 
   h2 {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    cursor: pointer;
 
     font-family: "Montserrat";
     font-style: normal;
@@ -50,7 +65,6 @@ export const aside = css`
     font-size: 24px;
     line-height: 120%;
     color: #212429;
-
   }
 `;
 

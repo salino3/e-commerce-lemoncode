@@ -3,8 +3,8 @@ import {
   Header,
   Footer,
 } from "../../components";
+import { GridImages, PrimaryComponent } from '../../components-second-page';
 import * as classes from './ropa-mujer.styles';
-import { PrimaryComponent } from '../../components-second-page';
 
 
 export const RopaMujerLayout: React.FC = () => {
@@ -12,9 +12,10 @@ export const RopaMujerLayout: React.FC = () => {
     <div className={classes.root}>
       <Header />
 
-      <div className={classes.boxDescription}>
+      {/* <div className={classes.boxDescription}>  */}
         <PrimaryComponent />
-      </div>
+       {/* </div> */}
+       <GridImages />
       <Footer />
     </div>
   );
