@@ -6,3 +6,5 @@ export * from "./description";
 export * from "./nuevos-productos";
 export * from "./big-image";
 export * from "./image-down";
+export * from "./footer";
+
