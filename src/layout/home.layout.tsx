@@ -6,6 +6,7 @@ import {
   Description,
   NuevasColecciones,
   NuevosProductos,
+  FirstBigImage,
 } from "../components";
 import * as classes from "./home.styles";
 import { Button } from "../commons";
@@ -37,6 +38,7 @@ export const HomeLayout: React.FC = () => {
         className={classes.buttonHomeLayout}
       />
       <NuevosProductos />
+      <FirstBigImage />
     </div>
   );
 };
