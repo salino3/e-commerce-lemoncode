@@ -9,12 +9,11 @@ import {
   FirstBigImage,
   ImageDown,
   Footer,
-} from "../components";
+} from "../../components";
 import * as classes from "./home.styles";
-import { Button } from "../commons";
+import { Button } from "../../commons";
 
 export const HomeLayout: React.FC = () => {
-  
   return (
     <div className={classes.root}>
       <Header />
