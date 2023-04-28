@@ -1,11 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import * as styles from "../stylesComponents";
-import * as classes from './header-styles';
-
+import React from "react";
+import { Link } from "react-router-dom";
+import * as styles from "../components.styles";
+import * as classes from "./header.styles";
 
 export const Navbar: React.FC = () => {
-
   return (
     <nav className={classes.nav}>
       <ul className={classes.ul}>
@@ -24,4 +22,4 @@ export const Navbar: React.FC = () => {
       </ul>
     </nav>
   );
-}
+};

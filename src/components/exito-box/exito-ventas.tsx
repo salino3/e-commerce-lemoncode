@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {cx} from '@emotion/css'
 import { CardComponent } from '../../commons';
-import * as classes from './stylesExitoVentas';
+import * as classes from './exito-ventas.styles';
 
 interface PropsImg {
   img1: boolean;

@@ -1,1 +1,1 @@
-export * from './NuevasColecciones';
+export * from './nuevas-colecciones';

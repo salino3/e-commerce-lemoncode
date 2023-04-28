@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { CardComponent } from '../../commons';
-import * as classes from './stylesNuevaColecciones';
+import * as classes from './nueva-colecciones.styles';
 
 export const NuevasColecciones: React.FC = () => {
 

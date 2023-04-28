@@ -1,13 +1,12 @@
 import {css} from '@emotion/css';
 
 
-
 export const container = css`
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
   height: 100%;
-  border: solid blue;
+  
 `;
 
 export const h2 = css`
@@ -26,14 +25,29 @@ export const containerLinks = css`
   flex-direction: row;
   gap: 1rem;
   margin-left: 2rem;
+
 `; 
 
+export const content = css`
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(3, auto);
+  margin: auto;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+`;
 
 export const item = css`
   display: flex;
   flex-direction: column;
   align-items: start;
-  /* border: solid green; */
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 46vw;
 
   font-family: Montserrat;
   font-style: normal;
@@ -50,63 +64,34 @@ export const item = css`
   }
 
   img {
-    @media (min-width: 725px) {
-      /* width: 100%; */
-    }
+    width: 100%;
 
     @media (min-width: 1024px) {
-      /* width: 150%; */
+      width: 100%;
     }
+  }
+
+  @media (min-width: 1024px) {
+ 
+    width: 20vw;
+    box-sizing: content-box;
+
   }
 `;
 
 export const item2 = css`
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  border: solid green;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 120%;
-
-  /*  */
-
-  span {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-  }
-
-  img {
-    max-width: 155px;
-    max-height: 230px; // <-
-    
 
 
-    @media (min-width: 725px) {
-      /* width: 100%; */
-    }
-
-    @media (min-width: 1024px) {
-      /* width: 150%; */
-    }
+  @media (max-width: 1024px) {
+    display: none;
   }
 `;
 
 export const hearthIcon = css`
   position: relative;
-  left: 7.5rem;
+  left: 1rem;
   bottom: -2em;
 
-  @media (min-width: 1024px) {
-    /* left: 13rem; */
-    left: 8rem;
-  }
 `;
 
 export const hearthRed = css`
