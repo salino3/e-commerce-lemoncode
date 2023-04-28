@@ -31,7 +31,7 @@ export const Description: React.FC = () => {
       )}
       <div className={classes.boxButtons}>
         <Button text="Para hombres" route={"/"} />
-        <Button text="Para mujeres" route={"/"} />
+        <Button text="Para mujeres" route={"/woman"} />
       </div>
     </div>
   );
