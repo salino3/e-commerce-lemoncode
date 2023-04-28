@@ -17,7 +17,7 @@ export const PrimaryComponent: React.FC = () => {
   const isMobile: boolean = useMediaQuery({ maxWidth: "725px" });
 
   const [toggleIcon, setToggleIcon] = React.useState<PropsImg>({
-    img1: false,
+    img1: true,
     img2: false,
     img3: false,
     img4: false,
@@ -33,7 +33,7 @@ export const PrimaryComponent: React.FC = () => {
 
 
   return (
-    <div>
+    <div className={classes.container}>
       {isMobile ? (
         <div>
           <div className={classes.boxIcons}>

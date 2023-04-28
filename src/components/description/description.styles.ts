@@ -11,7 +11,7 @@ export const container = css`
 `;
 
 export const messageTitleDesktop = css`
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 100px;
@@ -23,7 +23,7 @@ export const messageTitleDesktop = css`
 `;
 
 export const messageTitleMobile = css`
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -36,7 +36,7 @@ export const message = css`
   position: relative;
   place-self: center;
   justify-self: center;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
