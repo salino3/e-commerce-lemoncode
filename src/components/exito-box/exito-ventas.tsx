@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {cx} from '@emotion/css'
 import { CardComponent } from '../../commons';
-import * as classes from './stylesExitoVentas';
+import * as classes from './exito-ventas.styles';
 
 interface PropsImg {
   img1: boolean;
@@ -39,9 +39,9 @@ export const ExitoVentas: React.FC = () => {
 
       <div className={classes.content}>
         <CardComponent
+          onClick={() => handleClick("img1")}
           svgIcon={
             <svg
-              onClick={() => handleClick("img1")}
               className={cx(classes.hearthIcon, {
                 [classes.hearthRed]: redHearth.img1,
               })}
@@ -68,9 +68,9 @@ export const ExitoVentas: React.FC = () => {
         </CardComponent>
         <CardComponent
           className={classes.item}
+          onClick={() => handleClick("img2")}
           svgIcon={
             <svg
-              onClick={() => handleClick("img2")}
               className={cx(classes.hearthIcon, {
                 [classes.hearthRed]: redHearth.img2,
               })}
@@ -95,9 +95,9 @@ export const ExitoVentas: React.FC = () => {
           <span className={classes.span}>34.95 €</span>
         </CardComponent>
         <CardComponent
+          onClick={() => handleClick("img3")}
           svgIcon={
             <svg
-              onClick={() => handleClick("img3")}
               className={cx(classes.hearthIcon, {
                 [classes.hearthRed]: redHearth.img3,
               })}
@@ -123,9 +123,9 @@ export const ExitoVentas: React.FC = () => {
           <span className={classes.span}>80.00 €</span>
         </CardComponent>
         <CardComponent
+          onClick={() => handleClick("img4")}
           svgIcon={
             <svg
-              onClick={() => handleClick("img4")}
               className={cx(classes.hearthIcon, {
                 [classes.hearthRed]: redHearth.img4,
               })}

@@ -4,7 +4,6 @@ import {css} from '@emotion/css';
 export const container = css`
   box-sizing: content-box;
   display: flex;
-  /* grid-template-rows: auto auto; */
   flex-direction: column;
   height: 100%;
 
@@ -37,7 +36,6 @@ export const content = css`
 
   @media (min-width: 725px) {
     display: flex;
-    /* place-content: center; */
     justify-content: space-around;
     width: 100vw;
     gap: 20px;

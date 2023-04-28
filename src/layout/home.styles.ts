@@ -34,3 +34,16 @@ export const imgPrimary = css`
     border-radius: 0px 50% 0px 0px;
   }
 `;
+
+
+export const buttonHomeLayout = css`
+  margin: 2rem auto 1rem;
+  border: solid 1px;
+  width: 180px;
+
+  &:hover {
+    background-color: #212429;
+    color: #ffffff;
+    border: 0;
+  }
+`;

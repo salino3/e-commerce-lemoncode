@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from "react-responsive";
 import { Button } from '../../commons';
-import * as classes from './styleDescription';
+import * as classes from './description.styles';
 
 export const Description: React.FC = () => {
 

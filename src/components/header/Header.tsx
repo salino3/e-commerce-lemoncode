@@ -1,7 +1,7 @@
 import React from "react";
-import { Navbar } from "./Navbar";
-import * as styles from "../stylesComponents";
-import * as classes from './header-styles';
+import { Navbar } from "./navbar";
+import * as styles from "../components.styles";
+import * as classes from "./header.styles";
 
 export const Header: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
       <div>
         <img src="/assets/shape-lines.png" alt="menu" />
       </div>
-      <div >
+      <div>
         <img className="img_1" src="/assets/logo.svg" alt="logo" />
       </div>
       <Navbar />

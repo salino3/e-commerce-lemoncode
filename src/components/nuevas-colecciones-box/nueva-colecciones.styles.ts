@@ -57,17 +57,3 @@ export const item = css`
     }
   }
 `;
-
-export const buttonNuevasColecciones = css`
-  margin: 2rem auto 1rem;
-  border: solid 1px;
-  width: 180px;
-
-  &:hover {
-    background-color: #212429;
-    color: #ffffff;
-    border: 0;
-  }
-
- 
-`;

@@ -1,4 +1,4 @@
-export * from './ExitoVentas';
+export * from './exito-ventas';
 
 
 

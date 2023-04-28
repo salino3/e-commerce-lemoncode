@@ -1,1 +1,1 @@
-export * from './ActualBox';
+export * from './actual-box';
