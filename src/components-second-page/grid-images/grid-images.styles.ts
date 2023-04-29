@@ -6,6 +6,8 @@ export const container = css`
   justify-content: center;
   gap: 20px;
 
+  a {text-decoration: none}
+
   @media (min-width: 725px) {
     grid-template-columns: repeat(auto-fill, minmax(40px, 30vw));
     gap: 10px;
