@@ -7,19 +7,22 @@ interface Props {
   text: string;
   className?: string;
   route?: string;
+  type?: "submit" | "reset" | undefined;
 }
 
 export const Button: React.FC<Props> = (props) => {
- const {text, className, route} = props; 
+ const {text, className, route, type } = props; 
 
   const navigate = useNavigate();
 
  function handleClick () {
-  navigate(`${route}`)
+  if(route){
+  navigate(`${route}`);
+  };
  };
 
  return (
-    <button onClick={handleClick} className={cx(classes.button, className)}>
+    <button type={type} onClick={handleClick} className={cx(classes.button, className)}>
         {text}
     </button>
   )

@@ -44,9 +44,9 @@ export const Footer: React.FC = () => {
             <path
               d="M0.833344 1.33325L5.00001 5.49992L9.16668 1.33325"
               stroke="white"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>
@@ -64,14 +64,13 @@ export const Footer: React.FC = () => {
             <path
               d="M0.833344 1.33325L5.00001 5.49992L9.16668 1.33325"
               stroke="white"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>
       </div>
-      
     </footer>
   );
 }
