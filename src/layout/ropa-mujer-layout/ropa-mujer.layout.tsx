@@ -19,6 +19,7 @@ export const RopaMujerLayout: React.FC = () => {
         className={classes.buttonSecondPageLayout}
         text={"los 12 productos siguientes"}
       />
+      <hr />
       <Boletin />
       <Footer />
     </div>

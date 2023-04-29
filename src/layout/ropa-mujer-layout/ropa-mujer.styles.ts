@@ -8,7 +8,10 @@ export const root = css`
   overflow: hidden;
   box-sizing: border-box;
 
-  
+  hr {
+    border: 1px solid #b6b6b6;
+    margin-top: 1rem;
+  }
 `;
 
 export const buttonSecondPageLayout = css`

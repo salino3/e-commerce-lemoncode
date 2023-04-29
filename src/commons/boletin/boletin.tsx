@@ -21,12 +21,19 @@ export const Boletin: React.FC = () => {
 
   return (
     <div className={classes.container}>
-      <form onSubmit={handleSubmit}>
+      <div>
+        <h3 className={classes.h3}>Suscríbase al boletín de noticias</h3>
+        <p className={classes.p}>
+          ¿y obtenga un 10% de descuento en su primera compra!
+        </p>
+      </div>
+      <form className={classes.form} onSubmit={handleSubmit}>
         <input
           type="text"
           id="boletin"
           onChange={handleChange}
           value={boletin}
+          className={classes.input}
           placeholder="Introduzca su dirección Email"
         />
         <Button type="submit" className={classes.button} text={"Suscribase"} />
