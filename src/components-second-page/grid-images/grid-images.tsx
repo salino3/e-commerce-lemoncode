@@ -1,9 +1,10 @@
 import React from "react";
-import { CardList } from "../card-list";
 import { Link } from "react-router-dom";
+import { CardList } from "../card-list";
 import * as classes from "./grid-images.styles";
 
 export const GridImages: React.FC = () => {
+
   return (
     <div className={classes.container}>
       <Link to={"/product"}>
