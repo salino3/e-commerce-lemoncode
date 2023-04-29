@@ -75,6 +75,10 @@ export const boxSocialNetworks = css`
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+
+    @media (min-width: 1024px) {
+      justify-content: space-around;
+    }
   }
 `;
 
@@ -85,12 +89,16 @@ export const BoxBankIcon = css`
   margin: 1rem 0rem 5rem;
   gap: 0.5rem;
 
- 
 
-  div {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
+`;
+
+export const contentBankIcons = css`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+
+  @media (min-width: 1024px) {
+    justify-content: space-around;
   }
 `;

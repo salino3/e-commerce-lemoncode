@@ -1,14 +1,11 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
+// import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
 import { BoxShapes } from '../box-shapes';
 import * as classes from './footer.styles';
 
 export const Footer: React.FC = () => {
 
- const isMobile: boolean = useMediaQuery({maxWidth: '725px'});
-
- console.log("aquí", isMobile);
 
   return (
     <footer className={classes.footer}>
@@ -38,7 +35,7 @@ export const Footer: React.FC = () => {
           <p>shop@omix.com</p>
         </div>
       </div>
-      {isMobile ? (
+  
         <div className={classes.footerContent}>
           <hr />
           <BoxShapes className={classes.boxShapes} />
@@ -54,55 +51,23 @@ export const Footer: React.FC = () => {
             </div>
           </div>
           <div className={classes.BoxBankIcon}>
-            <p>
+            <div>
               <img src="/assets/texto-footer1.png" alt="texto" /> <br />
               <img src="/assets/texto-footer2.png" alt="texto" />
-            </p>
-            <div>
+            </div>
+            <div className={classes.contentBankIcons}>
               <img src="/assets/belcart-footer.png" alt="icon" />
               <img src="/assets/visa-footer.png" alt="icon" />
               <img src="/assets/master-card-footer.png" alt="icon" />
               <img src="/assets/icon-footer2.png" alt="icon" />
             </div>
-            <p>
+            <div>
               <img src="/assets/texto-footer3.png" alt="texto" /> <br />
               <img src="/assets/texto-footer4.png" alt="texto" />
-            </p>
-          </div>
-        </div>
-      ) : (
-        <div className={classes.footerContent}>
-          <hr />
-          <BoxShapes className={classes.boxShapes} />
-          <div className={classes.boxSocialNetworks}>
-            <h3>Estamos en las redes sociales</h3>
-            <div>
-              <img src="/assets/icon-footer1.png" alt="icon" />
-              <img src="/assets/icon-footer8.png" alt="icon" />
-              <img src="/assets/icon-footer9.png" alt="icon" />
-              <img src="/assets/icon-footer10.png" alt="icon" />
-              <img src="/assets/icon-footer11.png" alt="icon" />
-              <img src="/assets/icon-footer4.png" alt="icon" />
             </div>
           </div>
-          <div className={classes.BoxBankIcon}>
-            <p>
-              <img src="/assets/texto-footer1.png" alt="texto" /> <br />
-              <img src="/assets/texto-footer2.png" alt="texto" />
-            </p>
-            <div>
-              <img src="/assets/belcart-footer.png" alt="icon" />
-              <img src="/assets/visa-footer.png" alt="icon" />
-              <img src="/assets/master-card-footer.png" alt="icon" />
-              <img src="/assets/icon-footer2.png" alt="icon" />
-            </div>
-            <p>
-              <img src="/assets/texto-footer3.png" alt="texto" /> <br />
-              <img src="/assets/texto-footer4.png" alt="texto" />
-            </p>
-          </div>
         </div>
-      )}
+   
     </footer>
   );
 }
