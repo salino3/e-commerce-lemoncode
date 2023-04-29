@@ -5,7 +5,7 @@ export const footer = css`
 
 background-color: black;
 color: white;
-padding-bottom: 1rem;
+padding: 1rem 0rem;
 `
 
 
