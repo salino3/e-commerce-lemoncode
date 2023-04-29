@@ -7,4 +7,5 @@ export * from "./nuevos-productos";
 export * from "./big-image";
 export * from "./image-down";
 export * from "./footer";
+export * from "./box-shapes";
 

@@ -1,8 +1,15 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
+import { BoxShapes } from '../box-shapes';
 import * as classes from './footer.styles';
 
 export const Footer: React.FC = () => {
+
+ const isMobile: boolean = useMediaQuery({maxWidth: '725px'});
+
+ console.log("aquí", isMobile);
+
   return (
     <footer className={classes.footer}>
       <div className={classes.iconsContainer}>
@@ -31,46 +38,71 @@ export const Footer: React.FC = () => {
           <p>shop@omix.com</p>
         </div>
       </div>
-      <div className={classes.boxShapes}>
-        <div>
-          Compradores
-          <svg
-            width="10"
-            height="7"
-            viewBox="0 0 10 7"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0.833344 1.33325L5.00001 5.49992L9.16668 1.33325"
-              stroke="white"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+      {isMobile ? (
+        <div className={classes.footerContent}>
+          <hr />
+          <BoxShapes className={classes.boxShapes} />
+          <div className={classes.boxSocialNetworks}>
+            <h3>Estamos en las redes sociales</h3>
+            <div>
+              <img src="/assets/icon-footer1.png" alt="icon" />
+              <img src="/assets/icon-footer8.png" alt="icon" />
+              <img src="/assets/icon-footer9.png" alt="icon" />
+              <img src="/assets/icon-footer10.png" alt="icon" />
+              <img src="/assets/icon-footer11.png" alt="icon" />
+              <img src="/assets/icon-footer4.png" alt="icon" />
+            </div>
+          </div>
+          <div className={classes.BoxBankIcon}>
+            <p>
+              <img src="/assets/texto-footer1.png" alt="texto" /> <br />
+              <img src="/assets/texto-footer2.png" alt="texto" />
+            </p>
+            <div>
+              <img src="/assets/belcart-footer.png" alt="icon" />
+              <img src="/assets/visa-footer.png" alt="icon" />
+              <img src="/assets/master-card-footer.png" alt="icon" />
+              <img src="/assets/icon-footer2.png" alt="icon" />
+            </div>
+            <p>
+              <img src="/assets/texto-footer3.png" alt="texto" /> <br />
+              <img src="/assets/texto-footer4.png" alt="texto" />
+            </p>
+          </div>
         </div>
-      </div>
-      <div className={classes.boxShapes}>
-        <div>
-          Quiénes somos
-          <svg
-            width="10"
-            height="7"
-            viewBox="0 0 10 7"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0.833344 1.33325L5.00001 5.49992L9.16668 1.33325"
-              stroke="white"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+      ) : (
+        <div className={classes.footerContent}>
+          <hr />
+          <BoxShapes className={classes.boxShapes} />
+          <div className={classes.boxSocialNetworks}>
+            <h3>Estamos en las redes sociales</h3>
+            <div>
+              <img src="/assets/icon-footer1.png" alt="icon" />
+              <img src="/assets/icon-footer8.png" alt="icon" />
+              <img src="/assets/icon-footer9.png" alt="icon" />
+              <img src="/assets/icon-footer10.png" alt="icon" />
+              <img src="/assets/icon-footer11.png" alt="icon" />
+              <img src="/assets/icon-footer4.png" alt="icon" />
+            </div>
+          </div>
+          <div className={classes.BoxBankIcon}>
+            <p>
+              <img src="/assets/texto-footer1.png" alt="texto" /> <br />
+              <img src="/assets/texto-footer2.png" alt="texto" />
+            </p>
+            <div>
+              <img src="/assets/belcart-footer.png" alt="icon" />
+              <img src="/assets/visa-footer.png" alt="icon" />
+              <img src="/assets/master-card-footer.png" alt="icon" />
+              <img src="/assets/icon-footer2.png" alt="icon" />
+            </div>
+            <p>
+              <img src="/assets/texto-footer3.png" alt="texto" /> <br />
+              <img src="/assets/texto-footer4.png" alt="texto" />
+            </p>
+          </div>
         </div>
-      </div>
+      )}
     </footer>
   );
 }
