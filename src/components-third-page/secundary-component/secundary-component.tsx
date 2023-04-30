@@ -33,7 +33,6 @@ export const SecundaryComponent: React.FC = () => {
             <img src="/assets/Group198.png" alt="texto" />
           </div>
           <hr />
-
           <ReviewComponent />
         </>
       ) : (
@@ -44,7 +43,6 @@ export const SecundaryComponent: React.FC = () => {
             <img src="/assets/Group146.png" alt="texto" />
           </div>
           <hr />
-
           <ReviewComponent />
         </>
       )}
