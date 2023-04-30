@@ -14,9 +14,7 @@ export const Description: React.FC = () => {
           Todos <br /> los estilos <br /> más actuales
         </div>
       ) : (
-        <div className={classes.messageTitleMobile}>
-          Hay ropa para todos
-        </div>
+        <div className={classes.messageTitleMobile}>Hay ropa para todos</div>
       )}
       {!isMobile ? (
         <div className={classes.message}>
@@ -30,8 +28,12 @@ export const Description: React.FC = () => {
         </div>
       )}
       <div className={classes.boxButtons}>
-        <Button text="Para hombres" route={"/"} />
-        <Button text="Para mujeres" route={"/woman"} />
+        <Button  route={"/"}>
+          Para hombres
+        </Button>
+        <Button  route={"/woman"}>
+          Para mujeres
+        </Button>
       </div>
     </div>
   );

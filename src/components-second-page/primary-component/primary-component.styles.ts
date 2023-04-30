@@ -22,16 +22,6 @@ export const boxIcons = css`
     gap: 1rem;
   }
 
-  /* 
-   overflow-y: auto;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
-  -ms-overflow-style: none;
-  scrollbar-width: none;  
-  */
 `;
 
 export const boxIsDesktop = css`

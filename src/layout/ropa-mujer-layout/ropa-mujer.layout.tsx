@@ -14,11 +14,9 @@ export const RopaMujerLayout: React.FC = () => {
       <Header />
       <PrimaryComponent />
       <GridImages />
-      <Button
-        route={"/woman"}
-        className={classes.buttonSecondPageLayout}
-        text={"los 12 productos siguientes"}
-      />
+      <Button route={"/woman"} className={classes.buttonSecondPageLayout}>
+        Los 12 productos siguientes
+      </Button>
       <hr />
       <Boletin />
       <Footer />

@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
       <Navbar />
       <div className={classes.boxIcons}>
         <img src="/assets/shape-2.png" alt="magnifying glass" />
-        <img src="/assets/shape-heart.png" alt="heart" />
+        <img src="/assets/shape-hearth.png" alt="heart" />
         <img src="/assets/shape.png" alt="cart" />
       </div>
     </header>

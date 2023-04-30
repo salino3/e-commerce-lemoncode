@@ -4,14 +4,14 @@ import { cx } from '@emotion/css';
 import * as classes from './stylesButton';
 
 interface Props {
-  text: string;
+  children: React.ReactNode;
   className?: string;
   route?: string;
   type?: "submit" | "reset" | undefined;
 }
 
 export const Button: React.FC<Props> = (props) => {
- const {text, className, route, type } = props; 
+ const {children, className, route, type } = props; 
 
   const navigate = useNavigate();
 
@@ -23,7 +23,7 @@ export const Button: React.FC<Props> = (props) => {
 
  return (
     <button type={type} onClick={handleClick} className={cx(classes.button, className)}>
-        {text}
+     {children}
     </button>
   )
 }
