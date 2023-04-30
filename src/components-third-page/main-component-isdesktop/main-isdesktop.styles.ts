@@ -55,6 +55,7 @@ export const boxImages = css`
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px;
+  
 `;
 
 export const title = css`
@@ -135,6 +136,7 @@ export const size = css`
 export const boxButtons = css`
   display: flex;
   flex-direction: row;
+  margin: auto;
   gap: 20px;
 `;
 

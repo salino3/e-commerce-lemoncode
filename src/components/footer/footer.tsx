@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
 import { BoxShapes } from '../box-shapes';
 import * as classes from './footer.styles';
