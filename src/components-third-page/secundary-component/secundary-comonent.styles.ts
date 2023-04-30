@@ -20,6 +20,6 @@ export const textDescripcion = css`
   color: #000000;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 1rem;
 `;
