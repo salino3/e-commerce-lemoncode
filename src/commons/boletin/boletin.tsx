@@ -36,7 +36,9 @@ export const Boletin: React.FC = () => {
           className={classes.input}
           placeholder="Introduzca su dirección Email"
         />
-        <Button type="submit" className={classes.button} text={"Suscribase"} />
+        <Button type="submit" className={classes.button}>
+          Suscribase
+        </Button>
       </form>
     </div>
   );

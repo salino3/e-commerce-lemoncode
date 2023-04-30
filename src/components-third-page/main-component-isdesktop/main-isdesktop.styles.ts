@@ -1,19 +1,13 @@
-import {css} from '@emotion/css';
-
-
-export const container = css`
-`;
+import { css } from "@emotion/css";
 
 export const boxIsMobile = css`
   display: grid;
   grid-template-columns: 25% 75%;
 `;
 
-
 export const boxIsDesktop = css`
   display: grid;
   grid-template-columns: 25% 75%;
-
 `;
 
 export const aside = css`
@@ -43,14 +37,13 @@ export const aside = css`
 `;
 
 export const boxPrimaryImages = css`
- div {
-  margin: 0.5rem 0rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  div {
+    margin: 0.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
-
 
 export const boxSecondaryImages = css`
   display: flex;
@@ -59,10 +52,9 @@ export const boxSecondaryImages = css`
 `;
 
 export const boxImages = css`
-
-   display: grid;
-   grid-template-columns: auto 1fr;
-   gap: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
 `;
 
 export const title = css`
@@ -74,7 +66,6 @@ export const title = css`
     width: 50%;
   }
 
-
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
@@ -85,7 +76,6 @@ export const title = css`
 `;
 
 export const price = css`
-
   margin: 1rem 0rem;
   font-family: Montserrat;
   font-style: normal;
@@ -93,7 +83,6 @@ export const price = css`
   font-size: 24px;
   line-height: 120%;
   color: #212429;
-
 `;
 
 export const colores = css`
@@ -144,15 +133,12 @@ export const size = css`
 `;
 
 export const boxButtons = css`
-
- display: flex;
- flex-direction: row;
- gap: 20px;
-
-`; 
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+`;
 
 export const lightButton = css`
-
   display: flex;
   flex-direction: row;
   place-content: center;
@@ -162,7 +148,6 @@ export const lightButton = css`
   height: 48px;
   left: 840px;
   top: 873px;
-
 
   border: 1px solid #212429;
   border-radius: 48px;

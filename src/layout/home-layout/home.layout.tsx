@@ -27,17 +27,13 @@ export const HomeLayout: React.FC = () => {
       </div>
       <ActualBox />
       <ExitoVentas />
-      <Button
-        route={"/"}
-        text={"Todos los éxitos"}
-        className={classes.buttonHomeLayout}
-      />
+      <Button route={"/"} className={classes.buttonHomeLayout}>
+        Todos los éxitos
+      </Button>
       <NuevasColecciones />
-      <Button
-        route={"/"}
-        text={"Todas las colecciones"}
-        className={classes.buttonHomeLayout}
-      />
+      <Button route={"/"} className={classes.buttonHomeLayout}>
+        Todas las colecciones
+      </Button>
       <NuevosProductos />
       <FirstBigImage />
       <ImageDown />
