@@ -15,11 +15,9 @@ export const container = css`
 `;
  
 
-
-
-
-
 // export const boxIsMobile = css`
+
+
 //   display: grid;
 //   grid-template-columns: 25% 75%;
 // `;
