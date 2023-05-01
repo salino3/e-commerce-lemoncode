@@ -3,6 +3,7 @@ export interface Routes {
   man: string;
   woman: string;
   product: string;
+  cart: string;
 }
 
 export const SwitchRoutes: Routes = {
@@ -10,6 +11,7 @@ export const SwitchRoutes: Routes = {
   man: "/man",
   woman: "/woman",
   product: "product",
+  cart: "/cart"
 };
 
-export const { root, man, woman, product } = SwitchRoutes;
+export const { root, man, woman, product, cart } = SwitchRoutes;

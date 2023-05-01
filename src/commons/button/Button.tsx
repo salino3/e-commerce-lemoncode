@@ -7,11 +7,12 @@ interface Props {
   children: React.ReactNode;
   className?: string;
   route?: string;
+  disabled?: boolean | undefined;
   type?: "submit" | "reset" | undefined;
 }
 
 export const Button: React.FC<Props> = (props) => {
- const {children, className, route, type } = props; 
+ const {children, className, route, disabled, type } = props; 
 
   const navigate = useNavigate();
 
@@ -22,7 +23,7 @@ export const Button: React.FC<Props> = (props) => {
  };
 
  return (
-    <button type={type} onClick={handleClick} className={cx(classes.button, className)}>
+    <button disabled={disabled} type={type} onClick={handleClick} className={cx(classes.button, className)}>
      {children}
     </button>
   )

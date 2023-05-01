@@ -28,11 +28,11 @@ export const Description: React.FC = () => {
         </div>
       )}
       <div className={classes.boxButtons}>
-        <Button  route={"/"}>
-          Para hombres
-        </Button>
         <Button  route={"/woman"}>
           Para mujeres
+        </Button>
+        <Button  route={"/"}>
+          Para hombres
         </Button>
       </div>
     </div>
