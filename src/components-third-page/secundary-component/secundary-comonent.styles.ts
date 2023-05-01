@@ -12,14 +12,13 @@ export const container = css`
 
 export const textDescripcion = css`
 
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
   color: #000000;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
 `;
