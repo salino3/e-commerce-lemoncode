@@ -100,12 +100,12 @@ export const MainComponentIsdesktop: React.FC = () => {
           </div>
           <img src="/assets/group143.png" alt="image" />
           <div className={classes.boxButtons}>
-            <Button className={classes.lightButton}>
+            <Button className={classes.lightButton} route="/cart">
               <img src={`/assets/icon-minus.png`} alt="icon" />
               1
               <img src={`/assets/icon-plus.png`} alt="icon" />
             </Button>
-            <Button className={classes.darkButton}>
+            <Button className={classes.darkButton} route="/cart">
               <img src="/assets/cartIcon.png" alt="image" />
               &nbsp; En cesta
             </Button>

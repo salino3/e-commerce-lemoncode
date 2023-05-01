@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route} from 'react-router-dom';
-import { Home, ProductPage, RopaMujer } from '../scenes';
-import { product, root, woman } from '.';
+import { Cart, Home, ProductPage, RopaMujer } from '../scenes';
+import { cart, product, root, woman } from '.';
 
 export const AppRouter: React.FC = () => {
   return (
@@ -9,6 +9,7 @@ export const AppRouter: React.FC = () => {
       <Route path={root} element={<Home />} />
       <Route path={woman} element={<RopaMujer />} />
       <Route path={product} element={<ProductPage />} />
+      <Route path={cart} element={<Cart />} />
     </Routes>
   );
 }

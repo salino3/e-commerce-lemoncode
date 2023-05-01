@@ -70,14 +70,14 @@ export const MainComponentIsmobile: React.FC = () => {
             </div>
           </div>
           <div>
-            <Button className={classes.lightButton}>
+            <Button className={classes.lightButton} route="/cart">
               <img src={`/assets/icon-minus.png`} alt="icon" />
               1
               <img src={`/assets/icon-plus.png`} alt="icon" />
             </Button>
             <div className={classes.price}>79.99 €</div>
           </div>
-          <Button className={classes.darkButton}>
+          <Button className={classes.darkButton} route="/cart">
             <img src="/assets/cartIcon.png" alt="image" />
             &nbsp; En cesta
           </Button>
