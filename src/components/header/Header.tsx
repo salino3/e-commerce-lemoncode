@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar } from "./navbar";
-import * as styles from "../components.styles";
 import * as classes from "./header.styles";
 
 export const Header: React.FC = () => {
