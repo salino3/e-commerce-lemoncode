@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { ReviewComponent } from "../reviews";
-import { BoxImages } from "../box-images-3page";
+import { BoxImages, BoxLastsPhotos } from "..";
 import * as classes from "./secundary-comonent.styles";
 
 export const SecundaryComponent: React.FC = () => {
@@ -36,6 +36,7 @@ export const SecundaryComponent: React.FC = () => {
           <hr />
           <ReviewComponent />
           <BoxImages />
+          <BoxLastsPhotos />
         </>
       ) : (
         <>
@@ -47,6 +48,7 @@ export const SecundaryComponent: React.FC = () => {
           <hr />
           <ReviewComponent />
           <BoxImages />
+          <BoxLastsPhotos />
         </>
       )}
     </div>

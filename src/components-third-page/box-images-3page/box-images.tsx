@@ -1,12 +1,13 @@
 import React from 'react';
 import { cx } from "@emotion/css";
-
 import { CardComponent } from '../../commons';
-import * as classes from './boximages3pages.style';
+import * as classes from './box-images3pages.style';
 
 interface PropsImg {
   img1: boolean;
-
+  img2: boolean;
+  img3: boolean;
+  img4: boolean;
   [index: string]: boolean;
 }
 
@@ -15,7 +16,9 @@ export const BoxImages: React.FC = () => {
 
   const [redHearth, setRedHearth] = React.useState<PropsImg>({
     img1: false,
-
+    img2: false,
+    img3: false,
+    img4: false,
   });
 
   function handleClick(index: string) {
@@ -23,13 +26,13 @@ export const BoxImages: React.FC = () => {
       ...prevState,
       [index]: !prevState[index],
     }));
-  }
+  };
 
 
   return (
     <div className={classes.container}>
-      <div>
-        <div className={classes.title}>Productos similares</div>
+      <div className={classes.title}>Comprar con este producto</div>
+      <div className={classes.content}>
         <CardComponent
           onClick={() => handleClick("img1")}
           svgIcon={
@@ -61,11 +64,11 @@ export const BoxImages: React.FC = () => {
           </div>
         </CardComponent>
         <CardComponent
-          onClick={() => handleClick("img1")}
+          onClick={() => handleClick("img2")}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
-                [classes.hearthRed]: redHearth.img1,
+                [classes.hearthRed]: redHearth.img2,
               })}
               width="16"
               height="14"
@@ -83,19 +86,19 @@ export const BoxImages: React.FC = () => {
             </svg>
           }
           className={classes.card}
-          routeImg="/assets/woman-3page-1.png"
+          routeImg="/assets/images-similares-desktop2.png"
         >
           <div className={classes.boxDescription}>
             <span>Vaqueros</span> <span>XS M L</span>
-            <span>74.99 €</span> <span>1 Color</span>
+            <span>22.99 €</span> <span>17 Colores</span>
           </div>
         </CardComponent>
         <CardComponent
-          onClick={() => handleClick("img1")}
+          onClick={() => handleClick("img3")}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
-                [classes.hearthRed]: redHearth.img1,
+                [classes.hearthRed]: redHearth.img3,
               })}
               width="16"
               height="14"
@@ -113,19 +116,19 @@ export const BoxImages: React.FC = () => {
             </svg>
           }
           className={classes.card}
-          routeImg="/assets/woman-3page-1.png"
+          routeImg="/assets/images-similares-desktop3.png"
         >
           <div className={classes.boxDescription}>
             <span>Vaqueros</span> <span>XS M L</span>
-            <span>74.99 €</span> <span>1 Color</span>
+            <span>54.99 €</span> <span>2 Color</span>
           </div>
         </CardComponent>
         <CardComponent
-          onClick={() => handleClick("img1")}
+          onClick={() => handleClick("img4")}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
-                [classes.hearthRed]: redHearth.img1,
+                [classes.hearthRed]: redHearth.img4,
               })}
               width="16"
               height="14"
@@ -143,11 +146,11 @@ export const BoxImages: React.FC = () => {
             </svg>
           }
           className={classes.card}
-          routeImg="/assets/woman-3page-1.png"
+          routeImg="/assets/images-similares-desktop4.png"
         >
           <div className={classes.boxDescription}>
-            <span>Vaqueros</span> <span>XS M L</span>
-            <span>74.99 €</span> <span>1 Color</span>
+            <span>Shorts</span> <span>XS M L</span>
+            <span>22.99 €</span> <span>1 Color</span>
           </div>
         </CardComponent>
       </div>

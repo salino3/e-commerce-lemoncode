@@ -17,6 +17,7 @@ color: #212429;`;
 export const reviewsImage = css`
   display: flex;
   flex-direction: column-reverse;
+  margin-bottom: 1rem;
   
   @media (min-width: 1024px) {
     flex-direction: row;

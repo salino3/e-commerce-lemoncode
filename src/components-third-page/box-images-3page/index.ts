@@ -1,1 +1,1 @@
-export * from './boxImages';
+export * from './box-images';

@@ -1,33 +1,34 @@
 import {css} from '@emotion/css';
 
 export const container = css`
+ display: flex;
+ flex-direction: column;
+ margin-top: 1rem;
+`;
+
+export const content = css`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40px, 40vw));
-  /* justify-content: center; */
-  /* gap: 20px; */
-  box-sizing: content-box;
+  grid-template-columns: repeat(2, minmax(40px, 100%));
+  justify-content: space-between;
+  gap: 10px;
 
 
   img {
-    width: 22vw;
+    width: 100%;
+  }
 
-    @media (min-width: 725px) {
-      width: auto;
-    }
+  @media (min-width: 725px) {
+    grid-template-columns: repeat(4, minmax(150px, 100%));
   }
 `;
 
 export const title = css`
-
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 120%;
-color: #212429;
- 
-
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #212429;
 `;
 
 export const card = css`
@@ -61,9 +62,6 @@ export const hearthIcon = css`
   left: 1em;
   top: 2rem;
 
-  @media (min-width: 1024px) {
-    top: 5rem;
-  }
 `;
 
 export const hearthRed = css`
