@@ -2,7 +2,7 @@ import { css } from "@emotion/css";
 
 export const container = css`
   margin: 2rem auto 0rem;
-  
+
 `;
 
 export const title = css`
@@ -54,10 +54,10 @@ export const button = css`
 
 export const textReview = css`
 
- display: flex;
- flex-direction: row;
- gap: 15px;
- align-items: center;
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   align-items: center;
 
   font-family: Montserrat;
   font-style: normal;

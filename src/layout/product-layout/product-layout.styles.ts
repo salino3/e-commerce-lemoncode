@@ -12,8 +12,6 @@ export const container = css`
     border: 1px solid #b6b6b6;
     margin-top: 1rem;
   }
-
-
 `;
  
 

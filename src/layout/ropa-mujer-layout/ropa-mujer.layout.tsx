@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  Header,
-  Footer,
-} from "../../components";
+import { Header, Footer} from "../../components";
 import { GridImages, PrimaryComponent } from '../../components-second-page';
 import { Boletin, Button } from '../../commons';
 import * as classes from './ropa-mujer.styles';

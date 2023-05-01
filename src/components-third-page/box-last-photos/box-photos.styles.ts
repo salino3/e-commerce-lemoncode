@@ -32,6 +32,8 @@ export const title = css`
 
 export const card = css`
   justify-self: center;
+  border: 1px solid #b6b6b6; //? <--
+  padding: 0rem 0.5rem; //? <--
 `;
 
 export const boxDescription = css`

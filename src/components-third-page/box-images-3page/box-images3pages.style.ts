@@ -12,7 +12,6 @@ export const content = css`
   justify-content: space-between;
   gap: 10px;
 
-
   img {
     width: 100%;
   }

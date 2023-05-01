@@ -6,8 +6,6 @@ import * as classes from './product-layout.styles';
 
 
 export const ProductLayout: React.FC = () => {
-
-
   
   return (
     <div className={classes.container}>

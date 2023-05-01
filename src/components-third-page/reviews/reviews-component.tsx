@@ -1,6 +1,6 @@
 import React from 'react';
-import * as classes from './reviews.styles';
 import { Button } from '../../commons';
+import * as classes from './reviews.styles';
 
 export const ReviewComponent: React.FC = () => {
   return (
