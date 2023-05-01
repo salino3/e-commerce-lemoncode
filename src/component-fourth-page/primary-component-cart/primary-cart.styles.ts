@@ -1,7 +1,6 @@
 import { css } from "@emotion/css";
 
 export const container = css`
-
   padding: 1rem;
 
   h2 {
@@ -13,93 +12,147 @@ export const container = css`
     line-height: 120%;
     color: #212429;
   }
+`;
+
+export const content = css`
+  width: 100%;
+
+  @media (min-width: 1024px) {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+  }
+`;
+
+export const contentImages = css`
+
+`;
+
+
+export const boxForm = css`
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    div:first-child {
+      margin: auto;
+
+    }
+  }
+
+  hr {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  font-variant: small-caps;
+  color: #212429;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+`;
+
+export const boxInput = css`
+  box-sizing: border-box;
+  
+  padding: 0.5rem 1rem;
+
+  background: #ffffff;
+  border: 2px solid #dbe5f1;
+  border-radius: 48px;
+`;
+
+
+export const input = css`
+
+  margin: 1rem 0rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212429;
+  outline: none;
+`;
+
+export const btn = css`
+  width: 36px;
+  height: 36px;
+  background: #212429;
+  border: 0.5px solid #ececec;
+  border-radius: 24px;
+
+  &:active {
+    border: 2px solid #ececec;
+  }
+`;
+
+export const text = css`
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-variant: small-caps;
+  color: #212429;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+  }
 
   h3 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 120%;
+    font-variant: small-caps;
     color: #212429;
-
-    span {
-      text-transform: capitalize;
-      font-weight: 400;
-    }
   }
-`;
 
-export const content = css``;
-
-export const contentImages = css``;
-
-export const image = css`
-  display: grid;
-  grid-template-areas:
-    "img texto bin"
-    "img texto ."
-    "img texto ."
-    " btn btn price ";
-  gap: 1rem;
-
-  @media (min-width: 1024px) {
-    grid-template-areas:
-      "img . price bin"
-      "img . . ."
-      "img . btn btn"
-      "img . . .  ";
+  span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-variant: small-caps;
+    color: #212429;
   }
+
+ 
 `;
 
-export const img = css`
-  grid-area: img;
-`;
-
-export const text = css`
-  display: grid;
-  grid-area: texto;
-`;
-
-export const price = css`
-  grid-area: price;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: capitalize;
-  color: #212429;
-`;
-
-export const svgIcon = css`
-  grid-area: bin;
-  justify-self: end;
-
-  @media (min-width: 1024px) {
-    justify-self: unset;
-  }
-`;
-
-export const btnBox = css`
-  grid-area: btn;
-`;
-
-export const lightButton = css`
+export const totalImport = css`
   display: flex;
   flex-direction: row;
-  place-content: center;
-  justify-content: space-around;
-  align-items: center;
-  width: 176px;
-  height: 48px;
-  left: 840px;
-  top: 873px;
-
-  border: 1px solid #212429;
-  border-radius: 48px;
+  justify-content: space-between;
+  margin: 1rem 0rem;
 `;
 
-export const boxForm = css`
+export const button = css`
+  margin: 2rem auto 1rem;
+  border: solid 1px;
+  width: 178px;
 
-`;
+  &:hover {
+    background-color: #212429;
+    color: #ffffff;
+    border: 0;
+  }
+  `;

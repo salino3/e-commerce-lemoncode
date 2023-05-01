@@ -34,6 +34,7 @@ export const Boletin: React.FC = () => {
           onChange={handleChange}
           value={boletin}
           className={classes.input}
+          required
           placeholder="Introduzca su dirección Email"
         />
         <Button type="submit" className={classes.button}>
