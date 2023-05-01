@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cx } from '@emotion/css';
-import * as classes from './stylesButton';
+import * as classes from './button.styles';
 
 interface Props {
   children: React.ReactNode;

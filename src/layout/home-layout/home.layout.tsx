@@ -10,8 +10,8 @@ import {
   ImageDown,
   Footer,
 } from "../../components";
-import * as classes from "./home.styles";
 import { Boletin, Button } from "../../commons";
+import * as classes from "./home.styles";
 
 export const HomeLayout: React.FC = () => {
   return (
