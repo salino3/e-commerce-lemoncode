@@ -1,4 +1,4 @@
-export * from './home';
+export * from './home.scene';
 export * from './ropa-mujer';
 export * from './product-page';
 export * from './cart';
