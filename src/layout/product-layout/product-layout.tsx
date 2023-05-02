@@ -1,7 +1,7 @@
 import React from 'react';
-import { Footer, Header } from '../../components';
-import { MainComponent, SecundaryComponent } from '../../components-third-page';
-import { Boletin, Button } from '../../commons';
+import { Footer, Header } from '@/components';
+import { MainComponent, SecundaryComponent } from '@/components-third-page';
+import { Boletin, Button } from '@/commons';
 import * as classes from './product-layout.styles';
 
 

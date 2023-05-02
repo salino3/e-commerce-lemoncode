@@ -9,8 +9,8 @@ import {
   FirstBigImage,
   ImageDown,
   Footer,
-} from "../../components";
-import { Boletin, Button } from "../../commons";
+} from "@/components";
+import { Boletin, Button } from "@/commons";
 import * as classes from "./home.styles";
 
 export const HomeLayout: React.FC = () => {

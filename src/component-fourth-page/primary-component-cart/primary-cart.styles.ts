@@ -5,7 +5,7 @@ export const container = css`
 
   h2 {
     padding-bottom: 1rem;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../../commons';
+import { Button } from '@/commons';
 import * as classes from './big-image.styles';
 
 export const FirstBigImage: React.FC = () => {

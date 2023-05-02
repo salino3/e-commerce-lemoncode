@@ -1,6 +1,6 @@
 import React from 'react';
 import { cx } from '@emotion/css';
-import { CardComponent } from '../../commons';
+import { CardComponent } from '@/commons';
 import * as classes from './box-photos.styles';
 
 interface PropsImg {

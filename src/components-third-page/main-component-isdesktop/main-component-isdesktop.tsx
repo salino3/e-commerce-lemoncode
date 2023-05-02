@@ -1,6 +1,6 @@
 import React from 'react';
-import { ListComponent } from '../../components-second-page';
-import { Button } from '../../commons';
+import { ListComponent } from '@/components-second-page';
+import { Button } from '@/commons';
 import * as classes from './main-isdesktop.styles';
 
 

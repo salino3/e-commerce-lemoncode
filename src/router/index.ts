@@ -1,2 +1,1 @@
-export * from './app-router';
-export * from './interfaces';
+export * from './router.component';

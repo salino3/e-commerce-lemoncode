@@ -1,4 +1,4 @@
-export interface Routes {
+export interface SwitchRoutes {
   root: string;
   man: string;
   woman: string;
@@ -6,7 +6,7 @@ export interface Routes {
   cart: string;
 }
 
-export const SwitchRoutes: Routes = {
+export const switchRoutes: SwitchRoutes = {
   root: "/",
   man: "/man",
   woman: "/woman",
@@ -14,4 +14,3 @@ export const SwitchRoutes: Routes = {
   cart: "/cart"
 };
 
-export const { root, man, woman, product, cart } = SwitchRoutes;

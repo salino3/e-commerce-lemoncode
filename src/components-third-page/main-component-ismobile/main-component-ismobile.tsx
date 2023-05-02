@@ -1,6 +1,6 @@
 import React from 'react';
+import { Button } from '@/commons';
 import * as classes from "./main-ismobile.style";
-import { Button } from '../../commons';
 
 
 export const MainComponentIsmobile: React.FC = () => {

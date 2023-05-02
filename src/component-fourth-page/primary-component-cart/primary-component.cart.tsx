@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../../commons";
+import { Button } from '@/commons';
 import { CartImages } from "../cart-images";
 import * as classes from "./primary-cart.styles";
 
@@ -48,9 +48,9 @@ export const PrimaryComponentCart: React.FC = () => {
                   <path
                     d="M1 11L6 6L1 1"
                     stroke="white"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </button>
