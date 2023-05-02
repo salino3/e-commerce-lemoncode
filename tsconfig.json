@@ -15,8 +15,11 @@
     "skipLibCheck": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,
-    "jsx": "react",
-    "baseUrl": "./src/"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
     "include": [ "./src/**/*", "@/vite-env.d.ts"],
     "exclude": ["node_modules"]

@@ -1,7 +1,7 @@
 import React from 'react';
 import { cx } from '@emotion/css';
 import { Link } from 'react-router-dom';
-import { CardComponent } from '../../commons';
+import { CardComponent } from '@/commons';
 import * as classes from './nuevos-productos.styles';
 
 interface PropsImg {

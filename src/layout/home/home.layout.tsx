@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   ActualBox,
   ExitoVentas,
@@ -9,9 +9,9 @@ import {
   FirstBigImage,
   ImageDown,
   Footer,
-} from "../../components";
-import { Boletin, Button } from "../../commons";
-import * as classes from "./home.styles";
+} from '@/components';
+import { Boletin, Button } from '@/commons';
+import * as classes from './home.styles';
 
 export const HomeLayout: React.FC = () => {
   return (

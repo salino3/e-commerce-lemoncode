@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../../commons';
+import { Button } from '@/commons';
 import * as classes from './cart-images.styles';
 
 interface Props {

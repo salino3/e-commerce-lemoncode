@@ -1,5 +1,6 @@
-import { AppRouter } from './router';
+import { RouterComponent } from '@/router';
 
-const App = () =>  <AppRouter />;
 
-export default App
+export const App = () =>  <RouterComponent />;
+
+

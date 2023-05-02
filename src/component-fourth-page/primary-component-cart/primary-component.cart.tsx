@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../../commons";
+import { Button } from '@/commons';
 import { CartImages } from "../cart-images";
 import * as classes from "./primary-cart.styles";
 
