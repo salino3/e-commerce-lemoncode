@@ -2,6 +2,7 @@ import React from 'react';
 
 interface Props {
   children?: React.ReactNode;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
   classCard?: string;
   classDescription?: string;
   routeImg?: string;
@@ -9,10 +10,12 @@ interface Props {
 }
 
 export const CardList: React.FC<Props> = (props) => {
- const { children, classCard, classDescription, routeImg, alt = "image" } = props;
+ const { children, onClick, classCard, classDescription, routeImg, alt = 'image' } = props;
 
   return (
-    <div className={classCard}>
+    <div
+    onClick={onClick}
+      className={classCard}>
         <img src={routeImg} alt={alt} />
         <div className={classDescription}>
           {children}
