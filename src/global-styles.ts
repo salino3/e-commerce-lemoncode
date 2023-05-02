@@ -6,6 +6,7 @@ body {
   background: white;
   width: 100%;
   overflow-y: auto;
+font-family: Montserrat, Helvetica, Arial, sans-serif;
 
   &::-webkit-scrollbar {
     display: none;
