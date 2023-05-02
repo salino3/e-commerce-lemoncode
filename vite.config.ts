@@ -4,14 +4,4 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  css: {
-    modules: {
-      localsConvention: "camelCase",
-    },
-  },
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
 });
