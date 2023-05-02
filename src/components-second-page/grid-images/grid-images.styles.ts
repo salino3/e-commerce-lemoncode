@@ -13,7 +13,7 @@ export const container = css`
     gap: 10px;
   }
 
-  
+
   img {
     width: 42vw;
 
@@ -33,7 +33,7 @@ export const boxDescription = css`
   grid-row-gap: 0.5rem;
   grid-template-columns: 1fr auto;
   grid-template-rows: auto auto;
-  
+
   color: #212429;
   font-family: Montserrat;
   font-style: normal;
@@ -48,3 +48,9 @@ export const boxDescription = css`
 `;
 
 
+export const prueba = css`
+`;
+
+export const popup = css`
+  display: none;
+`;
