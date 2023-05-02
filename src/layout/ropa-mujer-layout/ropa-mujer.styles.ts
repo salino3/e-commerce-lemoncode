@@ -14,6 +14,13 @@ export const root = css`
   }
 `;
 
+ 
+export const popup = css`
+
+  display: none;
+
+`;
+
 export const buttonSecondPageLayout = css`
   margin: 2rem auto 1rem;
   border: solid 1px;
