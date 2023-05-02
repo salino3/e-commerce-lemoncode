@@ -1,6 +1,4 @@
-import React from 'react';
-import { HomeLayout } from '@/layout';
+import React from "react";
+import { HomeLayout } from "@/layout";
 
-export const Home: React.FC = () =>  <HomeLayout />;
-
-
+export const HomeScene: React.FC = () => <HomeLayout />;
