@@ -47,10 +47,7 @@ export const boxDescription = css`
   }
 `;
 
-
-export const prueba = css`
-`;
-
 export const popup = css`
-  display: none;
+
+display: none;
 `;

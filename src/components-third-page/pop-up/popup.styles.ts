@@ -1,8 +1,10 @@
 import {css} from '@emotion/css';
 
 export const modal = css`
-  animation: heartBeat;
+
+  animation: fadeIn;
   animation-duration: 2s;
+
 
   position: fixed;
   top: 5%;
@@ -14,6 +16,10 @@ export const modal = css`
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   z-index: 3;
+
+  @media (max-width: 1066px) {
+    display: none;
+  }
 `;
 
 export const content = css`
@@ -94,6 +100,8 @@ export const description = css`
   font-size: 16px;
   line-height: 150%;
   color: #212429;
+  max-height: 135px;
+  box-sizing: border-box;
 `;
 
 export const boxImages = css`
@@ -110,7 +118,6 @@ export const size = css`
   flex-direction: column;
   align-items: flex-start;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -120,10 +127,9 @@ export const size = css`
   div {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
-
 
 
     div {
@@ -152,7 +158,7 @@ export const lightButton = css`
 
   justify-content: space-around;
   align-items: center;
-  width: 176px;
+  width: 140px;
   height: 48px;
 
   border: 1px solid #212429;
@@ -164,7 +170,7 @@ export const lightButton = css`
 `;
 
 export const darkButton = css`
-  width: 156px;
+  width: 145px;
   height: 48px;
   background: #212429;
   border-radius: 48px;
