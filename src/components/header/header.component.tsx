@@ -1,6 +1,6 @@
-import React from "react";
-import { Navbar } from "./navbar";
-import * as classes from "./header.styles";
+import React from 'react';
+import { Navbar } from './navbar.component';
+import * as classes from './header.styles';
 
 export const Header: React.FC = () => {
   return (
