@@ -16,8 +16,8 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
-    "baseUrl": "src"
+    "baseUrl": "./src/"
   },
-    "include": [ "src", "@/vite-env.d.ts"],
+    "include": [ "./src/**/*", "@/vite-env.d.ts"],
     "exclude": ["node_modules"]
 }
