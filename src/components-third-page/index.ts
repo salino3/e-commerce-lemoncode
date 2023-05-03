@@ -6,3 +6,4 @@ export * from './reviews';
 export * from "./box-images-3page";
 export * from "./box-last-photos";
 export * from './pop-up';
+export * from './progress-element';

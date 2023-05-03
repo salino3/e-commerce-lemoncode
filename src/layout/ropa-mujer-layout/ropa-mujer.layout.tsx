@@ -1,9 +1,8 @@
 import React from 'react';
-import { Header, Footer} from '@/components';
+import { Header, Footer } from '@/components';
 import { GridImages, PrimaryComponent } from '@/components-second-page';
 import { Boletin, Button } from '@/commons';
 import * as classes from './ropa-mujer.styles';
-
 
 export const RopaMujerLayout: React.FC = () => {
   return (
@@ -11,8 +10,7 @@ export const RopaMujerLayout: React.FC = () => {
       <Header />
       <PrimaryComponent />
       <GridImages />
-
-      <Button route={"/product"} className={classes.buttonSecondPageLayout}>
+      <Button route={'/product'} className={classes.buttonSecondPageLayout}>
         Los 12 productos siguientes
       </Button>
       <hr />
@@ -20,4 +18,4 @@ export const RopaMujerLayout: React.FC = () => {
       <Footer />
     </div>
   );
-}
+};

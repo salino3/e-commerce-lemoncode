@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@/commons';
+import { ProgressElement } from '../progress-element';
 import * as classes from './reviews.styles';
 
 export const ReviewComponent: React.FC = () => {
@@ -11,11 +12,9 @@ export const ReviewComponent: React.FC = () => {
         <div>
           <Button className={classes.button}>Deja tu opinión</Button>
         </div>
-        <div>
-          <img src="/assets/Group-164.png" alt="reviews" />
-        </div>
+       <ProgressElement />
       </div>
-      <div >
+      <div>
         <div className={classes.textReview}>
           Ludmilla <div>Hoy, 13.54</div>
         </div>
@@ -36,7 +35,7 @@ export const ReviewComponent: React.FC = () => {
           <div>Respuesta</div>
         </div>
       </div>
-      <div >
+      <div>
         <div className={classes.textReview}>
           Elena <div>4 Junio, 16.54</div>
         </div>
@@ -59,4 +58,4 @@ export const ReviewComponent: React.FC = () => {
       </div>
     </div>
   );
-}
+};

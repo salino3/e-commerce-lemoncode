@@ -1,7 +1,6 @@
 import { css } from "@emotion/css";
 
 export const container = css`
-
 `;
 
 
@@ -11,7 +10,6 @@ export const boxIcons = css`
   justify-content: space-between;
   padding: 0rem 1rem;
 
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -20,6 +18,7 @@ export const boxIcons = css`
   div {
     display: flex;
     gap: 1rem;
+
   }
 
 `;
@@ -28,28 +27,31 @@ export const boxIsDesktop = css`
   display: grid;
   grid-template-columns: 25% 75%;
 
- 
+
 `;
 
 export const aside = css`
-  padding: 1rem;
+  padding: 2.15rem 1rem;
 
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #212429;
 
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  z-index: 10;
+  width: 23%;
+
   h2 {
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
     cursor: pointer;
 
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
