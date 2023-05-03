@@ -11,7 +11,6 @@ interface PropsImg {
   [index: string]: boolean;
 }
 
-
 export const BoxImages: React.FC = () => {
 
   const [redHearth, setRedHearth] = React.useState<PropsImg>({

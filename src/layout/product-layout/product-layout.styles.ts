@@ -5,6 +5,7 @@ export const container = css`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: auto;
   overflow: hidden;
   box-sizing: border-box;
 

@@ -33,31 +33,11 @@ export const MainComponentIsdesktop: React.FC = () => {
   return (
     <div className={classes.boxIsDesktop}>
       <aside className={classes.aside}>
-        <ListComponent
-          h2={"Mujeres"}
-          toggleIcon={toggleIcon.img1}
-          onClick={() => handleClick("img1")}
-        />
-        <ListComponent
-          h2={"Hombres"}
-          toggleIcon={toggleIcon.img2}
-          onClick={() => handleClick("img2")}
-        />
-        <ListComponent
-          h2={"Accesorios"}
-          toggleIcon={toggleIcon.img3}
-          onClick={() => handleClick("img3")}
-        />
-        <ListComponent
-          h2={"Colecciones"}
-          toggleIcon={toggleIcon.img4}
-          onClick={() => handleClick("img4")}
-        />
-        <ListComponent
-          h2={"Acciones"}
-          toggleIcon={toggleIcon.img5}
-          onClick={() => handleClick("img5")}
-        />
+        <ListComponent h2={'Mujeres'} toggleIcon={toggleIcon.img1} onClick={() => handleClick('img1')} />
+        <ListComponent h2={'Hombres'} toggleIcon={toggleIcon.img2} onClick={() => handleClick('img2')} />
+        <ListComponent h2={'Accesorios'} toggleIcon={toggleIcon.img3} onClick={() => handleClick('img3')} />
+        <ListComponent h2={'Colecciones'} toggleIcon={toggleIcon.img4} onClick={() => handleClick('img4')} />
+        <ListComponent h2={'Acciones'} toggleIcon={toggleIcon.img5} onClick={() => handleClick('img5')} />
       </aside>
       <div className={classes.boxImages}>
         <div className={classes.boxPrimaryImages}>
@@ -98,7 +78,17 @@ export const MainComponentIsdesktop: React.FC = () => {
               <div>L</div>
             </div>
           </div>
-          <img src="/assets/group143.png" alt="image" />
+          <div className={classes.deliveryText}>
+            <img src="/assets/iconoir_delivery-truck.png" alt="icon" />
+            <div>
+              Por mensajero a domicilio - a partir de 50 € gratis.
+              Montaje antes de la compra en 15 minutos
+            </div>
+          </div>
+          <div className={classes.deliveryText}>
+            <img src="/assets/iconoir_delivery.png" alt="icon" />
+            <div>Belarus Post - a partir de 50 € gratis. Sin la posibilidad de encajar</div>
+          </div>
           <div className={classes.boxButtons}>
             <Button className={classes.lightButton} route="/cart">
               <img src={`/assets/icon-minus.png`} alt="icon" />

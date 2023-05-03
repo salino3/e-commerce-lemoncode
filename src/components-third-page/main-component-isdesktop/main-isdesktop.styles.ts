@@ -55,7 +55,7 @@ export const boxImages = css`
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px;
-  
+
 `;
 
 export const title = css`
@@ -130,6 +130,26 @@ export const size = css`
       border: 1px solid #212429;
       border-radius: 81px;
     }
+  }
+`;
+
+export const deliveryText = css`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-justify: left;
+  gap: 10px;
+  margin: 1rem;
+  width: 50%;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212429;
+
+  img {
+    height: 20px;
   }
 `;
 
