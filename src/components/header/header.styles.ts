@@ -12,7 +12,7 @@ export const header = css`
   }
 
   @media (min-width: 725px) {
-    grid-template-columns: 5% 15% 25% auto;
+    grid-template-columns: 5% 20% 50% auto;
   }
 `;
 
@@ -31,10 +31,17 @@ export const nav = css`
 export const ul = css`
   display: grid;
   grid-template-columns: repeat(4, auto);
-  gap: 1rem;
+  gap: 2rem;
+  justify-content: center;
 
   a {
     text-decoration: none;
+    color: #212429;
+  }
+ 
+
+  @media (min-width: 1024px) {
+    gap: 3rem;
   }
 `;
 
