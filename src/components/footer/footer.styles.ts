@@ -19,9 +19,9 @@ export const iconsContainer = css`
     height: 5em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
     justify-content: flex-start;
-    gap: 30%;
+    gap: 20px;
     padding: 0rem 2rem;
 
     @media (min-width: 725px) {
@@ -38,6 +38,37 @@ export const iconsContainer = css`
   }
 `;
 
+export const divImgEntrega = css`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+`;
+export const divImgReturn = css`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: white;
+  width: 38px;
+  height: 38px;
+
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+`;
+
+
 export const footerContent = css`
   margin: 0rem 0rem 2rem;
 
@@ -45,6 +76,7 @@ export const footerContent = css`
 
   hr {
     border: 0.5px solid #4d4d4d;
+
   }
 `;
 
@@ -115,7 +147,6 @@ export const contentBankIcons = css`
 
 export const isDesktop = css`
   display: grid;
-  /* grid-template-columns: repeat(4, 25%); */
   grid-template-columns: repeat(4, minmax(auto, auto));
 
   padding: 0rem 2rem;
