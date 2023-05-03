@@ -3,8 +3,10 @@ import { Navbar } from './navbar.component';
 import * as classes from './header.styles';
 
 export const Header: React.FC = () => {
+
+
   return (
-    <header className={classes.header}>
+    <header  className={classes.header}>
       <div>
         <img src="/assets/shape-lines.png" alt="menu" />
       </div>

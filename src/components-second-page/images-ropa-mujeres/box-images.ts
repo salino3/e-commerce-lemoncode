@@ -16,5 +16,4 @@ export const boxImages = css`
   @media (min-width: 1024px) {
     justify-content: center;
   }
-  
 `;

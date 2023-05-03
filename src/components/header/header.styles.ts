@@ -38,7 +38,7 @@ export const ul = css`
     text-decoration: none;
     color: #212429;
   }
- 
+
 
   @media (min-width: 1024px) {
     gap: 3rem;

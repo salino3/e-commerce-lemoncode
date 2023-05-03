@@ -13,7 +13,6 @@ export const boxIsDesktop = css`
 export const aside = css`
   padding: 1rem;
 
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -27,7 +26,6 @@ export const aside = css`
     gap: 1rem;
     cursor: pointer;
 
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;

@@ -33,7 +33,7 @@ export const image = css`
       "img texto . btn btn"
       "img texto . . . ";
   }
-  
+
 `;
 
 export const img = css`
@@ -52,7 +52,6 @@ export const price = css`
   grid-area: price;
   justify-self: end;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -71,7 +70,7 @@ export const svgIcon = css`
 `;
 
 export const btnBox = css`
- 
+
   grid-area: btn;
   justify-self: end;
 

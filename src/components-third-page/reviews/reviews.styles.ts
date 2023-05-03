@@ -7,7 +7,6 @@ export const container = css`
 
 export const title = css`
 
-font-family: Montserrat;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -18,7 +17,7 @@ export const reviewsImage = css`
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: 1rem;
-  
+
   @media (min-width: 1024px) {
     flex-direction: row;
     align-items: center;
@@ -32,7 +31,6 @@ export const button = css`
   height: 48px;
 
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -49,8 +47,6 @@ export const button = css`
     width: 280px;
   }
 `;
-
-
 
 export const textReview = css`
 
@@ -104,4 +100,4 @@ export const footerReview = css`
   line-height: 130%;
 
   color: #878787;
-`; 
+`;
