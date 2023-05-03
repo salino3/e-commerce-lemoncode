@@ -15,7 +15,7 @@ export const PopUpComponent: React.FC<Props> = (props) => {
     <div className={cx(classes.modal, className)}>
       <div className={classes.content}>
         <img id="img" src="/assets/image-popup1.png" alt="image" />
-        <div className={classes.boxText}>
+        <div >
           <div className={classes.boxClose}>
             <button onClick={onClick}>X</button>
             <p>2 comentarios</p>

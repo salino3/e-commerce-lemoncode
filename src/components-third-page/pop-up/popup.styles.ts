@@ -1,20 +1,21 @@
 import {css} from '@emotion/css';
 
 export const modal = css`
-
   animation: fadeIn;
   animation-duration: 2s;
 
-
   position: fixed;
-  top: 5%;
-  left: 25%;
-  width: 55%;
-  height: 80%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   padding: 3rem;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
   z-index: 3;
 
   @media (max-width: 1066px) {
@@ -23,10 +24,14 @@ export const modal = css`
 `;
 
 export const content = css`
+  position: fixed;
+  top: 12%;
+  left: 25%;
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
-  height: 100%;
+  height: 80%;
+  width: 55%;
 
   background-color: whitesmoke;
   padding: 0.2rem;
@@ -38,14 +43,10 @@ export const content = css`
   }
 `;
 
-export const boxText = css`
-
-
-`;
 
 export const boxClose = css`
   position: absolute;
-  right: 3.5rem;
+  right: 1rem;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -58,6 +59,10 @@ export const boxClose = css`
 
   img {
     max-width: 20px;
+  }
+
+  button {
+    cursor: pointer;
   }
 `;
 
