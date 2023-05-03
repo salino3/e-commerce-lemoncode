@@ -38,7 +38,7 @@ export const card = css`
 export const boxDescription = css`
   display: grid;
   grid-row-gap: 0.5rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
   grid-template-rows: 1fr 1fr;
 
   color: #212429;

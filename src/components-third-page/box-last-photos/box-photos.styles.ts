@@ -22,7 +22,6 @@ export const content = css`
 `;
 
 export const title = css`
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -32,18 +31,16 @@ export const title = css`
 
 export const card = css`
   justify-self: center;
-  border: 1px solid #b6b6b6; //? <--
-  padding: 0rem 0.5rem; //? <--
+
 `;
 
 export const boxDescription = css`
   display: grid;
   grid-row-gap: 0.5rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
   grid-template-rows: 1fr 1fr;
 
   color: #212429;
-  font-family: Montserrat;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
