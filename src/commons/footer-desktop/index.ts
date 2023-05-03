@@ -1,2 +1,2 @@
-export * from './footer-Desktop.component';
+export * from './footer-desktop.component';
 
