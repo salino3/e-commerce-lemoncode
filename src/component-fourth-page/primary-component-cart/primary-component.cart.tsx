@@ -8,43 +8,33 @@ export const PrimaryComponentCart: React.FC = () => {
     <div className={classes.container}>
       <h2>Cesta</h2>
       <div className={classes.content}>
-        <div >
+        <div>
           <CartImages
             article={`Vaqueros blancos`}
-            routeImg={"cesta2.png"}
-            text1={"Blanco"}
-            text2={"XS"}
+            routeImg={'cesta2.png'}
+            text1={'Blanco'}
+            text2={'XS'}
             numArticle={1}
             price={79.99}
           />
           <br />
           <CartImages
-            article={"Vestido"}
-            routeImg={"cesta1.png"}
-            text1={"Flores"}
-            text2={"XS"}
+            article={'Vestido'}
+            routeImg={'cesta1.png'}
+            text1={'Flores'}
+            text2={'XS'}
             numArticle={1}
             price={79.99}
           />
         </div>
+        {/*  */}
         <div className={classes.boxForm}>
           <h2>Código promocional</h2>
           <form>
             <div className={classes.boxInput}>
-              <input
-                className={classes.input}
-                required
-                placeholder="Introduzca el código"
-                type="text"
-              />
+              <input className={classes.input} required placeholder="Introduzca el código" type="text" />
               <button title="enter-code" type="submit" className={classes.btn}>
-                <svg
-                  width="7"
-                  height="12"
-                  viewBox="0 0 7 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M1 11L6 6L1 1"
                     stroke="white"
@@ -71,7 +61,7 @@ export const PrimaryComponentCart: React.FC = () => {
             <div className={classes.totalImport}>
               Importe total <span>0 €</span>
             </div>
-            <Button type="submit" className={classes.button}>
+            <Button route="/checkout" className={classes.button}>
               Pagar
             </Button>
           </form>

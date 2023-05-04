@@ -1,16 +1,16 @@
 export interface SwitchRoutes {
   root: string;
-  man: string;
   woman: string;
   product: string;
   cart: string;
+  checkout: string;
 }
 
 export const switchRoutes: SwitchRoutes = {
   root: "/",
-  man: "/man",
   woman: "/woman",
   product: "product",
-  cart: "/cart"
+  cart: "/cart",
+  checkout: '/checkout'
 };
 
