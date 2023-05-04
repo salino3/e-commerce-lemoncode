@@ -72,9 +72,10 @@ export const mapIcon = css`
 export const boxInput = css`
   display: grid;
   grid-template-areas:
-                      "ciudad ciudad"
-                      "calle numero"
-                      "piso piso";
+    'ciudad ciudad'
+    'calle calle'
+    'numero piso';
+    gap: 1rem;
 
   input {
     box-sizing: border-box;
@@ -83,6 +84,7 @@ export const boxInput = css`
     border-radius: 48px;
     outline: none;
     padding-left: 0.3rem;
+    /* width: 80%; */
   }
 
   input:focus {
@@ -100,10 +102,12 @@ export const boxInput = css`
 
   & > :nth-child(3) {
     grid-area: numero;
+    width: 50%;
   }
 
-  & > :last-child {
+  & > :nth-child(4) {
     grid-area: piso;
+    width: 50%;
   }
 `;
 
