@@ -1,6 +1,6 @@
 import React from 'react';
 import { Footer, Header } from '@/components';
-import { EntregaComponent, PrimaryComponentCart } from '@/component-fourth-page';
+import { ButtonPurchase, EntregaComponent, PrimaryComponentCart } from '@/component-fourth-page';
 import * as classes from './cart.styles';
 
 
@@ -12,6 +12,7 @@ export const CartLayout: React.FC = () => {
         <div className={classes.content}>
         <PrimaryComponentCart />
         <EntregaComponent />
+        <ButtonPurchase />
         </div>
         <Footer />
       </div>
