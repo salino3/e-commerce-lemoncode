@@ -33,6 +33,8 @@ export const boxIsDesktop = css`
 
 `;
 
+
+
 export const aside = css`
   position: absolute;
   display: none;
@@ -40,6 +42,9 @@ export const aside = css`
   left: 0;
   z-index: 10;
   width: 23%;
+/*  */
+
+
 
   padding: 2.15rem 1rem;
 

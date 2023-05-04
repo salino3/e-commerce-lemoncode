@@ -25,20 +25,22 @@ export const container = css`
   }
 
   @media (min-width: 725px) {
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 40px;
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(auto-fit, minmax(40px, 350px));
+    grid-template-columns: repeat(auto-fit, minmax(40px, 360px));
     gap: 10px;
     justify-content: center;
   }
 
   img {
-    width: 42vw;
-    @media (min-width: 1024px) {
-      width: 120%;
-    }
+    /* width: 42vw; */
+    /* @media (min-width: 1024px) {
+      width: 100%;
+    } */
+    width: 100%;
   }
 `;
 

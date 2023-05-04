@@ -47,7 +47,7 @@ export const PrimaryComponent: React.FC = () => {
         </div>
       ) : (
         <div className={classes.boxIsDesktop}>
-          <div>
+          <div >
             <aside className={classes.aside}>
               <ListComponent h2={'Mujeres'} toggleIcon={toggleIcon.img1} onClick={() => handleClick("img1")} />
               <ListComponent h2={'Hombres'} toggleIcon={toggleIcon.img2} onClick={() => handleClick("img2")} />
