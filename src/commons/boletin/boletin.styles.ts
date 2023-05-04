@@ -22,7 +22,6 @@ export const container = css`
 
 export const h3 = css`
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -31,7 +30,6 @@ export const h3 = css`
 `;
 
 export const p = css`
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

@@ -2,12 +2,16 @@ import {css} from '@emotion/css';
 
 
 export const container = css`
- padding: 0rem 1rem;
+  padding: 0rem 1rem;
 
- @media (min-width: 725px) {
+  /* @media (min-width: 725px) {
     padding-left: 25%;
 
- }
+ } */
+
+  @media (min-width: 1024px) {
+    padding-left: 25%;
+  }
 `;
 
 export const textDescripcion = css`

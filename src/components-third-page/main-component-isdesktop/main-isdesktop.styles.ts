@@ -30,8 +30,10 @@ export const aside = css`
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    color: #212429;
+    color: #212429; // ?
   }
+
+
 `;
 
 export const boxPrimaryImages = css`
@@ -65,7 +67,6 @@ export const title = css`
     width: 50%;
   }
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -76,7 +77,6 @@ export const title = css`
 
 export const price = css`
   margin: 1rem 0rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -85,7 +85,6 @@ export const price = css`
 `;
 
 export const colores = css`
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -107,7 +106,6 @@ export const size = css`
   flex-direction: column;
   align-items: flex-start;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -179,7 +177,6 @@ export const darkButton = css`
   background: #212429;
   border-radius: 48px;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

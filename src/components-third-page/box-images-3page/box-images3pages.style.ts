@@ -22,7 +22,6 @@ export const content = css`
 `;
 
 export const title = css`
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -42,7 +41,6 @@ export const boxDescription = css`
   grid-template-rows: 1fr 1fr;
 
   color: #212429;
-  font-family: Montserrat;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;

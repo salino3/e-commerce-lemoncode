@@ -6,7 +6,7 @@ import * as classes from "./secundary-comonent.styles";
 
 export const SecundaryComponent: React.FC = () => {
 
-  const isMobile: boolean = useMediaQuery({ maxWidth: "725px" });
+  const isMobile: boolean = useMediaQuery({ maxWidth: "1024px" });
 
   return (
     <div className={classes.container}>

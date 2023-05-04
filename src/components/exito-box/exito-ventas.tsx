@@ -9,7 +9,7 @@ interface PropsImg {
   img2: boolean;
   img3: boolean;
   img4: boolean;
-  [index: string]: boolean; 
+  [index: string]: boolean;
 }
 
 export const ExitoVentas: React.FC = () => {
@@ -62,7 +62,7 @@ export const ExitoVentas: React.FC = () => {
           }
           className={classes.item}
           text="Camiseta"
-          routeImg="/assets/exito-ventas-1.png"
+          routeImg="/assets/exito-venta1.png"
         >
           <span className={classes.span}>34.95 €</span>
         </CardComponent>
@@ -89,7 +89,7 @@ export const ExitoVentas: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/exito-ventas-2.png"
+          routeImg="/assets/exito-venta2.png"
           text="Vestido"
         >
           <span className={classes.span}>34.95 €</span>
@@ -116,7 +116,7 @@ export const ExitoVentas: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/exito-ventas-3.png"
+          routeImg="/assets/exito-venta3.png"
           text="Vaqueros"
           className={classes.item}
         >
@@ -144,7 +144,7 @@ export const ExitoVentas: React.FC = () => {
               />
             </svg>
           }
-          routeImg={"/assets/exito-ventas-4.png"}
+          routeImg={"/assets/exito-venta4.png"}
           className={classes.item}
           text={"Vestido"}
         >
@@ -155,4 +155,3 @@ export const ExitoVentas: React.FC = () => {
     </div>
   );
 }
-  

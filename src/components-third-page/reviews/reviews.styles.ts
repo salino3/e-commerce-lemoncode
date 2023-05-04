@@ -55,7 +55,6 @@ export const textReview = css`
    gap: 15px;
    align-items: center;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -64,7 +63,6 @@ export const textReview = css`
 
   div {
 
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -79,7 +77,6 @@ export const starsView = css`
   gap: 15px;
   align-items: center;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -93,7 +90,6 @@ export const footerReview = css`
   gap: 15px;
   align-items: center;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;

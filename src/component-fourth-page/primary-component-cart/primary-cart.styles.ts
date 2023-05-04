@@ -5,7 +5,6 @@ export const container = css`
 
   h2 {
     padding-bottom: 1rem;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -50,7 +49,6 @@ export const boxForm = css`
     margin: 1rem auto;
   }
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -65,7 +63,7 @@ export const boxForm = css`
 
 export const boxInput = css`
   box-sizing: border-box;
-  
+
   padding: 0.5rem 1rem;
 
   background: #ffffff;
@@ -77,7 +75,6 @@ export const boxInput = css`
 export const input = css`
 
   margin: 1rem 0rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -100,7 +97,6 @@ export const btn = css`
 
 export const text = css`
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -116,7 +112,6 @@ export const text = css`
   }
 
   h3 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -126,7 +121,6 @@ export const text = css`
   }
 
   span {
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -135,7 +129,7 @@ export const text = css`
     color: #212429;
   }
 
- 
+
 `;
 
 export const totalImport = css`

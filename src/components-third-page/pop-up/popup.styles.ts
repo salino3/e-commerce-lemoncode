@@ -180,7 +180,6 @@ export const darkButton = css`
   background: #212429;
   border-radius: 48px;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

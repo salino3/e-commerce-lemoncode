@@ -13,7 +13,6 @@ export const image = css`
 
 
   h3 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

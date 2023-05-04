@@ -19,10 +19,14 @@ export const boxDescription = css`
   gap: 15px;
   margin-bottom: 3rem;
   width: 100%;
+  padding: 0rem 1rem;
+  box-sizing: border-box;
 
   @media (min-width: 725px) {
     flex-direction: row;
     gap: 5%;
+    padding: unset;
+    box-sizing: unset;
   }
 
   @media (min-width: 1024px) {
@@ -34,9 +38,11 @@ export const imgPrimary = css`
   width: 100%;
   height: auto;
   object-fit: cover;
+  
 
   @media (min-width: 725px) {
     border-radius: 0px 50% 0px 0px;
+    width: 40%;
   }
 `;
 

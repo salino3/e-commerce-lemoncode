@@ -20,7 +20,7 @@ export const HomeLayout: React.FC = () => {
       <div className={classes.boxDescription}>
         <img
           className={classes.imgPrimary}
-          src="/assets/MainImage.png"
+          src="/assets/primaryImage2.png"
           alt="home-image"
         />
         <Description />

@@ -1,7 +1,8 @@
 import {css} from '@emotion/css';
 
 export const root = css`
-  @media (min-width: 1024px) {
+
+  @media (min-width: 1024px) { //?
     display: grid;
     grid-template-columns: 25% 75%;
 
@@ -16,8 +17,6 @@ export const container = css`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40px, 40vw));
   justify-content: center;
-
-
 
   gap: 20px;
 

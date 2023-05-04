@@ -11,7 +11,6 @@ export const FooterDesktop: React.FC = () => {
           </div>
           <div className={classes.divText}>Entrega</div>
         </div>
-
         <h3>Compradores</h3>
         <p>
           Pago <br />
@@ -50,7 +49,6 @@ export const FooterDesktop: React.FC = () => {
             </div>
             <div className={classes.divText}>+375 (29) 749-18-23 </div>
           </div>
-
           <h3>Quiènes somos</h3>
           <p>
             Quiénes somos <br />

@@ -4,12 +4,11 @@ import {css} from '@emotion/css';
 export const container = css`
   display: flex;
   flex-direction: column;
- 
+
 `;
 
 export const h2 = css`
   margin: 1rem 2rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -23,6 +22,7 @@ export const content = css`
   place-items: center;
   flex-direction: column;
   gap: 2px;
+  padding: 0rem 1rem;
 
   @media (min-width: 725px) {
     justify-content: space-around;

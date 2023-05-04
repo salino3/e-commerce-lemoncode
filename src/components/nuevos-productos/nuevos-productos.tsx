@@ -40,12 +40,12 @@ export const NuevosProductos: React.FC = () => {
     <div className={classes.container}>
       <h2 className={classes.h2}>Éxitos de ventas</h2>
       <div className={classes.containerLinks}>
-        <Link to={"/"}>Mujeres</Link>
-        <Link to={"/"}>Hombres</Link>
+        <Link to={'/'}>Mujeres</Link>
+        <Link to={'/'}>Hombres</Link>
       </div>
       <div className={classes.content}>
         <CardComponent
-          onClick={() => handleClick("img1")}
+          onClick={() => handleClick('img1')}
           className={classes.item}
           svgIcon={
             <svg
@@ -67,14 +67,14 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_1.png"
+          routeImg="/assets/nuevos-productos1.png"
         >
           Polo <br />
           <span>44.95 €</span>
         </CardComponent>
         <CardComponent
           className={classes.item}
-          onClick={() => handleClick("img2")}
+          onClick={() => handleClick('img2')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -95,14 +95,14 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_2.png"
+          routeImg="/assets/nuevos-productos2.png"
         >
           Camiseta <br />
           <span>25.00 €</span>
         </CardComponent>
         <CardComponent
           className={classes.item}
-          onClick={() => handleClick("img3")}
+          onClick={() => handleClick('img3')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -123,7 +123,7 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_3.png"
+          routeImg="/assets/nuevos-productos3.png"
         >
           Pantalones <br />
           deportivos <br />
@@ -131,7 +131,7 @@ export const NuevosProductos: React.FC = () => {
         </CardComponent>
         <CardComponent
           className={classes.item}
-          onClick={() => handleClick("img4")}
+          onClick={() => handleClick('img4')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -152,14 +152,14 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_4.png"
+          routeImg="/assets/nuevos-productos4.png"
         >
           Camiseta <br />
           <span>27.99 €</span>
         </CardComponent>
         <CardComponent
           className={classes.item}
-          onClick={() => handleClick("img5")}
+          onClick={() => handleClick('img5')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -180,7 +180,7 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_5.png"
+          routeImg="/assets/nuevos-productos5.png"
         >
           Juego camisetas <br />
           (5 piezas) <br />
@@ -188,7 +188,7 @@ export const NuevosProductos: React.FC = () => {
         </CardComponent>
         <CardComponent
           className={classes.item}
-          onClick={() => handleClick("img6")}
+          onClick={() => handleClick('img6')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -209,14 +209,14 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_6.png"
+          routeImg="/assets/nuevos-productos6.png"
         >
           Camisa <br />
           <span>25.00 €</span>
         </CardComponent>
         <CardComponent
           className={cx(classes.item, classes.item2)}
-          onClick={() => handleClick("img7")}
+          onClick={() => handleClick('img7')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -237,14 +237,14 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_9.png"
+          routeImg="/assets/nuevos-productos7.png"
         >
           Sudadera <br />
           <span>44.99 €</span>
         </CardComponent>
         <CardComponent
           className={cx(classes.item, classes.item2)}
-          onClick={() => handleClick("img8")}
+          onClick={() => handleClick('img8')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -265,7 +265,7 @@ export const NuevosProductos: React.FC = () => {
               />
             </svg>
           }
-          routeImg="/assets/man_10.png"
+          routeImg="/assets/nuevos-productos8.png"
         >
           Camiseta <br />
           <span>22.99 €</span>

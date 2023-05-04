@@ -27,10 +27,20 @@ export const boxIsDesktop = css`
   display: grid;
   grid-template-columns: 25% 75%;
 
+  @media (max-width: 1024px) {
+  display: unset;
+  }
 
 `;
 
 export const aside = css`
+  position: absolute;
+  display: none;
+  top: 3rem;
+  left: 0;
+  z-index: 10;
+  width: 23%;
+
   padding: 2.15rem 1rem;
 
   font-style: normal;
@@ -38,12 +48,6 @@ export const aside = css`
   font-size: 16px;
   line-height: 150%;
   color: #212429;
-
-  position: absolute;
-  top: 3rem;
-  left: 0;
-  z-index: 10;
-  width: 23%;
 
   h2 {
     display: flex;
@@ -57,6 +61,10 @@ export const aside = css`
     font-size: 24px;
     line-height: 120%;
     color: #212429;
+  }
+
+  @media (min-width: 1024px) {
+    display: unset;
   }
 `;
 

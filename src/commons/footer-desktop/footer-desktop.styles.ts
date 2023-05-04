@@ -7,7 +7,7 @@ export const isDesktop = css`
   grid-template-columns: repeat(4, minmax(auto, 25%));
 
   gap: 20px;
-  padding: 2rem;
+  padding: 2rem 2rem 5rem;
   height: 18rem;
 
   div {
@@ -86,6 +86,10 @@ export const boxPhone = css`
     justify-content: center;
     text-align: center;
   }
+
+  @media (min-width: 725px) and (max-width: 1100px) {
+    margin-bottom: 1rem;
+  }
 `;
 
 
@@ -152,8 +156,8 @@ export const lastText = css`
 export const contentBankIcons = css`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
+  justify-content: space-around;
+  padding-right: 0.5rem;
 `;
 
 

@@ -7,7 +7,7 @@ export const container = css`
   background-size: cover;
   width: 100vw;
   height: 525px;
-  
+
 
   @media (min-width: 725px) {
     background-image: url("/assets/grupo192.png");
@@ -22,7 +22,7 @@ export const content = css`
   flex-direction: column;
   text-align: start;
   align-items: center;
-  padding: 0rem  1rem;  
+  padding: 0rem  1rem;
 
   @media (min-width: 1024px) {
     left: 20%;
@@ -33,7 +33,6 @@ export const content = css`
 export const message = css`
 
   div {
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -47,7 +46,6 @@ export const button = css`
  width: 180px;
  border: solid 1px;
 
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

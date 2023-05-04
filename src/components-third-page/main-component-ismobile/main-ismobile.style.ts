@@ -11,7 +11,6 @@ export const boxIsMobile = css`
 export const title = css`
   display: grid;
   grid-template-rows: 1fr auto;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

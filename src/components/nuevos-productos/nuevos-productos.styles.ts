@@ -6,12 +6,11 @@ export const container = css`
   display: flex;
   flex-direction: column;
   height: 100%;
-  
+
 `;
 
 export const h2 = css`
   margin: 2rem 2rem 1rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -26,7 +25,7 @@ export const containerLinks = css`
   gap: 1rem;
   margin-left: 2rem;
 
-`; 
+`;
 
 export const content = css`
   display: grid;
@@ -49,14 +48,12 @@ export const item = css`
   padding: 1rem;
   width: 46vw;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
 
   span {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -72,7 +69,7 @@ export const item = css`
   }
 
   @media (min-width: 1024px) {
- 
+
     width: 20vw;
     box-sizing: content-box;
 
