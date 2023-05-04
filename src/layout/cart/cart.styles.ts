@@ -12,4 +12,12 @@ export const container = css`
     border: 1px solid #b6b6b6;
     margin-top: 1rem;
   }
+
+`;
+
+export const content = css`
+
+  @media (min-width: 1024px) {
+    padding: 0rem 3rem;
+  }
 `;

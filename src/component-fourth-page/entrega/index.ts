@@ -1,0 +1,3 @@
+export * from './entrega.component';
+
+

@@ -50,7 +50,16 @@ export const text = css`
   display: grid;
   grid-area: texto;
   justify-self: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #212429;
 
+  span {
+    font-weight: 400;
+  }
 `;
 
 

@@ -87,11 +87,16 @@ export const input = css`
 `;
 
 export const btn = css`
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 36px;
   height: 36px;
   background: #212429;
   border: 0.5px solid #ececec;
   border-radius: 24px;
+
 
   &:active {
     border: 2px solid #ececec;
