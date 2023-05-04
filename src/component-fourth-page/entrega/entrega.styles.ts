@@ -2,9 +2,6 @@ import {css} from '@emotion/css';
 
 export const container = css`
 
- /* display: flex;
- flex-direction: column;
- justify-content: center; */
 padding: 0rem 1rem;
 
 & > :first-child{
@@ -15,7 +12,6 @@ padding: 0rem 1rem;
     font-variant: small-caps;
     color: #000000;
   }
-
 
 `;
 
