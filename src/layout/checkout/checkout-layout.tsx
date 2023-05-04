@@ -32,9 +32,9 @@ export const CheckoutPage: React.FC = () => {
           </div>
         </div>
       </div>
-      <ButtonPurchase
-       className={classes.btnPurchase}
-       >
+      {/*  */}
+
+      <ButtonPurchase className={classes.btnPurchase}>
         <Button route="/checkout" className={classes.btn}>
           Pagar
         </Button>
