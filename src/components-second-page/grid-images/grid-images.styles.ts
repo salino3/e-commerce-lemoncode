@@ -1,7 +1,8 @@
 import {css} from '@emotion/css';
 
 export const root = css`
-  @media (min-width: 1024px) {
+
+  @media (min-width: 1024px) { //?
     display: grid;
     grid-template-columns: 25% 75%;
 
@@ -17,8 +18,6 @@ export const container = css`
   grid-template-columns: repeat(auto-fill, minmax(40px, 40vw));
   justify-content: center;
 
-
-
   gap: 20px;
 
   a {
@@ -26,20 +25,22 @@ export const container = css`
   }
 
   @media (min-width: 725px) {
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 40px;
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(auto-fit, minmax(40px, 350px));
+    grid-template-columns: repeat(auto-fit, minmax(40px, 360px));
     gap: 10px;
     justify-content: center;
   }
 
   img {
-    width: 42vw;
-    @media (min-width: 1024px) {
-      width: 120%;
-    }
+    /* width: 42vw; */
+    /* @media (min-width: 1024px) {
+      width: 100%;
+    } */
+    width: 100%;
   }
 `;
 

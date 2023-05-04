@@ -12,7 +12,7 @@ export const ReviewComponent: React.FC = () => {
         <div>
           <Button className={classes.button}>Deja tu opinión</Button>
         </div>
-       <ProgressElement />
+        <ProgressElement />
       </div>
       <div>
         <div className={classes.textReview}>
@@ -29,7 +29,10 @@ export const ReviewComponent: React.FC = () => {
           <div>Color: blanco</div>
           <div>Talla: M</div>
         </div>
-        <img src="/assets/image-review1.png" alt="reviewer" />
+        <div className={classes.description}>
+          Tejido agradable, ajuste perfecto. En la cintura. Color negro. Se ajusta perfectamente a la talla M.
+        </div>
+        <img src="/assets/opinion-image1.png" alt="reviewer" />
         <div className={classes.footerReview}>
           <div>Quejarse de la revision</div>
           <div>Respuesta</div>
@@ -50,7 +53,10 @@ export const ReviewComponent: React.FC = () => {
           <div>Color: blanco</div>
           <div>Talla: M</div>
         </div>
-        <img src="/assets/image-review2.png" alt="reviewer" />
+        <div className={classes.description}>
+          Buenos vaqueros, la calidad en general es satisfactoria, la única pega es que son un poco cortos
+        </div>
+        <img src="/assets/opinion-image2.png" alt="reviewer" />
         <div className={classes.footerReview}>
           <div>Quejarse de la revision</div>
           <div>Respuesta</div>

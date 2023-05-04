@@ -8,19 +8,19 @@ export const PrimaryComponentCart: React.FC = () => {
     <div className={classes.container}>
       <h2>Cesta</h2>
       <div className={classes.content}>
-        <div className={classes.contentImages}>
+        <div >
           <CartImages
             article={`Vaqueros blancos`}
-            routeImg={"image-cart2.png"}
+            routeImg={"cesta2.png"}
             text1={"Blanco"}
             text2={"XS"}
             numArticle={1}
             price={79.99}
           />
-          <br /> 
+          <br />
           <CartImages
             article={"Vestido"}
-            routeImg={"image-cart1.png"}
+            routeImg={"cesta1.png"}
             text1={"Flores"}
             text2={"XS"}
             numArticle={1}

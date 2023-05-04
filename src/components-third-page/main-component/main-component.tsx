@@ -7,14 +7,14 @@ import * as classes from './main-component.styles';
 
 export const MainComponent: React.FC = () => {
 
-   const isMobile: boolean = useMediaQuery({ maxWidth: "725px" });
+   const isMobile: boolean = useMediaQuery({ maxWidth: "1024px" });
 
    console.log(isMobile);
 
   return (
 
     <div className={classes.container}>
-     {isMobile ? ( 
+     {isMobile ? (
       <MainComponentIsmobile />
       ) : (
      <MainComponentIsdesktop />

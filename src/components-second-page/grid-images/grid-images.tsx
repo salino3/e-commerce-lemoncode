@@ -23,13 +23,13 @@ export const GridImages: React.FC = () => {
 
   return (
     <div className={classes.root}>
-      <div id='div'></div>
+      <div id="div"></div>
       <div className={classes.container}>
         <PopUpComponent onClick={handleHidePopup} className={cx({ [classes.popup]: !showPopup })} />
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-12.png"
+          routeImg="/assets/image-grid1.png"
           classDescription={classes.boxDescription}
         >
           <span>Vaqueros</span> <span>XS M L</span>
@@ -38,7 +38,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-1.png"
+          routeImg="/assets/image-grid2.png"
           classDescription={classes.boxDescription}
         >
           <span>Vestido</span> <span>XS M L</span>
@@ -47,7 +47,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-2.png"
+          routeImg="/assets/image-grid3.png"
           classDescription={classes.boxDescription}
         >
           <span>Camisa</span> <span>XS M L</span>
@@ -56,7 +56,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-3.png"
+          routeImg="/assets/image-grid4.png"
           classDescription={classes.boxDescription}
         >
           <span>Vestido</span> <span>XS M L</span>
@@ -66,7 +66,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-4.png"
+          routeImg="/assets/image-grid5.png"
           classDescription={classes.boxDescription}
         >
           <span>Camiseta</span> <span>XS M L</span>
@@ -76,7 +76,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-5.png"
+          routeImg="/assets/image-grid6.png"
           classDescription={classes.boxDescription}
         >
           <span>Shorts</span> <span>XS M L</span>
@@ -86,7 +86,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-6.png"
+          routeImg="/assets/image-grid7.png"
           classDescription={classes.boxDescription}
         >
           <span>Vaqueros</span> <span>XS M L</span>
@@ -96,7 +96,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-7.png"
+          routeImg="/assets/image-grid8.png"
           classDescription={classes.boxDescription}
         >
           <span>Pantalones</span> <span>XS M L</span>
@@ -106,7 +106,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-8.png"
+          routeImg="/assets/image-grid9.png"
           classDescription={classes.boxDescription}
         >
           <span>Vaqueros</span> <span>XS M L</span>
@@ -116,7 +116,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-9.png"
+          routeImg="/assets/image-grid10.png"
           classDescription={classes.boxDescription}
         >
           <span>Vestido</span> <span>XS M L</span>
@@ -126,7 +126,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-10.png"
+          routeImg="/assets/image-grid11.png"
           classDescription={classes.boxDescription}
         >
           <span>Pantalones</span> <span>XS M L</span>
@@ -136,7 +136,7 @@ export const GridImages: React.FC = () => {
         <CardList
           onClick={handleClick}
           classCard={classes.card}
-          routeImg="/assets/grid-image-2.png"
+          routeImg="/assets/image-grid12.png"
           classDescription={classes.boxDescription}
         >
           <span>Camiseta</span> <span>XS M L</span>

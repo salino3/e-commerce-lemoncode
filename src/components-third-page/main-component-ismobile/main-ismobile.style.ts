@@ -11,7 +11,6 @@ export const boxIsMobile = css`
 export const title = css`
   display: grid;
   grid-template-rows: 1fr auto;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -43,7 +42,8 @@ export const boxPrimaryImages = css`
 `;
 
 export const primaryImg = css`
-  max-width: 90vw;
+  /* max-width: 90vw; */
+  width: 100%;
   margin: auto;
 `;
 
@@ -106,10 +106,13 @@ export const lightButton = css`
   height: 48px;
   border: 1px solid #212429;
   border-radius: 48px;
+
+  img {
+    max-width: 10px;
+  }
 `;
 
 export const price = css`
-
   margin-right: 3rem;
   font-style: normal;
   font-weight: 700;
@@ -117,6 +120,7 @@ export const price = css`
   line-height: 120%;
   text-align: right;
   color: #000000;
+
 `;
 
 export const darkButton = css`
@@ -132,4 +136,8 @@ export const darkButton = css`
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+
+  img {
+    max-width: 19px;
+  }
 `;

@@ -12,7 +12,6 @@ export const container = css`
 export const h2 = css`
 
   margin: 2rem 2rem 1rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -25,7 +24,7 @@ export const containerLinks = css`
   flex-direction: row;
   gap: 1rem;
   margin-left: 2rem;
-`; 
+`;
 
 export const content = css`
   display: grid;
@@ -33,11 +32,13 @@ export const content = css`
   grid-template-rows: auto auto;
   gap: 10px;
   margin: auto;
+  padding: 0rem 1rem;
+  box-sizing: border-box;
+
 
   @media (min-width: 725px) {
     display: flex;
     justify-content: space-around;
-    width: 100vw;
     gap: 20px;
     overflow-x: auto;
 
@@ -53,13 +54,14 @@ export const content = css`
 export const hearthIcon = css`
 
   position: relative;
-  left: 3rem;
+  left: 4rem;
   top: 2rem;
 
+
   @media (min-width: 1024px) {
-    left: 6rem;
+    left: 9rem;
   }
-`; 
+`;
 
 export const hearthRed = css`
   fill: red;
@@ -72,18 +74,13 @@ export const item = css`
   gap: 5px;
 
   img {
-    @media (min-width: 725px) {
-      width: 100%;
-    }
 
-    @media (min-width: 1024px) {
-      width: 150%;
-    }
+    width: 100%;
+
   }
 `;
 
 export const span = css`
-  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -94,7 +91,6 @@ export const span = css`
 
 export const spangrey = css`
   text-decoration-line: line-through;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -104,7 +100,6 @@ export const spangrey = css`
 
 export const spanred = css`
   text-decoration-line: none;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

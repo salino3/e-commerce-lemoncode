@@ -13,7 +13,6 @@ export const image = css`
 
 
   h3 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -26,7 +25,7 @@ export const image = css`
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 725px) {
     grid-template-areas:
       "img texto . price bin"
       "img texto . . ."
@@ -37,7 +36,14 @@ export const image = css`
 `;
 
 export const img = css`
+
   grid-area: img;
+  max-width: 104px;
+
+  @media (min-width: 725px) {
+
+    max-width: 200px;
+  }
 `;
 
 export const text = css`
@@ -87,5 +93,8 @@ export const lightButton = css`
   width: 176px;
   height: 48px;
 
+  img {
+    width: 10px;
+  }
 
 `;

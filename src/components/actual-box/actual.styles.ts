@@ -12,12 +12,11 @@ export const container = css`
     align-self: center;
    }
   }
-`; 
+`;
 
 export const h2 = css`
-  
+
   margin: 2rem 2rem 1rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -50,7 +49,10 @@ export const item = css`
   flex-direction: column;
   align-items: center;
   gap: 5px;
- 
+
+ img {
+  width: 176px;
+ }
 `;
 
 

@@ -169,9 +169,11 @@ export const lightButton = css`
   border: 1px solid #212429;
   border-radius: 48px;
 
-  img {
-    max-width: 20px;
-  }
+
+    img {
+      width: 10px;
+    }
+
 `;
 
 export const darkButton = css`
@@ -180,7 +182,6 @@ export const darkButton = css`
   background: #212429;
   border-radius: 48px;
 
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -188,7 +189,7 @@ export const darkButton = css`
   color: #ffffff;
 
   img {
-    max-width: 20px;
+    max-width: 19px;
   }
 `;
 
