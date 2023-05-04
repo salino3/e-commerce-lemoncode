@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Cart, HomeScene, ProductPage, RopaMujer } from "@/scenes";
+import { Cart, CheckoutScene, HomeScene, ProductPage, RopaMujer,  } from "@/scenes";
 import { switchRoutes } from "./routes";
 
 export const RouterComponent: React.FC = () => {
@@ -11,6 +11,7 @@ export const RouterComponent: React.FC = () => {
         <Route path={switchRoutes.woman} element={<RopaMujer />} />
         <Route path={switchRoutes.product} element={<ProductPage />} />
         <Route path={switchRoutes.cart} element={<Cart />} />
+        <Route path={switchRoutes.checkout} element={<CheckoutScene />} />
       </Routes>
     </Router>
   );

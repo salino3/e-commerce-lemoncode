@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { MainComponentIsdesktop } from '../main-component-isdesktop';
 import { MainComponentIsmobile } from '../main-component-ismobile';
+import { MainComponentIsdesktop } from '../main-component-isdesktop';
 import * as classes from './main-component.styles';
 
 

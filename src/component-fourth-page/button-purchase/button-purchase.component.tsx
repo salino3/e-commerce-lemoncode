@@ -1,10 +1,18 @@
-import React from 'react';
-import * as classes from './button-purchase.styles';
+import React, { Children } from 'react';
+import { cx } from '@emotion/css';
 import { Button } from '@/commons';
+import * as classes from './button-purchase.styles';
 
-export const ButtonPurchase: React.FC = () => {
+interface Props {
+  children?: React.ReactNode;
+  className?: string;
+}
+
+export const ButtonPurchase: React.FC<Props> = (props) => {
+  const {children, className} = props;
+
   return (
-    <div className={classes.container}>
+    <div className={cx(classes.container, className)}>
       <div>
         Importe total del pedido: <span>169.98 €</span>
       </div>
@@ -17,7 +25,7 @@ export const ButtonPurchase: React.FC = () => {
       <div>
         Importe del descuento: <span>169.98 €</span>
       </div>
-      <Button className={classes.btn}>Ir al carrito</Button>
+     {children}
     </div>
   );
 }

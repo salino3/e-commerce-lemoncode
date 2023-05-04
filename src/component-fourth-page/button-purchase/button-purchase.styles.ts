@@ -8,7 +8,6 @@ export const container = css`
   gap: 10px;
   margin: auto;
 
-
   div {
     display: flex;
     flex-direction: row;
@@ -39,18 +38,5 @@ export const container = css`
     }
   }
 
-  @media (min-width: 1300px) {
-    padding: 0rem 20rem;
-
-  }
 `;
 
-export const btn = css`
-  font-weight: 500;
-
-  color: #ffffff;
-  background: #000000;
-  border-radius: 48px;
-  width: 100%;
-  margin: 2rem auto 3rem;
-`;
