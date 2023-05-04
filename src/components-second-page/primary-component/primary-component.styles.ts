@@ -42,9 +42,6 @@ export const aside = css`
   left: 0;
   z-index: 10;
   width: 23%;
-/*  */
-
-
 
   padding: 2.15rem 1rem;
 
@@ -66,6 +63,10 @@ export const aside = css`
     font-size: 24px;
     line-height: 120%;
     color: #212429;
+  }
+
+  img {
+    width: 15px;
   }
 
   @media (min-width: 1024px) {

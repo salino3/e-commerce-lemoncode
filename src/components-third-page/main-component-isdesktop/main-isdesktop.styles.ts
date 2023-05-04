@@ -33,7 +33,9 @@ export const aside = css`
     color: #212429; // ?
   }
 
-
+  img {
+    width: 15px;
+  }
 `;
 
 export const boxPrimaryImages = css`
@@ -169,6 +171,10 @@ export const lightButton = css`
 
   border: 1px solid #212429;
   border-radius: 48px;
+
+  img {
+    width: 10px;
+  }
 `;
 
 export const darkButton = css`
@@ -182,4 +188,8 @@ export const darkButton = css`
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+
+  img {
+    max-width: 19px;
+  }
 `;

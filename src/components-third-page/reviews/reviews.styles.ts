@@ -3,6 +3,15 @@ import { css } from "@emotion/css";
 export const container = css`
   margin: 2rem auto 0rem;
 
+  img {
+    max-width: 104px;
+  }
+
+  @media (min-width: 725px) {
+    img {
+      max-width: 200px;
+    }
+  }
 `;
 
 export const title = css`
@@ -77,6 +86,15 @@ export const starsView = css`
   gap: 15px;
   align-items: center;
 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212429;
+`;
+
+export const description = css`
+  margin: 0.5rem 0rem;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

@@ -25,12 +25,12 @@ export const MainComponentIsmobile: React.FC = () => {
           </div>
         </div>
         <div className={classes.boxPrimaryImages}>
-          <img className={classes.primaryImg} src="/assets/primaryImage.png" alt="image" />
+          <img className={classes.primaryImg} src="/assets/product-image1.png" alt="image" />
           <br />
           <div className={classes.smallImages}>
-            <img src="/assets/small-image-second-page1.png" alt="image" />
-            <img src="/assets/small-image-second-page2.png" alt="image" />
-            <img src="/assets/small-image-second-page3.png" alt="image" />
+            <img src="/assets/product-image2.png" alt="image" />
+            <img src="/assets/product-image3.png" alt="image" />
+            <img src="/assets/product-image4.png" alt="image" />
           </div>
           <div className={classes.buttons}>
             <div className={classes.btn}>
@@ -58,7 +58,7 @@ export const MainComponentIsmobile: React.FC = () => {
               </svg>
             </div>
           </div>
-          <div  className={classes.stylesBtn}>
+          <div className={classes.stylesBtn}>
             <Button className={classes.lightButton} route="/cart">
               <img src={`/assets/icon-minus.png`} alt="icon" />
               1
