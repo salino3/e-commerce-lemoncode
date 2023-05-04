@@ -66,6 +66,14 @@ export const boxClose = css`
   }
 `;
 
+export const Icons = css`
+
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+
+`
+
 export const boxStars = css`
   display: flex;
   flex-direction: row;

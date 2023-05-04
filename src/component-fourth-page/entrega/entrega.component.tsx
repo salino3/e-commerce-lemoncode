@@ -24,7 +24,8 @@ export const EntregaComponent: React.FC = () => {
         <div>Introduzca su dirección en el mapa o introduzca datos.</div>
       </div>
       <div className={classes.mapIcon}>
-        <img src="/assets/fi_map-pin.png" alt="icon" /> Localice
+        <img src="/assets/fi_map-pin.png" alt="icon" />
+        &nbsp; <span>Localizar envío</span>
       </div>
       <div className={classes.boxInput}>
         <InputCart pl="Ciudad o población" />

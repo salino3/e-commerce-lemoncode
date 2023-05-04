@@ -19,8 +19,8 @@ export const PopUpComponent: React.FC<Props> = (props) => {
           <div className={classes.boxClose}>
             <button onClick={onClick}>X</button>
             <p>2 comentarios</p>
-            <div>
-              <img src="/assets/shape-hearth.png" alt="heart" /> &nbsp;
+            <div className={classes.Icons}>
+              <img src="/assets/shape-hearth.png" alt="heart" />
               <img src="/assets/shareIcon.png" alt="share" />
             </div>
           </div>
