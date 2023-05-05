@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
-import { BoxShapes } from '../../components/box-shapes';
+import { BoxShapes } from '../../pods/home/components/box-shapes';
 import { FooterDesktop } from '@/commons';
 import * as classes from './footer.styles';
 
