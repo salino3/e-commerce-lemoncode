@@ -24,12 +24,8 @@ export const content = css`
 
 export const btnPurchase = css`
 
-  /* @media (min-width: 1300px) {
-    padding: 0rem 20rem;
-  } */
-
   @media (min-width: 1024px) {
-    //?
+
     display: none;
   }
 `;

@@ -4,9 +4,10 @@ import {css} from '@emotion/css';
 export const container = css`
   display: flex;
   flex-direction: column;
-  padding: 0rem 1rem;
+  padding: 1rem 1rem;
   gap: 10px;
   margin: auto;
+  background: #f7f7f7;
 
   div {
     display: flex;
@@ -37,6 +38,5 @@ export const container = css`
       padding: 0rem 5rem;
     }
   }
-
 `;
 
