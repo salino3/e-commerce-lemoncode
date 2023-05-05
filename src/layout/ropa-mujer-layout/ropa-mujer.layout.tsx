@@ -8,9 +8,6 @@ export const RopaMujerLayout: React.FC = () => {
     <div className={classes.root}>
       <Header />
       <RopaMujerComponent />
-      <Button route={'/product'} className={classes.buttonSecondPageLayout}>
-        Los 12 productos siguientes
-      </Button>
       <hr />
       <Boletin />
       <Footer />
