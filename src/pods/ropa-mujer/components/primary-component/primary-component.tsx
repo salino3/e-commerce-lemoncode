@@ -1,5 +1,5 @@
 import React from 'react';
-import {useMediaQuery} from 'react-responsive';
+import { useMediaQuery } from 'react-responsive';
 import { ImagesRopaMujeres } from '../images-ropa-mujeres';
 import { ListComponent } from '../list/list-component';
 import * as classes from './primary-component.styles';
@@ -11,10 +11,10 @@ export interface PropsImg {
   img4: boolean;
   img5: boolean;
   [index: string]: boolean;
-};
+}
 
 export const PrimaryComponent: React.FC = () => {
-  const isMobile: boolean = useMediaQuery({ maxWidth: "725px" });
+  const isMobile: boolean = useMediaQuery({ maxWidth: '725px' });
 
   const [toggleIcon, setToggleIcon] = React.useState<PropsImg>({
     img1: true,
@@ -25,12 +25,11 @@ export const PrimaryComponent: React.FC = () => {
   });
 
   function handleClick(index: string) {
-    setToggleIcon((prevState) => ({
+    setToggleIcon(prevState => ({
       ...prevState,
       [index]: !prevState[index],
     }));
-  };
-
+  }
 
   return (
     <div className={classes.container}>
@@ -47,20 +46,20 @@ export const PrimaryComponent: React.FC = () => {
         </div>
       ) : (
         <div className={classes.boxIsDesktop}>
-          <div >
+          <div>
             <aside className={classes.aside}>
-              <ListComponent h2={'Mujeres'} toggleIcon={toggleIcon.img1} onClick={() => handleClick("img1")} />
-              <ListComponent h2={'Hombres'} toggleIcon={toggleIcon.img2} onClick={() => handleClick("img2")} />
-              <ListComponent h2={'Accesorios'} toggleIcon={toggleIcon.img3} onClick={() => handleClick("img3")} />
-              <ListComponent h2={'Colecciones'} toggleIcon={toggleIcon.img4} onClick={() => handleClick("img4")} />
-              <ListComponent h2={'Acciones'} toggleIcon={toggleIcon.img5} onClick={() => handleClick("img5")} />
+              <ListComponent h2={'Mujeres'} toggleIcon={toggleIcon.img1} onClick={() => handleClick('img1')} />
+              <ListComponent h2={'Hombres'} toggleIcon={toggleIcon.img2} onClick={() => handleClick('img2')} />
+              <ListComponent h2={'Accesorios'} toggleIcon={toggleIcon.img3} onClick={() => handleClick('img3')} />
+              <ListComponent h2={'Colecciones'} toggleIcon={toggleIcon.img4} onClick={() => handleClick('img4')} />
+              <ListComponent h2={'Acciones'} toggleIcon={toggleIcon.img5} onClick={() => handleClick('img5')} />
             </aside>
           </div>
           <div>
-          <ImagesRopaMujeres />
+            <ImagesRopaMujeres />
           </div>
         </div>
       )}
     </div>
   );
-}
+};

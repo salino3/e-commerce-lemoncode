@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Header } from '@/components';
+import { Footer, Header } from '@/commons';
 import { CheckoutComponent } from '@/pods';
 import * as classes from './checkout.styles';
 

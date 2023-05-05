@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/commons';
-import { ActualBox, Description, ExitoVentas, FirstBigImage, ImageDown, NuevasColecciones, NuevosProductos } from '@/components';
 import * as classes from './home.styles';
+import { ActualBox, Description, ExitoVentas, FirstBigImage, ImageDown, NuevasColecciones, NuevosProductos } from './components';
 
 export const HomeComponent: React.FC = () => {
 
@@ -23,7 +23,7 @@ export const HomeComponent: React.FC = () => {
       <NuevosProductos />
       <FirstBigImage />
       <ImageDown />
-    
+
     </div>
   );
 }

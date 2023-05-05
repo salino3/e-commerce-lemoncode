@@ -6,15 +6,14 @@ import { PopUpComponent } from '@/components-third-page';
 import * as classes from './grid-images.styles';
 
 export const GridImages: React.FC = () => {
-
   const isMobile: boolean = useMediaQuery({ maxWidth: '1066px' });
 
   const [showPopup, setShowPopup] = React.useState(false);
 
   const handleClick = () => {
-    if(!isMobile) {
+    if (!isMobile) {
       setShowPopup(true);
-    };
+    }
   };
 
   const handleHidePopup = () => {
