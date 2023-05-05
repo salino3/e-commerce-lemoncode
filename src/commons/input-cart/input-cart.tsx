@@ -10,12 +10,10 @@ export const InputCart: React.FC<Props> = (props) => {
  const {type = "text", pl, className} = props;
 
   return (
-
      <input
       type={type}
       required
       placeholder={pl}
       className={className} />
-      
   )
 }

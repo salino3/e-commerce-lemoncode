@@ -47,7 +47,7 @@ export const ul = css`
 
 export const boxIcons = css`
   display: flex;
-  gap: 10px;
+  gap: 20px;
   padding: 0rem 1rem;
   margin-right: 3rem;
 `;
