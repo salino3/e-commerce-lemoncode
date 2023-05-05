@@ -1,8 +1,7 @@
 import React from 'react';
-import { Footer, Header } from '@/components';
+import { Button, Footer, Header } from '@/commons';
 import { ButtonPurchase, EntregaComponent, PrimaryComponentCart } from '@/component-fourth-page';
 import * as classes from './cart.styles';
-import { Button } from '@/commons';
 
 
 export const CartLayout: React.FC = () => {

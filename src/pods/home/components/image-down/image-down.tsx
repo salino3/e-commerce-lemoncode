@@ -4,7 +4,6 @@ import * as classes from './image-down.styles';
 export const ImageDown: React.FC = () => {
   return (
     <div className={classes.container}>
-      {/* <img src="/assets/arrobaOmix.png" alt="icon" /> */}
       <div>@Onix</div>
       <div className={classes.content}>
         <img src="/assets/omix1.png" alt="image" />

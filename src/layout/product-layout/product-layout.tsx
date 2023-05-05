@@ -1,12 +1,11 @@
 import React from 'react';
-import { Footer, Header } from '@/components';
 import { MainComponent, SecundaryComponent } from '@/components-third-page';
-import { Boletin, Button } from '@/commons';
+import { Boletin, Button, Footer, Header } from '@/commons';
 import * as classes from './product-layout.styles';
 
 
 export const ProductLayout: React.FC = () => {
-  
+
   return (
     <div className={classes.container}>
       <Header />

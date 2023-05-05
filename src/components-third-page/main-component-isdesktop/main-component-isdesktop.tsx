@@ -1,6 +1,6 @@
 import React from 'react';
-import { ListComponent } from '@/components-second-page';
 import { Button } from '@/commons';
+import { ListComponent } from '@/pods/ropa-mujer/components';
 import * as classes from './main-isdesktop.styles';
 
 
