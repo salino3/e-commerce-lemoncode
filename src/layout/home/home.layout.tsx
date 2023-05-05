@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Boletin, Footer, Header } from "@/commons";
 import { HomeComponent } from "@/pods";
 import * as classes from "./home.styles";
