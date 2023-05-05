@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
-import { BoxShapes } from '../box-shapes';
+import { BoxShapes } from '../../components/box-shapes';
 import { FooterDesktop } from '@/commons';
 import * as classes from './footer.styles';
 
 export const Footer: React.FC = () => {
-
-
-  const isMobile: boolean = useMediaQuery({maxWidth: '725px'});
+  const isMobile: boolean = useMediaQuery({ maxWidth: '725px' });
 
   return (
     <footer className={classes.footer}>
@@ -83,4 +81,4 @@ export const Footer: React.FC = () => {
       </div>
     </footer>
   );
-}
+};
