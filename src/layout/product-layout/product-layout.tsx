@@ -1,6 +1,6 @@
 import React from 'react';
-import { MainComponent, SecundaryComponent } from '@/components-third-page';
-import { Boletin, Button, Footer, Header } from '@/commons';
+import { Boletin, Footer, Header } from '@/commons';
+import { ProductComponent } from '@/pods/product';
 import * as classes from './product-layout.styles';
 
 
@@ -9,11 +9,7 @@ export const ProductLayout: React.FC = () => {
   return (
     <div className={classes.container}>
       <Header />
-      <MainComponent />
-      <SecundaryComponent />
-      <Button className={classes.buttonThirdPageLayout}>
-        Los 12 productos siguientes
-      </Button>
+      <ProductComponent />
       <hr />
       <Boletin />
       <Footer />

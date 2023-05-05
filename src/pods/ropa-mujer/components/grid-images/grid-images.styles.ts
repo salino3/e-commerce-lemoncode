@@ -2,10 +2,12 @@ import {css} from '@emotion/css';
 
 export const root = css`
 
-  @media (min-width: 1024px) { //?
+padding: 0rem 1rem;
+
+  @media (min-width: 1024px) {
+    //?
     display: grid;
     grid-template-columns: 25% 75%;
-
     #div {
       position: sticky;
       top: 0;
@@ -25,7 +27,6 @@ export const container = css`
   }
 
   @media (min-width: 725px) {
-    /* justify-content: space-around; */
     gap: 40px;
   }
 
@@ -36,10 +37,7 @@ export const container = css`
   }
 
   img {
-    /* width: 42vw; */
-    /* @media (min-width: 1024px) {
-      width: 100%;
-    } */
+
     width: 100%;
   }
 `;
@@ -70,4 +68,18 @@ export const boxDescription = css`
 export const popup = css`
 
 display: none;
+`;
+
+
+export const buttonSecondPageLayout = css`
+  margin: 2rem auto 1rem;
+  border: solid 1px;
+  width: 100%;
+
+
+  &:hover {
+    background-color: #212429;
+    color: #ffffff;
+    border: 0;
+  }
 `;

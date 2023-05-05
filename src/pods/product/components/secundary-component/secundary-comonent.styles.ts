@@ -59,3 +59,15 @@ export const descripcions = css`
     line-height: 150%;
   }
 `;
+
+export const buttonThirdPageLayout = css`
+  margin: 2rem auto 1rem;
+  border: solid 1px;
+  width: 100%;
+
+  &:hover {
+    background-color: #212429;
+    color: #ffffff;
+    border: 0;
+  }
+`;

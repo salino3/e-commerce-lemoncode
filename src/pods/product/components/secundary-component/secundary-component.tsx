@@ -1,12 +1,13 @@
-import React from "react";
-import { useMediaQuery } from "react-responsive";
-import { ReviewComponent } from "../reviews";
-import { BoxImages, BoxLastsPhotos } from "..";
-import * as classes from "./secundary-comonent.styles";
+import React from 'react';
+import { useMediaQuery } from 'react-responsive';
+import { ReviewComponent } from '../reviews';
+import * as classes from './secundary-comonent.styles';
+import { BoxImages } from '../box-images-3page';
+import { BoxLastsPhotos } from '../box-last-photos';
+import { Button } from '@/commons';
 
 export const SecundaryComponent: React.FC = () => {
-
-  const isMobile: boolean = useMediaQuery({ maxWidth: "1024px" });
+  const isMobile: boolean = useMediaQuery({ maxWidth: '1024px' });
 
   return (
     <div className={classes.container}>
@@ -40,6 +41,7 @@ export const SecundaryComponent: React.FC = () => {
           <ReviewComponent />
           <BoxImages />
           <BoxLastsPhotos />
+          <Button className={classes.buttonThirdPageLayout}>Los 12 productos siguientes</Button>
         </>
       ) : (
         <>
@@ -64,11 +66,12 @@ export const SecundaryComponent: React.FC = () => {
               <div>Características</div>
               <p>País de producción: China</p>
             </div>
-            </div>
+          </div>
           <hr />
           <ReviewComponent />
           <BoxImages />
           <BoxLastsPhotos />
+          <Button className={classes.buttonThirdPageLayout}>Los 12 productos siguientes</Button>
         </>
       )}
     </div>

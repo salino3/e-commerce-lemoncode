@@ -33,8 +33,6 @@ export const boxIsDesktop = css`
 
 `;
 
-
-
 export const aside = css`
   position: absolute;
   display: none;
