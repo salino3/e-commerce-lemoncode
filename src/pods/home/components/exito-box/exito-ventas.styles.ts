@@ -52,13 +52,14 @@ export const content = css`
 `;
 
 export const hearthIcon = css`
-
   position: relative;
   left: 4rem;
   top: 2rem;
 
-
-  @media (min-width: 1024px) {
+  @media (min-width: 1000px) {
+    left: 7rem;
+  }
+  @media (min-width: 1300px) {
     left: 9rem;
   }
 `;

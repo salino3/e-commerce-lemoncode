@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/commons';
-import * as classes from './home.styles';
 import { ActualBox, Description, ExitoVentas, FirstBigImage, ImageDown, NuevasColecciones, NuevosProductos } from './components';
+import * as classes from './home.styles';
 
 export const HomeComponent: React.FC = () => {
 

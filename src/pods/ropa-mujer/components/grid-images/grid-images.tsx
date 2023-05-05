@@ -2,9 +2,9 @@ import React from 'react';
 import { cx } from '@emotion/css';
 import { useMediaQuery } from 'react-responsive';
 import { CardList } from '../card-list';
-import { PopUpComponent } from '@/components-third-page';
-import * as classes from './grid-images.styles';
 import { Button } from '@/commons';
+import * as classes from './grid-images.styles';
+import { PopUpComponent } from '@/pods/product/components';
 
 export const GridImages: React.FC = () => {
   const isMobile: boolean = useMediaQuery({ maxWidth: '1066px' });
