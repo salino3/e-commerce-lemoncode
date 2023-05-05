@@ -66,6 +66,7 @@ export const card1 = css`
   right: 1rem;
   z-index: 4;
 `;
+
 export const card2 = css`
   position: relative;
   left: 1rem;
@@ -75,13 +76,11 @@ export const card2 = css`
 
 export const boxForm = css`
 
-
- display: absolute;
- border: solid;
- top: 10rem;
-
-
-`
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ margin: 0rem 2rem;
+`;
 
 export const subTitle = css`
 
@@ -93,4 +92,164 @@ export const subTitle = css`
   color: #000000;
 `;
 
+export const form = css`
+  input {
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 48px;
+    border: 2px solid #dbe5f1;
 
+    & :focus {
+      border: 2px solid #212429;
+    }
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const boxInputs = css`
+  display: grid;
+  grid-template-areas:
+    'input1 input1 input1 input1'
+    'input2 input2 input2 input2'
+    'input3 input4 input5 input5';
+
+  box-sizing: content-box;
+  max-width: 312px;
+  width: 100%;
+  grid-row-gap: 10px;
+`;
+
+
+export const boxInput1 = css`
+
+ grid-area: input1;
+ display: flex;
+ align-items: center;
+
+  & :last-child {
+    position: relative;
+    right: 2rem;
+    width: 24px;
+    height: 24px;
+  }
+`;
+
+
+export const input1 = css`
+
+  padding-left: 0.3rem;
+
+  width: 312px;
+  height: 48px;
+`;
+
+
+export const boxInput2 = css`
+  grid-area: input2;
+
+  `;
+
+export const input2 = css`
+  padding-left: 0.3rem;
+  width: 312px;
+  height: 48px;
+
+`;
+
+
+export const boxInput3 = css`
+
+  grid-area: input3;
+
+  display: flex;
+  align-items: center;
+
+  & :last-child {
+    position: relative;
+    right: 1.5rem;
+  }
+`;
+
+export const input3 = css`
+  width: 72px;
+  height: 48px;
+  padding: 0.5rem;
+`;
+
+
+export const boxInput4 = css`
+
+  grid-area: input4;
+  display: flex;
+  align-items: center;
+
+  & :last-child {
+    position: relative;
+    right: 1.5rem;
+  }
+`;
+
+export const input4 = css`
+  width: 72px;
+  height: 48px;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 48px;
+`;
+
+
+export const boxInput5 = css`
+
+  grid-area: input5;
+
+  display: flex;
+  align-items: center;
+
+  & :last-child {
+    position: relative;
+    right: 2rem;
+    width: 20px;
+    height: 20px;
+  }
+`;
+
+export const input5 = css`
+  width: 140px;
+  height: 48px;
+
+  padding: 0.5rem;
+
+  border: 2px solid #dbe5f1;
+`;
+
+export const text = css`
+
+ margin: 1rem;
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: space-between;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-variant: small-caps;
+  color: #000000;
+`;
+
+export const button = css`
+
+  margin-top: 2rem;
+  width: 312px;
+  height: 48px;
+  background: #000000;
+  border-radius: 48px;
+  color: #ffffff;
+  cursor: pointer;
+
+`;
