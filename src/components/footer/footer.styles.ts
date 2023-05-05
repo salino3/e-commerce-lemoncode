@@ -86,7 +86,6 @@ export const boxShapes = css`
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
-    max-width: 50%;
 
   }
 `;
