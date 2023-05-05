@@ -6,6 +6,7 @@ export const container = css`
   flex-direction: column;
   justify-content: center;
 
+
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
