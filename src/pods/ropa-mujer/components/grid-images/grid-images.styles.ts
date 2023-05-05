@@ -5,7 +5,6 @@ export const root = css`
 padding: 0rem 1rem;
 
   @media (min-width: 1024px) {
-    //?
     display: grid;
     grid-template-columns: 25% 75%;
     #div {
@@ -13,6 +12,25 @@ padding: 0rem 1rem;
       top: 0;
     }
   }
+`;
+
+export const iconProducts = css`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
 `;
 
 export const container = css`

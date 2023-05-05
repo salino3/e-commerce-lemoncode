@@ -4,13 +4,17 @@ export interface SwitchRoutes {
   product: string;
   cart: string;
   checkout: string;
+  payment: string;
+  pagenotfound: string;
 }
 
 export const switchRoutes: SwitchRoutes = {
   root: "/",
-  woman: "/woman",
+  woman: "/mujer",
   product: "product",
   cart: "/cart",
-  checkout: '/checkout'
+  checkout: '/checkout',
+  payment: '/payment',
+  pagenotfound: '/page-not-found'
 };
 

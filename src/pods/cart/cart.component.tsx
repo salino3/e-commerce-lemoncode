@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button, ButtonPurchase } from '@/commons';
-import { EntregaComponent, PrimaryComponentCart } from './components';
 import * as classes from './cart.styles';
+import { PrimaryComponentCart } from './components/primary-component-cart';
+import { EntregaComponent } from './components/entrega';
 
 export const CartComponent: React.FC = () => {
   return (

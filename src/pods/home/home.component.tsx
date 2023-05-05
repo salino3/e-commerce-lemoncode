@@ -13,11 +13,11 @@ export const HomeComponent: React.FC = () => {
       </div>
       <ActualBox />
       <ExitoVentas />
-      <Button route={'/woman'} className={classes.buttonHomeLayout}>
+      <Button route={'/mujer'} className={classes.buttonHomeLayout}>
         Todos los éxitos
       </Button>
       <NuevasColecciones />
-      <Button route={'/woman'} className={classes.buttonHomeLayout}>
+      <Button route={'/mujer'} className={classes.buttonHomeLayout}>
         Todas las colecciones
       </Button>
       <NuevosProductos />
