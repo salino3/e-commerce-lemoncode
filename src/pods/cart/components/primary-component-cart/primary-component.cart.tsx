@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import { Button } from '@/commons';
-import { CartImages } from "../cart-images";
-import * as classes from "./primary-cart.styles";
+import { CartImages } from '../cart-images';
+import * as classes from './primary-cart.styles';
 
 export const PrimaryComponentCart: React.FC = () => {
   return (

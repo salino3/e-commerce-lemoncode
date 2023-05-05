@@ -5,4 +5,5 @@ export * from './footer-desktop/';
 export * from './input-cart';
 export * from './footer';
 export * from './header';
+export * from './button-purchase';
 
