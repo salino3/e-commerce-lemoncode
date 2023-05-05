@@ -30,7 +30,7 @@ export const EntregaComponent: React.FC = () => {
       <div className={classes.boxInput}>
         <InputCart pl="Ciudad o población" />
         <InputCart pl="Calle" />
-        <InputCart pl="Número" />
+        <InputCart type='number' pl="Número" />
         <InputCart pl="Piso" />
       </div>
     </div>

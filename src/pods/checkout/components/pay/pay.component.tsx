@@ -1,5 +1,6 @@
 import React from 'react';
 import { cx } from '@emotion/css';
+import { Button } from '@/commons';
 import * as classes from './pay.styles';
 
 interface Props {
@@ -11,22 +12,23 @@ export const PayComponent: React.FC<Props> = (props) => {
 
   return (
     <div className={cx(classes.container, className)}>
-      <div>
-        Importe total del pedido: <span>169.98 €</span>
+      <div className={classes.div}>
+        Importe total del pedido
       </div>
-      <div>
+      <div className={classes.div}>
         Coste de los bienes: <span>159.98 €</span>
       </div>
-      <div>
+      <div className={classes.div}>
         Entrega: <span>10 €</span>
       </div>
-      <div>
+      <div className={classes.div}>
         Importe del descuento: <span>0 €</span>
       </div>
       <hr />
-      <div >
+      <div className={classes.lastDiv}>
         Importe total: <span>169,98 €</span>
       </div>
+      <Button className={classes.btn}>Pagar</Button>
     </div>
   );
 }

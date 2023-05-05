@@ -1,11 +1,11 @@
 import {css} from '@emotion/css';
 
 
-
 export const grid = css`
   @media (min-width: 1024px) {
     display: grid;
     grid-template-columns: auto auto;
+
   }
 `;
 
@@ -15,8 +15,11 @@ export const container = css`
   flex-direction: column;
   gap: 10px;
 
-  img {
+  #img {
     width: 16px;
+    @media (min-width: 1024px) {
+    display: none;
+    }
   }
 
   h1 {
@@ -65,6 +68,8 @@ export const boxInputs = css`
   }
 
   @media (min-width: 1024px) {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
     justify-content: unset;
   }
 `;
@@ -108,34 +113,5 @@ export const buttons = css`
       width: 176px;
     }
   }
-`;
-
-export const btnPurchase = css`
-  @media (min-width: 1024px) {
-    /* display: none; */
-  }
-`;
-
-export const item = css`
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  font-variant: small-caps;
-  color: #212429;
-
-  @media (max-width: 1024px) {
-    opacity: 0;
-  }
-`;
-
-export const btn = css`
-  font-weight: 500;
-
-  color: #ffffff;
-  background: #000000;
-  border-radius: 48px;
-  width: 100%;
-  margin: 1rem auto 3rem;
 `;
 

@@ -1,2 +1,2 @@
-export * from './chackout.component';
+export * from './checkout.component';
 
