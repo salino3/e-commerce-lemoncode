@@ -4,7 +4,17 @@ import {css} from '@emotion/css';
 export const container = css`
   padding: 1rem;
   margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+ @media (min-width: 725px) {
+ display: grid;
+ grid-template-columns: 50% 50%;
+ padding: 0rem 3rem;
+ gap: 30px;
+ }
 `;
 
 export const boxText = css`
@@ -59,6 +69,10 @@ export const boxImgs = css`
 
   img {
     width: 85%;
+
+    @media (min-width: 1024px) {
+  width: 506px;
+    }
   }
 `;
 export const card1 = css`
@@ -75,11 +89,16 @@ export const card2 = css`
 `;
 
 export const boxForm = css`
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto 2rem;
 
- display: flex;
- flex-direction: column;
- gap: 30px;
- margin: 0rem 2rem;
+
+  @media (min-width: 725px) {
+    max-width: 384px;
+  }
 `;
 
 export const subTitle = css`
@@ -243,13 +262,14 @@ export const text = css`
 `;
 
 export const button = css`
-
   margin-top: 2rem;
-  width: 312px;
+  width: 100%;
   height: 48px;
   background: #000000;
   border-radius: 48px;
   color: #ffffff;
   cursor: pointer;
-
 `;
+
+
+
