@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "vite --port 8080 --open",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/css": "^11.10.6",

@@ -28,7 +28,7 @@ export const PayComponent: React.FC<Props> = (props) => {
       <div className={classes.lastDiv}>
         Importe total: <span>169,98 €</span>
       </div>
-      <Button className={classes.btn}>Pagar</Button>
+      <Button route='/payment' className={classes.btn}>Pagar</Button>
     </div>
   );
 }

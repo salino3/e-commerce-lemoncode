@@ -18,9 +18,27 @@ export const boxIcons = css`
   div {
     display: flex;
     gap: 1rem;
-
   }
+`;
 
+export const boxArrow = css`
+
+ display: flex;
+ align-items: center;
+  img {
+    width: 16px;
+    height: 14px;
+  }
+`;
+
+export const settingsIcon = css`
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 16px;
+    height: 18px;
+  }
 `;
 
 export const boxIsDesktop = css`
@@ -73,6 +91,14 @@ export const aside = css`
 `;
 
 
+export const texto = css`
 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(33, 36, 41, 0.64);
+  margin-left: 1rem;
+`;
 
 

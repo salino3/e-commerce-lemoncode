@@ -36,11 +36,13 @@ export const PrimaryComponent: React.FC = () => {
       {isMobile ? (
         <div>
           <div className={classes.boxIcons}>
-            <div>
-              <img src="/assets/shape-aside-2.png" alt="arrow" />
+            <div className={classes.boxArrow}>
+              <img src="/assets/shape-arrow-left.png" alt="arrow" />
               Ropa de mujer
             </div>
-            <img src="/assets/shape-aside-1.png" alt="options" />
+            <div className={classes.settingsIcon}>
+              <img src="/assets/shape-aside-1.png" alt="settings" />
+            </div>
           </div>
           <ImagesRopaMujeres />
         </div>
@@ -56,6 +58,7 @@ export const PrimaryComponent: React.FC = () => {
             </aside>
           </div>
           <div>
+            <div className={classes.texto}>Inicio/Mujer</div>
             <ImagesRopaMujeres />
           </div>
         </div>

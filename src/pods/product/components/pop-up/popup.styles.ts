@@ -25,16 +25,17 @@ export const modal = css`
 
 export const content = css`
   position: fixed;
-  top: 12%;
+  top: 8%;
   left: 25%;
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
-  height: 80%;
+  height: 85%;
   width: 55%;
 
   background-color: whitesmoke;
   padding: 0.2rem;
+  padding-top: 2rem;
   box-sizing: border-box;
   border-radius: 10px;
 
