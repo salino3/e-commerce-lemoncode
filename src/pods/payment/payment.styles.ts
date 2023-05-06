@@ -98,6 +98,7 @@ export const boxForm = css`
 
   @media (min-width: 725px) {
     max-width: 384px;
+    background-color: aqua;
   }
 `;
 
@@ -139,6 +140,8 @@ export const boxInputs = css`
   box-sizing: content-box;
   max-width: 312px;
   width: 100%;
+  border: solid blue;
+
   grid-row-gap: 10px;
 `;
 
@@ -161,7 +164,6 @@ export const boxInput1 = css`
 export const input1 = css`
 
   padding-left: 0.3rem;
-
   width: 312px;
   height: 48px;
 `;
@@ -175,6 +177,7 @@ export const boxInput2 = css`
 export const input2 = css`
   padding-left: 0.3rem;
   width: 312px;
+  /* width: 100%; */
   height: 48px;
 
 `;
@@ -183,7 +186,6 @@ export const input2 = css`
 export const boxInput3 = css`
 
   grid-area: input3;
-
   display: flex;
   align-items: center;
 
@@ -224,7 +226,6 @@ export const input4 = css`
 export const boxInput5 = css`
 
   grid-area: input5;
-
   display: flex;
   align-items: center;
 
@@ -239,9 +240,7 @@ export const boxInput5 = css`
 export const input5 = css`
   width: 140px;
   height: 48px;
-
   padding: 0.5rem;
-
   border: 2px solid #dbe5f1;
 `;
 

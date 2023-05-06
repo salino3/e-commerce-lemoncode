@@ -22,7 +22,7 @@ export const Boletin: React.FC = () => {
   return (
     <div className={classes.container}>
       <div>
-      
+
         <h3 className={classes.h3}>Suscríbase al boletín de noticias</h3>
         <p className={classes.p}>
           ¿y obtenga un 10% de descuento en su primera compra!
@@ -39,9 +39,10 @@ export const Boletin: React.FC = () => {
           placeholder="Introduzca su dirección Email"
         />
         <Button type="submit" className={classes.button}>
-          Suscribase
+          Suscríbase
         </Button>
       </form>
     </div>
   );
 }
+
