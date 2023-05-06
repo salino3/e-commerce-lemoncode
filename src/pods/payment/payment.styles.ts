@@ -13,7 +13,7 @@ export const container = css`
  display: grid;
  grid-template-columns: 50% 50%;
  padding: 0rem 3rem;
- gap: 30px;
+ /* gap: 30px; */
  }
 `;
 
@@ -89,16 +89,19 @@ export const card2 = css`
 `;
 
 export const boxForm = css`
-  border: solid;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5px;
   margin: auto 2rem;
-
+  width: 100%;
 
   @media (min-width: 725px) {
-    max-width: 384px;
-    background-color: aqua;
+    gap: 30px;
+  }
+  @media (min-width: 1024px) {
+    gap: 30px;
   }
 `;
 
@@ -113,6 +116,13 @@ export const subTitle = css`
 `;
 
 export const form = css`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 312px;
+
   input {
     box-sizing: border-box;
     background: #ffffff;
@@ -124,10 +134,9 @@ export const form = css`
     }
   }
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @media (min-width: 1024px) {
+    max-width: 384px;
+  }
 `;
 
 export const boxInputs = css`
@@ -138,9 +147,7 @@ export const boxInputs = css`
     'input3 input4 input5 input5';
 
   box-sizing: content-box;
-  max-width: 312px;
   width: 100%;
-  border: solid blue;
 
   grid-row-gap: 10px;
 `;
@@ -151,6 +158,8 @@ export const boxInput1 = css`
  grid-area: input1;
  display: flex;
  align-items: center;
+ justify-content: center;
+ width: 100%;
 
   & :last-child {
     position: relative;
@@ -162,24 +171,29 @@ export const boxInput1 = css`
 
 
 export const input1 = css`
-
   padding-left: 0.3rem;
   width: 312px;
   height: 48px;
+
+  @media (min-width: 1024px) {
+    width: 384px;
+  }
 `;
 
 
 export const boxInput2 = css`
   grid-area: input2;
-
+  width: 100%;
   `;
 
 export const input2 = css`
   padding-left: 0.3rem;
   width: 312px;
-  /* width: 100%; */
   height: 48px;
 
+  @media (min-width: 1024px) {
+    width: 384px;
+  }
 `;
 
 
@@ -188,6 +202,7 @@ export const boxInput3 = css`
   grid-area: input3;
   display: flex;
   align-items: center;
+  width: 100%;
 
   & :last-child {
     position: relative;
@@ -199,6 +214,10 @@ export const input3 = css`
   width: 72px;
   height: 48px;
   padding: 0.5rem;
+
+  @media (min-width: 1024px) {
+    width: 112px;
+  }
 `;
 
 
@@ -207,6 +226,7 @@ export const boxInput4 = css`
   grid-area: input4;
   display: flex;
   align-items: center;
+  width: 100%;
 
   & :last-child {
     position: relative;
@@ -220,6 +240,10 @@ export const input4 = css`
   box-sizing: border-box;
   padding: 0.5rem;
   border-radius: 48px;
+
+  @media (min-width: 1024px) {
+    width: 112px;
+  }
 `;
 
 
@@ -228,6 +252,7 @@ export const boxInput5 = css`
   grid-area: input5;
   display: flex;
   align-items: center;
+  width: 100%;
 
   & :last-child {
     position: relative;
@@ -242,6 +267,10 @@ export const input5 = css`
   height: 48px;
   padding: 0.5rem;
   border: 2px solid #dbe5f1;
+
+  @media (min-width: 1024px) {
+    width: 130px;
+  }
 `;
 
 export const text = css`
