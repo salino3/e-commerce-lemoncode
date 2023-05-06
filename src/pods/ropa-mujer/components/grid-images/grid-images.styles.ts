@@ -84,15 +84,15 @@ export const boxDescription = css`
 
 export const popup = css`
 
-display: none;
+ display: none;
 `;
 
 
-export const buttonSecondPageLayout = css`
+export const button = css`
   margin: 2rem auto 1rem;
   border: solid 1px;
   width: 100%;
-
+  cursor: pointer;
 
   &:hover {
     background-color: #212429;

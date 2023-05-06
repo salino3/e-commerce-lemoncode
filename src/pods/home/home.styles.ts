@@ -42,10 +42,11 @@ export const imgPrimary = css`
   }
 `;
 
-export const buttonHomeLayout = css`
+export const buttonHomeComponent = css`
   margin: 2rem auto 1rem;
   border: solid 1px;
   width: 180px;
+  cursor: pointer;
 
   &:hover {
     background-color: #212429;

@@ -47,6 +47,14 @@ export const boxPrimaryImages = css`
   }
 `;
 
+export const txtRoute = css`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(33, 36, 41, 0.64);
+`;
+
 export const boxSecondaryImages = css`
   display: flex;
   flex-direction: column;
@@ -188,6 +196,7 @@ export const darkButton = css`
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+  cursor: pointer;
 
   img {
     max-width: 19px;

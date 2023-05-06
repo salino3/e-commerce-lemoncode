@@ -6,6 +6,7 @@ import * as classes from './primary-cart.styles';
 export const PrimaryComponentCart: React.FC = () => {
   return (
     <div className={classes.container}>
+      <div className={classes.txtRoute}>Inicio / Cesta</div>
       <h2>Cesta</h2>
       <div className={classes.content}>
         <div>

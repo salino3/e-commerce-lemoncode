@@ -8,6 +8,14 @@ export const boxIsMobile = css`
   `;
 
 
+export const txtRoute = css`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(33, 36, 41, 0.64);
+`;
+
 export const title = css`
   display: grid;
   grid-template-rows: 1fr auto;
@@ -42,7 +50,6 @@ export const boxPrimaryImages = css`
 `;
 
 export const primaryImg = css`
-  /* max-width: 90vw; */
   width: 100%;
   margin: auto;
 `;
@@ -136,6 +143,7 @@ export const darkButton = css`
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+  cursor: pointer;
 
   img {
     max-width: 19px;

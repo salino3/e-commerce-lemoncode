@@ -9,6 +9,14 @@ export const grid = css`
   }
 `;
 
+export const txtRoute = css`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(33, 36, 41, 0.64);
+`;
+
 export const container = css`
   padding: 1rem;
   display: flex;

@@ -176,7 +176,7 @@ export const GridImages: React.FC = () => {
             <span>79.99 €</span> <span>2 Colores</span>
           </CardList>
         </div>
-        <Button route={'/product'} className={classes.buttonSecondPageLayout}>
+        <Button route={'/product'} className={classes.button}>
           Los 12 productos siguientes
         </Button>
       </div>

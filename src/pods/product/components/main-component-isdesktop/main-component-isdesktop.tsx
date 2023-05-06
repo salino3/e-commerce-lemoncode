@@ -41,6 +41,9 @@ export const MainComponentIsdesktop: React.FC = () => {
       </aside>
       <div className={classes.boxImages}>
         <div className={classes.boxPrimaryImages}>
+          <div className={classes.txtRoute} >
+            Inicio/Mujer/Ropa de mujer/Vaqueros
+          </div>
           <img src="/assets/primaryImage.png" alt="image" /> <br />
           <div>
             <img src="/assets/small-image-second-page1.png" alt="image" />

@@ -8,6 +8,7 @@ export const MainComponentIsmobile: React.FC = () => {
   return (
     <>
       <div className={classes.boxIsMobile}>
+        <div className={classes.txtRoute}>Inicio/Mujer/Ropa de mujer/Vaqueros</div>
         <div className={classes.title}>
           <h2> Vaqueros largos rectos en blanco</h2>
           <div className={classes.boxImages}>

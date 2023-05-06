@@ -190,6 +190,7 @@ export const darkButton = css`
   height: 48px;
   background: #212429;
   border-radius: 48px;
+  cursor: pointer;
 
   font-style: normal;
   font-weight: 500;
