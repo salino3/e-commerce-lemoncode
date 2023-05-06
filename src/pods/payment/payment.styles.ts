@@ -13,7 +13,6 @@ export const container = css`
  display: grid;
  grid-template-columns: 50% 50%;
  padding: 0rem 3rem;
- /* gap: 30px; */
  }
 `;
 
@@ -21,6 +20,7 @@ export const boxText = css`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 5rem;
 `;
 
 export const txtRoute = css`
@@ -61,39 +61,42 @@ export const description = css`
 `;
 
 export const boxImgs = css`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-
-  img {
-    width: 85%;
-
-    @media (min-width: 1024px) {
-  width: 506px;
-    }
-  }
 `;
 export const card1 = css`
   position: relative;
-  right: 1rem;
+  right: 1.2rem;
   z-index: 4;
+  width: 85%;
+
+  @media (min-width: 1024px) {
+    width: 80%;
+  }
 `;
 
 export const card2 = css`
-  position: relative;
-  left: 1rem;
+  position: absolute;
+  right: 3%;
+  top: 25%;
   z-index: 3;
-  bottom: 9rem;
+  width: 82%;
+
+  @media (min-width: 1024px) {
+   width: 77%
+  }
 `;
+
 
 export const boxForm = css`
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  gap: 5px;
+  gap: 20px;
   margin: auto 2rem;
   width: 100%;
 
