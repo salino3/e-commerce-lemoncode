@@ -40,6 +40,10 @@ export const container = css`
 
   gap: 20px;
 
+  img {
+    width: 100%;
+  }
+
   a {
     text-decoration: none;
   }
@@ -49,14 +53,9 @@ export const container = css`
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(auto-fit, minmax(40px, 360px));
+    grid-template-columns: repeat(auto-fit, minmax(40px, 350px));
     gap: 10px;
     justify-content: center;
-  }
-
-  img {
-
-    width: 100%;
   }
 `;
 
