@@ -28,7 +28,7 @@ export const txtRoute = css`
   font-weight: 400;
   font-size: 12px;
   line-height: 130%;
-  color: #000000;
+  color: rgba(33, 36, 41, 0.64);
 `;
 
 export const title = css`

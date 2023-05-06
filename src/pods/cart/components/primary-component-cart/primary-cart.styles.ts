@@ -13,9 +13,18 @@ export const container = css`
   }
 `;
 
-export const content = css`
-  width: 100%;
+export const txtRoute = css`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(33, 36, 41, 0.64);
+`;
 
+
+export const content = css`
+
+  width: 100%;
 
   @media (min-width: 1024px) {
 

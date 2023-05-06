@@ -15,11 +15,11 @@ export const btnPurchase = css`
 
 export const btn = css`
   font-weight: 500;
-
+  margin: 2rem auto 3rem;
+  width: 100%;
   color: #ffffff;
   background: #000000;
   border-radius: 48px;
-  width: 100%;
-  margin: 2rem auto 3rem;
+  cursor: pointer;
 `;
 

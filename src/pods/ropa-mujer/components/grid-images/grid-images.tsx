@@ -1,9 +1,9 @@
 import React from 'react';
-import { cx } from '@emotion/css';
 import { useMediaQuery } from 'react-responsive';
+import { cx } from '@emotion/css';
+import { Button } from '@/commons';
 import { CardList } from '../card-list';
 import { PopUpComponent } from '@/pods/product/components';
-import { Button } from '@/commons';
 import * as classes from './grid-images.styles';
 
 export const GridImages: React.FC = () => {
@@ -176,7 +176,7 @@ export const GridImages: React.FC = () => {
             <span>79.99 €</span> <span>2 Colores</span>
           </CardList>
         </div>
-        <Button route={'/product'} className={classes.buttonSecondPageLayout}>
+        <Button route={'/product'} className={classes.button}>
           Los 12 productos siguientes
         </Button>
       </div>

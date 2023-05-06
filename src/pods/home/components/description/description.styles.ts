@@ -50,12 +50,12 @@ export const boxButtons = css`
   @media (max-width: 700px) {
     justify-content: center;
     margin: auto;
-
   }
 
   button {
     border: solid 1px;
     margin: auto;
+    cursor: pointer;
 
     &:hover {
       background-color: #f6b750;

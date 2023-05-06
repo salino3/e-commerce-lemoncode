@@ -5,7 +5,6 @@ export interface SwitchRoutes {
   cart: string;
   checkout: string;
   payment: string;
-  pagenotfound: string;
 }
 
 export const switchRoutes: SwitchRoutes = {
@@ -15,6 +14,5 @@ export const switchRoutes: SwitchRoutes = {
   cart: "/cart",
   checkout: '/checkout',
   payment: '/payment',
-  pagenotfound: '/page-not-found'
 };
 

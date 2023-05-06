@@ -1,7 +1,5 @@
 import {css} from '@emotion/css';
 
-
-
 export const isDesktop = css`
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 25%));

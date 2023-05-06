@@ -84,7 +84,6 @@ export const progressBar = css`
 export const progressBarInner = css`
   height: 100%;
   width: 50%;
-  /* background-image: linear-gradient(to right, #212429, #212429); */
   background: #212429;
   border-radius: 18px;
 `;

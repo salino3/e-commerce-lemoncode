@@ -32,9 +32,10 @@ export const PrimaryComponent: React.FC = () => {
   }
 
   return (
-    <div className={classes.container}>
+    <div >
       {isMobile ? (
         <div>
+          <div className={classes.texto}>Inicio/Mujer</div>
           <div className={classes.boxIcons}>
             <div className={classes.boxArrow}>
               <img src="/assets/shape-arrow-left.png" alt="arrow" />

@@ -30,7 +30,7 @@ export const aside = css`
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    color: #212429; // ?
+    color: #212429; 
   }
 
   img {
@@ -45,6 +45,14 @@ export const boxPrimaryImages = css`
     flex-direction: row;
     justify-content: space-between;
   }
+`;
+
+export const txtRoute = css`
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(33, 36, 41, 0.64);
 `;
 
 export const boxSecondaryImages = css`
@@ -188,6 +196,7 @@ export const darkButton = css`
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+  cursor: pointer;
 
   img {
     max-width: 19px;
