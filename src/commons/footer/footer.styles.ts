@@ -1,6 +1,5 @@
 import {css} from '@emotion/css';
 
-
 export const footer = css`
 
   background-color: black;
@@ -60,7 +59,6 @@ export const divImgReturn = css`
   background-color: white;
   width: 38px;
   height: 38px;
-
 
   img {
     width: 40px;

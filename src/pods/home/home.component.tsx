@@ -23,7 +23,6 @@ export const HomeComponent: React.FC = () => {
       <NuevosProductos />
       <FirstBigImage />
       <ImageDown />
-
     </div>
   );
 }

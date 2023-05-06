@@ -1,4 +1,4 @@
-import {css} from '@emotion/css';
+import { css } from '@emotion/css';
 
 export const modal = css`
   animation: fadeIn;
@@ -44,7 +44,6 @@ export const content = css`
   }
 `;
 
-
 export const boxClose = css`
   position: absolute;
   right: 1rem;
@@ -68,12 +67,10 @@ export const boxClose = css`
 `;
 
 export const Icons = css`
-
- display: flex;
- flex-direction: row;
- gap: 10px;
-
-`
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+`;
 
 export const boxStars = css`
   display: flex;
@@ -88,17 +85,13 @@ export const title = css`
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
-
   font-variant: small-caps;
   width: 70%;
-
   color: #212429;
 `;
 
-
 export const price = css`
-
- margin: 1rem 0rem;
+  margin: 1rem 0rem;
 
   font-style: normal;
   font-weight: 700;
@@ -145,7 +138,6 @@ export const size = css`
     align-items: center;
     justify-content: center;
 
-
     div {
       box-sizing: border-box;
       width: 64px;
@@ -153,7 +145,6 @@ export const size = css`
       border: 1px solid #212429;
       border-radius: 81px;
     }
-
   }
 `;
 
@@ -178,11 +169,9 @@ export const lightButton = css`
   border: 1px solid #212429;
   border-radius: 48px;
 
-
-    img {
-      width: 10px;
-    }
-
+  img {
+    width: 10px;
+  }
 `;
 
 export const darkButton = css`
@@ -202,4 +191,3 @@ export const darkButton = css`
     max-width: 19px;
   }
 `;
-

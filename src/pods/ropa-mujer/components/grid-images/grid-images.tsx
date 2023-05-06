@@ -1,9 +1,9 @@
 import React from 'react';
-import { cx } from '@emotion/css';
 import { useMediaQuery } from 'react-responsive';
+import { cx } from '@emotion/css';
+import { Button } from '@/commons';
 import { CardList } from '../card-list';
 import { PopUpComponent } from '@/pods/product/components';
-import { Button } from '@/commons';
 import * as classes from './grid-images.styles';
 
 export const GridImages: React.FC = () => {

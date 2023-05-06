@@ -30,7 +30,7 @@ export const aside = css`
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    color: #212429; // ?
+    color: #212429; 
   }
 
   img {

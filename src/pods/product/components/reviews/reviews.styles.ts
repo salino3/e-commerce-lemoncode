@@ -1,4 +1,4 @@
-import { css } from "@emotion/css";
+import { css } from '@emotion/css';
 
 export const container = css`
   margin: 2rem auto 0rem;
@@ -15,12 +15,12 @@ export const container = css`
 `;
 
 export const title = css`
-
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 120%;
-color: #212429;`;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #212429;
+`;
 
 export const reviewsImage = css`
   display: flex;
@@ -38,7 +38,6 @@ export const button = css`
   min-width: 280px;
   border-radius: 48px;
   height: 48px;
-
 
   font-style: normal;
   font-weight: 500;
@@ -58,11 +57,10 @@ export const button = css`
 `;
 
 export const textReview = css`
-
-   display: flex;
-   flex-direction: row;
-   gap: 15px;
-   align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
 
   font-style: normal;
   font-weight: 700;
@@ -71,7 +69,6 @@ export const textReview = css`
   color: #212429;
 
   div {
-
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

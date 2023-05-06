@@ -1,8 +1,4 @@
-import { css } from "@emotion/css";
-
-export const container = css`
-`;
-
+import { css } from '@emotion/css';
 
 export const boxIcons = css`
   display: flex;
@@ -22,9 +18,8 @@ export const boxIcons = css`
 `;
 
 export const boxArrow = css`
-
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
   img {
     width: 16px;
     height: 14px;
@@ -46,9 +41,8 @@ export const boxIsDesktop = css`
   grid-template-columns: 25% 75%;
 
   @media (max-width: 1024px) {
-  display: unset;
+    display: unset;
   }
-
 `;
 
 export const aside = css`
@@ -90,9 +84,7 @@ export const aside = css`
   }
 `;
 
-
 export const texto = css`
-
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -100,5 +92,3 @@ export const texto = css`
   color: rgba(33, 36, 41, 0.64);
   margin-left: 1rem;
 `;
-
-

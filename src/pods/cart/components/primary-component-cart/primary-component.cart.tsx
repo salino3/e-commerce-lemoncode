@@ -28,7 +28,6 @@ export const PrimaryComponentCart: React.FC = () => {
             price={79.99}
           />
         </div>
-        {/*  */}
         <div className={classes.boxForm}>
           <h2>Código promocional</h2>
           <form>

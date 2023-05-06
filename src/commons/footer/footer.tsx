@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
-import { BoxShapes } from '../../pods/home/components/box-shapes';
 import { FooterDesktop } from '@/commons';
+import { BoxShapes } from '@/pods/home/components/box-shapes';
 import * as classes from './footer.styles';
 
 export const Footer: React.FC = () => {

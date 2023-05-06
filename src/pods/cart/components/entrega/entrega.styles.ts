@@ -127,7 +127,6 @@ export const boxInput = css`
     grid-area: numero;
     width: 152px;
     @media (min-width: 1024px) {
-      /* width: 279px; */
       width: 100%;
     }
   }
@@ -136,7 +135,6 @@ export const boxInput = css`
     grid-area: piso;
     width: 152px;
     @media (min-width: 1024px) {
-      /* width: 279px; */
       width: 100%;
     }
   }

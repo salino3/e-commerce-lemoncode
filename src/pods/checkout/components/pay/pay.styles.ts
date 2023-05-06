@@ -5,6 +5,7 @@ export const container = css`
   hr {
     display: none;
   }
+  
   @media (min-width: 725px) {
 
     hr {
