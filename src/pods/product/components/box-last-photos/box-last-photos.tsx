@@ -1,6 +1,8 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import { cx } from '@emotion/css';
 import { CardComponent } from '@/commons';
+import { PopUpComponent } from '../pop-up';
 import * as classes from './box-photos.styles';
 
 interface PropsImg {
@@ -12,6 +14,19 @@ interface PropsImg {
 }
 
 export const BoxLastsPhotos: React.FC = () => {
+
+   const isMobile: boolean = useMediaQuery({ maxWidth: '1066px' });
+   const [showPopup, setShowPopup] = React.useState(false);
+
+   const onClick = () => {
+     if (!isMobile) {
+       setShowPopup(true);
+     }
+   };
+
+   const handleHidePopup = () => {
+     setShowPopup(false);
+   };
 
   const [redHearth, setRedHearth] = React.useState<PropsImg>({
     img1: false,
@@ -31,8 +46,10 @@ export const BoxLastsPhotos: React.FC = () => {
     <div className={classes.container}>
       <div className={classes.title}>Productos similares</div>
       <div className={classes.content}>
+        <PopUpComponent onClick={handleHidePopup} className={cx({ [classes.popup]: !showPopup })} />
         <CardComponent
           onClick={() => handleClick('img1')}
+          imgClick={onClick}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -63,6 +80,7 @@ export const BoxLastsPhotos: React.FC = () => {
         </CardComponent>
         <CardComponent
           onClick={() => handleClick('img2')}
+          imgClick={onClick}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -93,6 +111,7 @@ export const BoxLastsPhotos: React.FC = () => {
         </CardComponent>
         <CardComponent
           onClick={() => handleClick('img3')}
+          imgClick={onClick}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -123,6 +142,7 @@ export const BoxLastsPhotos: React.FC = () => {
         </CardComponent>
         <CardComponent
           onClick={() => handleClick('img4')}
+          imgClick={onClick}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {

@@ -1,6 +1,8 @@
 import React from 'react';
 import { cx } from "@emotion/css";
 import { CardComponent } from '@/commons';
+import { PopUpComponent } from '../pop-up';
+import { useMediaQuery } from 'react-responsive';
 import * as classes from './box-images3pages.style';
 
 interface PropsImg {
@@ -12,6 +14,20 @@ interface PropsImg {
 }
 
 export const BoxImages: React.FC = () => {
+
+  const isMobile: boolean = useMediaQuery({ maxWidth: '1066px' });
+  const [showPopup, setShowPopup] = React.useState(false);
+
+  const onClick = () => {
+    if (!isMobile) {
+      setShowPopup(true);
+    }
+  };
+
+  const handleHidePopup = () => {
+    setShowPopup(false);
+  };
+
 
   const [redHearth, setRedHearth] = React.useState<PropsImg>({
     img1: false,
@@ -32,8 +48,11 @@ export const BoxImages: React.FC = () => {
     <div className={classes.container}>
       <div className={classes.title}>Comprar con este producto</div>
       <div className={classes.content}>
+        <PopUpComponent onClick={handleHidePopup} className={cx({ [classes.popup]: !showPopup })} />
         <CardComponent
           onClick={() => handleClick('img1')}
+          imgClick={onClick}
+          className={classes.card}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -54,7 +73,6 @@ export const BoxImages: React.FC = () => {
               />
             </svg>
           }
-          className={classes.card}
           routeImg="/assets/images-grid-product1.png"
         >
           <div className={classes.boxDescription}>
@@ -64,6 +82,7 @@ export const BoxImages: React.FC = () => {
         </CardComponent>
         <CardComponent
           onClick={() => handleClick('img2')}
+          imgClick={onClick}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -94,6 +113,7 @@ export const BoxImages: React.FC = () => {
         </CardComponent>
         <CardComponent
           onClick={() => handleClick('img3')}
+          imgClick={onClick}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -124,6 +144,7 @@ export const BoxImages: React.FC = () => {
         </CardComponent>
         <CardComponent
           onClick={() => handleClick('img4')}
+          imgClick={onClick}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {

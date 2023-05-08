@@ -21,6 +21,11 @@ export const content = css`
   }
 `;
 
+export const popup = css`
+  display: none;
+`;
+
+
 export const title = css`
   font-style: normal;
   font-weight: 700;

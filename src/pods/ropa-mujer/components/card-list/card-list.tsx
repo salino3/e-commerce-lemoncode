@@ -14,11 +14,12 @@ export const CardList: React.FC<Props> = (props) => {
 
   return (
     <div
-    onClick={onClick}
+      onClick={onClick}
       className={classCard}>
         <img src={routeImg} alt={alt} />
         <div className={classDescription}>
           {children}
         </div>
-      </div>  )
+      </div>
+      )
 }

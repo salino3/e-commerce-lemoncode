@@ -1,10 +1,10 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { ReviewComponent } from '../reviews';
-import * as classes from './secundary-comonent.styles';
 import { BoxImages } from '../box-images-3page';
 import { BoxLastsPhotos } from '../box-last-photos';
 import { Button } from '@/commons';
+import * as classes from './secundary-comonent.styles';
 
 export const SecundaryComponent: React.FC = () => {
   const isMobile: boolean = useMediaQuery({ maxWidth: '1024px' });
