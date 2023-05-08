@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import * as classes from './list.styles';
 
 interface Props {
   onClick?: React.MouseEventHandler<HTMLDivElement> | undefined;
@@ -8,7 +10,6 @@ interface Props {
   text2?: string;
   text3?: string;
   text4?: string;
-  text5?: string;
 };
 
 export const ListComponent: React.FC<Props> = (props) => {
@@ -18,29 +19,33 @@ export const ListComponent: React.FC<Props> = (props) => {
     h2,
     text1 = "Ver todos",
     text2 = "Éxitos de ventas",
-    text3 = "Ropa",
-    text4 = "Ropa de abrigo",
-    text5 = "Deportes",
-  } = props;
+    text3 = "Nueva colección",
+    text4 = "nuevos productos"
+    } = props;
 
     return (
-      <div  onClick={onClick}>
+      <div onClick={onClick}>
         <h2>
           {h2}
-          <img
-            src={`/assets/icon-${!toggleIcon ? "minus" : "plus"}.png`}
-            alt="icon"
-          />
+          <img src={`/assets/icon-${!toggleIcon ? 'minus' : 'plus'}.png`} alt="icon" />
         </h2>
         {toggleIcon && (
-          <div>
+          <div className={classes.boxLinks}>
             <div>{text1}</div>
-            <div>{text2}</div>
-            <div>{text3}</div>
-            <div>{text4}</div>
-            <div>{text5}</div>
+            <div>
+              <Link to={'/'}>
+                {text2}
+              </Link>
+            </div>
+            <div>
+              <Link to={'/'}>{text3}</Link>
+            </div>
+            <div>
+              <Link to={'/'}>{text4}</Link>
+            </div>
           </div>
         )}
       </div>
     );
 };
+

@@ -55,16 +55,28 @@ export const content = css`
   }
 `;
 
+
 export const hearthIcon = css`
   position: relative;
-  left: 4rem;
   top: 2rem;
+//?
+  right: 400%;
 
-  @media (min-width: 1000px) {
-    left: 7rem;
+  @media (min-width: 600px) {
+
+    right: 700%;
   }
-  @media (min-width: 1300px) {
-    left: 9rem;
+  @media (min-width: 725px) {
+    right: 380%;
+  }
+  @media (min-width: 906px) {
+    right: 500%;
+  }
+  @media (min-width: 1097px) {
+    right: 600%;
+  }
+  @media (min-width: 1280px) {
+    right: 750%;
   }
 `;
 
