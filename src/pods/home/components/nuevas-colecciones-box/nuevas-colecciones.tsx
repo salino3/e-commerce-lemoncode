@@ -8,7 +8,7 @@ export const NuevasColecciones: React.FC = () => {
   const isMobile: boolean = useMediaQuery({ minWidth: '725px' });
 
   return (
-    <div className={classes.container}>
+    <div id='nuevas-colecciones' className={classes.container}>
       <h2 className={classes.h2}>Nuevas colecciones</h2>
       {isMobile ? (
         <div className={classes.content}>

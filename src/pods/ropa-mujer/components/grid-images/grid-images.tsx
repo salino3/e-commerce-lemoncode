@@ -36,7 +36,7 @@ export const GridImages: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className={classes.container}>
+        <div  className={classes.container}>
           <Link to={'/product'}>
             <CardList
               classCard={classes.card}
@@ -158,7 +158,7 @@ export const GridImages: React.FC = () => {
             </CardList>{' '}
           </Link>
         </div>
-        <Button route={'/product'} className={classes.button}>
+        <Button className={classes.button}>
           Los 12 productos siguientes
         </Button>
       </div>
