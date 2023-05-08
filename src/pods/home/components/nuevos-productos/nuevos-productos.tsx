@@ -1,6 +1,6 @@
 import React from 'react';
 import { cx } from '@emotion/css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { CardComponent } from '@/commons';
 import * as classes from './nuevos-productos.styles';
 
@@ -14,10 +14,12 @@ interface PropsImg {
   img7: boolean;
   img8: boolean;
   [index: string]: boolean;
-}
-
+};
 
 export const NuevosProductos: React.FC = () => {
+
+ const navigate = useNavigate();
+
   const [redHearth, setRedHearth] = React.useState<PropsImg>({
     img1: false,
     img2: false,
@@ -34,7 +36,12 @@ export const NuevosProductos: React.FC = () => {
       ...prevState,
       [index]: !prevState[index],
     }));
-  }
+  };
+
+  function handleNavigate(){
+   navigate('/product');
+  };
+
 
   return (
     <div className={classes.container}>
@@ -46,7 +53,7 @@ export const NuevosProductos: React.FC = () => {
       <div id="nuevos-productos" className={classes.content}>
         <CardComponent
           onClick={() => handleClick('img1')}
-          imgClick={() => handleClick('img1')}
+          imgClick={() => handleNavigate()}
           className={classes.item}
           svgIcon={
             <svg
@@ -76,7 +83,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img2')}
-          imgClick={() => handleClick('img2')}
+          imgClick={() => handleNavigate()}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -105,7 +112,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img3')}
-          imgClick={() => handleClick('img3')}
+          imgClick={() => handleNavigate()}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -135,7 +142,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img4')}
-          imgClick={() => handleClick('img4')}
+          imgClick={() => handleNavigate()}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -164,7 +171,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img5')}
-          imgClick={() => handleClick('img5')}
+          imgClick={() => handleNavigate()}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -194,7 +201,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img6')}
-          imgClick={() => handleClick('img6')}
+          imgClick={() => handleNavigate()}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -223,7 +230,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={cx(classes.item, classes.item2)}
           onClick={() => handleClick('img7')}
-          imgClick={() => handleClick('img7')}
+          imgClick={() => handleNavigate()}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -252,7 +259,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={cx(classes.item, classes.item2)}
           onClick={() => handleClick('img8')}
-          imgClick={() => handleClick('img8')}
+          imgClick={() => handleNavigate()}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {

@@ -155,7 +155,7 @@ export const GridImages: React.FC = () => {
             >
               <span>Camiseta</span> <span>XS M L</span>
               <span>79.99 €</span> <span>2 Colores</span>
-            </CardList>{' '}
+            </CardList>
           </Link>
         </div>
         <Button className={classes.button}>

@@ -92,7 +92,6 @@ export const button = css`
   margin: 2rem auto 1rem;
   border: solid 1px;
   width: 100%;
-  cursor: pointer;
 
   &:hover {
     background-color: #212429;
