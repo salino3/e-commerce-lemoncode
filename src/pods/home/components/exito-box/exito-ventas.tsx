@@ -33,8 +33,8 @@ export const ExitoVentas: React.FC = () => {
     <div className={classes.container}>
       <h2 className={classes.h2}>Éxitos de ventas</h2>
       <div className={classes.containerLinks}>
-        <Link to={"/"}>Mujeres</Link>
-        <Link to={"/"}>Hombres</Link>
+        <Link to={"/mujer"}>Mujeres</Link>
+        <Link to={"/mujer"}>Hombres</Link>
       </div>
 
       <div className={classes.content}>

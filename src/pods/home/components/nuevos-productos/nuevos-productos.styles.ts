@@ -25,6 +25,9 @@ export const containerLinks = css`
   gap: 1rem;
   margin-left: 2rem;
 
+  a {
+    color: #212429;
+  }
 `;
 
 export const content = css`
