@@ -1,4 +1,5 @@
 import React from "react";
+import * as classes from './card-component.styles';
 
 interface Props {
   children?: React.ReactNode;
@@ -16,8 +17,8 @@ export const CardComponent: React.FC<Props> = (props) => {
 
   return (
     <div className={className}>
-      <span onClick={onClick}> {svgIcon}</span>
-      <img onClick={imgClick} src={routeImg} alt={alt} />
+      <span onClick={onClick} className={classes.svg} > {svgIcon}</span>
+      <img onClick={imgClick} className={classes.img} src={routeImg} alt={alt} />
       {text} <br />
       <span>{children}</span>
     </div>
