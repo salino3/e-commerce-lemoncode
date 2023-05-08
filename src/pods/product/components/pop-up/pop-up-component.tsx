@@ -15,9 +15,17 @@ export const PopUpComponent: React.FC<Props> = (props) => {
     <div className={cx(classes.modal, className)}>
       <div className={classes.content}>
         <img id="img" src="/assets/image-popup1.png" alt="image" />
-        <div >
+        <div>
           <div className={classes.boxClose}>
-            <button onClick={onClick}>X</button>
+            <button onClick={onClick}>
+              
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.75 2.0125L15.9875 0.25L9 7.2375L2.0125 0.25L0.25 2.0125L7.2375 9L0.25 15.9875L2.0125 17.75L9 10.7625L15.9875 17.75L17.75 15.9875L10.7625 9L17.75 2.0125Z"
+                  fill="#212429"
+                />
+              </svg>
+            </button>
             <p>2 comentarios</p>
             <div className={classes.Icons}>
               <img src="/assets/shape-hearth.png" alt="heart" />
@@ -34,9 +42,9 @@ export const PopUpComponent: React.FC<Props> = (props) => {
           <div className={classes.title}>Vestido negro de lunares</div>
           <div className={classes.price}>79.99 €</div>
           <div className={classes.description}>
-            Precioso vestido femenino de silueta en tejido de popelina. Las mangas cortas
-            alargadas se fruncen en la banda elástica. El cinturón en la cintura acentúa la feminidad de la figura. El
-            bajo del vestido es un volante ancho con un fruncido ondulado.
+            Precioso vestido femenino de silueta en tejido de popelina. Las mangas cortas alargadas se fruncen en la
+            banda elástica. El cinturón en la cintura acentúa la feminidad de la figura. El bajo del vestido es un
+            volante ancho con un fruncido ondulado.
           </div>
           <div className={classes.boxImages}>
             <p> Lunares blancos y negros</p>
@@ -61,7 +69,7 @@ export const PopUpComponent: React.FC<Props> = (props) => {
               <img src={`/assets/icon-plus.png`} alt="icon" />
             </Button>
             <Button className={classes.darkButton} route="/cart">
-              <img src="/assets/cartIcon.png"  alt="image" />
+              <img src="/assets/cartIcon.png" alt="image" />
               &nbsp; En cesta
             </Button>
           </div>

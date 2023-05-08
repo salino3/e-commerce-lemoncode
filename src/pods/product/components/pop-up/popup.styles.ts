@@ -63,6 +63,8 @@ export const boxClose = css`
 
   button {
     cursor: pointer;
+    position: absolute;
+    bottom: 2.6rem;
   }
 `;
 
