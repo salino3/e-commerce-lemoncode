@@ -7,16 +7,16 @@ export const Navbar: React.FC = () => {
     <nav className={classes.nav}>
       <ul className={classes.ul}>
         <li>
-          <Link to={"#"}>PARA MUJERES</Link>
+          <Link to={"/mujer"}>PARA MUJERES</Link>
         </li>
         <li>
-          <Link to={"#"}>HOMBRE</Link>
+          <Link to={"/mujer"}>HOMBRE</Link>
         </li>
         <li>
-          <Link to={"#"}>NUEVO</Link>
+          <Link to={"/mujer"}>NUEVO</Link>
         </li>
         <li>
-          <Link to={"#"}>COLECCIONES ESPACIALES</Link>
+          <Link to={"/mujer"}>COLECCIONES ESPECIALES</Link>
         </li>
       </ul>
     </nav>
