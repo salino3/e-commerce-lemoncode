@@ -5,7 +5,7 @@ export const container = css`
   hr {
     display: none;
   }
-  
+
   @media (min-width: 725px) {
 
     hr {
@@ -78,12 +78,19 @@ export const lastDiv = css`
 
 export const btn = css`
   font-weight: 500;
-
-  color: #ffffff;
-  background: #000000;
   border-radius: 48px;
   width: 80%;
   margin: 2rem auto 3rem;
+  border: 1px solid #212429;
 
+  cursor: pointer;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 48px;
+
+  &:hover {
+    color: #ffffff;
+    background: black;
+  }
 `;
 
