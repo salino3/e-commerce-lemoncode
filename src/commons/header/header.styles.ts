@@ -60,6 +60,7 @@ export const boxIcons = css`
   display: flex;
   gap: 20px;
   padding: 0rem 1rem;
+  height: 18px;
   margin-right: 3rem;
 
 `;

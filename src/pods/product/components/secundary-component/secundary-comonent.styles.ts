@@ -60,7 +60,7 @@ export const descripcions = css`
   }
 `;
 
-export const buttonThirdPageLayout = css`
+export const buttonThirdPage = css`
   margin: 2rem auto 1rem;
   border: solid 1px;
   width: 100%;

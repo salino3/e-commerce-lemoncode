@@ -41,7 +41,7 @@ export const SecundaryComponent: React.FC = () => {
           <ReviewComponent />
           <BoxImages />
           <BoxLastsPhotos />
-          <Button className={classes.buttonThirdPageLayout}>Los 12 productos siguientes</Button>
+          <Button className={classes.buttonThirdPage}>Los 12 productos siguientes</Button>
         </>
       ) : (
         <>
@@ -71,7 +71,7 @@ export const SecundaryComponent: React.FC = () => {
           <ReviewComponent />
           <BoxImages />
           <BoxLastsPhotos />
-          <Button className={classes.buttonThirdPageLayout}>Los 12 productos siguientes</Button>
+          <Button className={classes.buttonThirdPage}>Los 12 productos siguientes</Button>
         </>
       )}
     </div>
