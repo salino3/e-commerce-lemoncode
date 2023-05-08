@@ -5,7 +5,7 @@ export const header = css`
   grid-template-columns: auto auto auto;
   align-items: center;
   width: 100vw;
-  margin:  1rem;
+  margin: 1rem;
 
   & > :last-child {
     justify-self: end;
@@ -14,6 +14,17 @@ export const header = css`
   @media (min-width: 725px) {
     grid-template-columns: 5% 20% 50% auto;
   }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 20% 50% auto;
+  }
+`;
+
+export const menuIcon = css`
+
+@media (min-width: 1024px) {
+   display: none;
+ }
 `;
 
 export const nav = css`
@@ -50,4 +61,5 @@ export const boxIcons = css`
   gap: 20px;
   padding: 0rem 1rem;
   margin-right: 3rem;
+
 `;
