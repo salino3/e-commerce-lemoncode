@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import * as classes from './list.styles';
 
 interface Props {
   onClick?: React.MouseEventHandler<HTMLDivElement> | undefined;
@@ -8,39 +10,39 @@ interface Props {
   text2?: string;
   text3?: string;
   text4?: string;
-  text5?: string;
-};
+}
 
-export const ListComponent: React.FC<Props> = (props) => {
+export const ListComponent: React.FC<Props> = props => {
   const {
     onClick,
     toggleIcon,
     h2,
-    text1 = "Ver todos",
-    text2 = "Éxitos de ventas",
-    text3 = "Ropa",
-    text4 = "Ropa de abrigo",
-    text5 = "Deportes",
+    text1 = 'Ver todos',
+    text2 = 'Éxitos de ventas',
+    text3 = 'Nueva colección',
+    text4 = 'nuevos productos',
   } = props;
 
-    return (
-      <div  onClick={onClick}>
-        <h2>
-          {h2}
-          <img
-            src={`/assets/icon-${!toggleIcon ? "minus" : "plus"}.png`}
-            alt="icon"
-          />
-        </h2>
-        {toggleIcon && (
-          <div>
-            <div>{text1}</div>
-            <div>{text2}</div>
-            <div>{text3}</div>
-            <div>{text4}</div>
-            <div>{text5}</div>
-          </div>
-        )}
-      </div>
-    );
+  return (
+    <div onClick={onClick}>
+      <h2>
+        {h2}
+        <img src={`/assets/icon-${!toggleIcon ? 'minus' : 'plus'}.png`} alt="icon" />
+      </h2>
+      {toggleIcon && (
+        <ul className={classes.boxLinks}>
+          <li>{text1}</li>
+          <li>
+            <Link to={'/#exito-ventas'}>{text2}</Link>
+          </li>
+          <li>
+            <Link to={'/#nuevas-colecciones'}>{text3}</Link>
+          </li>
+          <li>
+            <Link to={'/#nuevos-productos'}>{text4}</Link>
+          </li>
+        </ul>
+      )}
+    </div>
+  );
 };

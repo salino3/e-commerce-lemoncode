@@ -38,14 +38,15 @@ export const NuevosProductos: React.FC = () => {
 
   return (
     <div className={classes.container}>
-      <h2 className={classes.h2}>Éxitos de ventas</h2>
+      <h2 className={classes.h2}>Nuevo productos</h2>
       <div className={classes.containerLinks}>
-        <Link to={'/'}>Mujeres</Link>
-        <Link to={'/'}>Hombres</Link>
+        <Link to={'/mujer'}>Mujeres</Link>
+        <Link to={'/mujer'}>Hombres</Link>
       </div>
-      <div className={classes.content}>
+      <div id="nuevos-productos" className={classes.content}>
         <CardComponent
           onClick={() => handleClick('img1')}
+          imgClick={() => handleClick('img1')}
           className={classes.item}
           svgIcon={
             <svg
@@ -75,6 +76,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img2')}
+          imgClick={() => handleClick('img2')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -103,6 +105,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img3')}
+          imgClick={() => handleClick('img3')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -132,6 +135,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img4')}
+          imgClick={() => handleClick('img4')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -160,6 +164,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img5')}
+          imgClick={() => handleClick('img5')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -189,6 +194,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleClick('img6')}
+          imgClick={() => handleClick('img6')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -217,6 +223,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={cx(classes.item, classes.item2)}
           onClick={() => handleClick('img7')}
+          imgClick={() => handleClick('img7')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -245,6 +252,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={cx(classes.item, classes.item2)}
           onClick={() => handleClick('img8')}
+          imgClick={() => handleClick('img8')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {

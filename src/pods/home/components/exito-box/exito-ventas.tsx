@@ -21,25 +21,25 @@ export const ExitoVentas: React.FC = () => {
     img4: false,
   });
 
- function handleClick(index: string) {
-   setRedHearth((prevState) => ({
-     ...prevState,
-     [index]: !prevState[index],
-   }));
- };
-
+  function handleClick(index: string) {
+    setRedHearth(prevState => ({
+      ...prevState,
+      [index]: !prevState[index],
+    }));
+  }
 
   return (
     <div className={classes.container}>
       <h2 className={classes.h2}>Éxitos de ventas</h2>
       <div className={classes.containerLinks}>
-        <Link to={"/"}>Mujeres</Link>
-        <Link to={"/"}>Hombres</Link>
+        <Link to={'/mujer'}>Mujeres</Link>
+        <Link to={'/mujer'}>Hombres</Link>
       </div>
 
-      <div className={classes.content}>
+      <div id="exito-ventas" className={classes.content}>
         <CardComponent
-          onClick={() => handleClick("img1")}
+          onClick={() => handleClick('img1')}
+          imgClick={() => handleClick('img1')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -68,7 +68,8 @@ export const ExitoVentas: React.FC = () => {
         </CardComponent>
         <CardComponent
           className={classes.item}
-          onClick={() => handleClick("img2")}
+          onClick={() => handleClick('img2')}
+          imgClick={() => handleClick('img2')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -95,7 +96,8 @@ export const ExitoVentas: React.FC = () => {
           <span className={classes.span}>34.95 €</span>
         </CardComponent>
         <CardComponent
-          onClick={() => handleClick("img3")}
+          onClick={() => handleClick('img3')}
+          imgClick={() => handleClick('img3')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -123,7 +125,8 @@ export const ExitoVentas: React.FC = () => {
           <span className={classes.span}>80.00 €</span>
         </CardComponent>
         <CardComponent
-          onClick={() => handleClick("img4")}
+          onClick={() => handleClick('img4')}
+          imgClick={() => handleClick('img4')}
           svgIcon={
             <svg
               className={cx(classes.hearthIcon, {
@@ -144,9 +147,9 @@ export const ExitoVentas: React.FC = () => {
               />
             </svg>
           }
-          routeImg={"/assets/exito-venta4.png"}
+          routeImg={'/assets/exito-venta4.png'}
           className={classes.item}
-          text={"Vestido"}
+          text={'Vestido'}
         >
           <span className={classes.spangrey}>179.00 € </span> &nbsp;
           <span className={classes.spanred}>75.00 €</span>
