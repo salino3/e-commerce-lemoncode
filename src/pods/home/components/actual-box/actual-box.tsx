@@ -9,7 +9,7 @@ export const ActualBox: React.FC = () => {
       <div className={classes.content}>
         <div className={classes.item}>
           <img src="/assets/actual-image1.png" alt="image" />
-          Primavera/verano 2022
+           Primavera/verano 2022
         </div>
         <div className={classes.item}>
           <img src="/assets/actual-image2.png" alt="image" />

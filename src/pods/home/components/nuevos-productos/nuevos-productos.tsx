@@ -58,15 +58,6 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos5.png"
-          fixPosition={classes.fixIcon}
-          name="Juego de camisetas (5 piezas)"
-          price="75.95 €"
-        />
-
-        <CardComponent
-          className={classes.item}
-          onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos6.png"
           fixPosition={classes.fixIcon}
           name="Camisa"
@@ -80,6 +71,15 @@ export const NuevosProductos: React.FC = () => {
           fixPosition={classes.fixIcon}
           name="Sudadera"
           price="44.99 €"
+        />
+
+        <CardComponent
+          className={classes.item}
+          onClick={() => handleNavigate()}
+          imageUrl="/assets/nuevos-productos5.png"
+          fixPosition={classes.fixIcon}
+          name="Juego de camisetas (5 piezas)"
+          price="75.95 €"
         />
 
         <CardComponent

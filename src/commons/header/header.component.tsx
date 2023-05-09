@@ -12,7 +12,9 @@ export const Header: React.FC = () => {
         <img src="/assets/shape-lines.png" alt="menu" />
       </div>
       <div>
-        <img className="img_1" src="/assets/logo.svg" alt="logo" />
+        <Link to={'/'}>
+         <img className="img_1" src="/assets/logo.svg" alt="logo" />
+        </Link>
       </div>
       <Navbar />
       <div className={classes.boxIcons}>

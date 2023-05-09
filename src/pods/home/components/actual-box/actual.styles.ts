@@ -50,9 +50,13 @@ export const item = css`
   align-items: center;
   gap: 5px;
 
- img {
-  width: 176px;
- }
+  img {
+    width: 176px;
+  }
+
+
+    text-align: center;
+
 `;
 
 

@@ -65,6 +65,7 @@ export const item = css`
 
   img {
     width: 100%;
+    height: 100%;
   }
 `;
 

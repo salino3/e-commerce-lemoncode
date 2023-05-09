@@ -15,8 +15,7 @@ interface Props {
   sizes?: string;
   colors?: string;
   showIcon?: boolean;
-};
-
+}
 
 export const CardComponent: React.FC<Props> = props => {
   const {
@@ -34,19 +33,19 @@ export const CardComponent: React.FC<Props> = props => {
     showIcon = true,
   } = props;
 
-  const [redHearth, setRedHearth] = React.useState<boolean>(false);
+  const [fillHearth, setFillHearth] = React.useState<boolean>(false);
 
-  const onLike = () =>{
-   setRedHearth(!redHearth)
+  const onLike = () => {
+    setFillHearth(!fillHearth);
   };
 
   return (
-    <div className={cx(classes.root, className)}>
+    <div className={cx(classes.root)}>
       {showIcon && (
-        <div onClick={onLike} className={cx(classes.iconContainer, fixPosition)}>
+        <div onClick={onLike} className={classes.iconContainer}>
           <svg
             className={cx(classes.icon, {
-              [classes.hearthRed]: redHearth,
+              [classes.hearthFill]: fillHearth,
             })}
             width="16"
             height="14"
@@ -67,12 +66,14 @@ export const CardComponent: React.FC<Props> = props => {
       <img onClick={onClick} className={classes.img} src={imageUrl} alt={alt} />
       <div className={classes.footer}>
         <div className={classes.contentLeft}>
-        {name &&  <div>{name}</div>}
-         {price && <div className={classPrice}>{price}</div>}
+          {name && <div>{name}</div>}
+          {price && <div className={cx({
+              [classes.textThrough]: !!offer,
+            })}>{price}</div>}
         </div>
-       {offer && <div className={classes.offer}>{offer}</div> }
+        {offer && <div className={classes.offer}>{offer}</div>}
         <div className={classes.contentRight}>
-       {sizes && <div> {sizes} </div>}
+          {sizes && <div> {sizes}</div>}
           {colors && <div> {colors} </div>}
         </div>
       </div>

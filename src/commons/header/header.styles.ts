@@ -5,7 +5,11 @@ export const header = css`
   grid-template-columns: auto auto auto;
   align-items: center;
   width: 100vw;
-  margin: 1rem;
+  position: fixed;
+  background: white;
+  scroll-margin-top: 70px;
+  z-index: 3;
+  height: 60px;
 
   & > :last-child {
     justify-self: end;
@@ -17,6 +21,7 @@ export const header = css`
 
   @media (min-width: 1024px) {
     grid-template-columns: 20% 50% auto;
+    margin-left: 1rem;
   }
 `;
 

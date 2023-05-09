@@ -2,6 +2,9 @@ import {css} from '@emotion/css';
 
 
 export const grid = css`
+
+ margin-top: 60px;
+
   @media (min-width: 1024px) {
     display: grid;
     grid-template-columns: auto auto;

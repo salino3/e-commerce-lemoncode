@@ -6,8 +6,9 @@ export const container = css`
   flex-direction: column;
   text-align: center;
   gap: 10px;
-  margin: 1rem 0rem;
-
+  width: 100%;
+  max-width: 1225px;
+  margin: 1rem auto;
 
   @media (min-width: 1024px) {
     flex-direction: row;

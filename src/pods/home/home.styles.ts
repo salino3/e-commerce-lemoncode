@@ -1,9 +1,11 @@
-import {css} from '@emotion/css';
+import { css } from '@emotion/css';
 
 export const root = css`
-
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 1225px;
+  margin: 60px auto;
 
   hr {
     margin-top: 3rem;
@@ -55,5 +57,3 @@ export const buttonHomeComponent = css`
     border: 0;
   }
 `;
-
-

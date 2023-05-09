@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emotion/css": "^11.10.6",
+    "@fontsource/montserrat": "^4.5.14",
     "animate.css": "^4.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
