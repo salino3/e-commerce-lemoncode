@@ -11,8 +11,8 @@ export const boxIsDesktop = css`
 `;
 
 export const aside = css`
-  padding: 1rem;
 
+  padding: 1rem;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -30,7 +30,7 @@ export const aside = css`
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    color: #212429; 
+    color: #212429;
   }
 
   img {

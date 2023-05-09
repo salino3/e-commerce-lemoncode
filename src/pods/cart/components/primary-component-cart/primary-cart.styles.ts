@@ -69,14 +69,13 @@ export const boxForm = css`
 `;
 
 export const boxInput = css`
-
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
   box-sizing: border-box;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.1rem 0.5em 0rem;
 
   background: #ffffff;
   border: 2px solid #dbe5f1;
@@ -87,6 +86,7 @@ export const boxInput = css`
 
 export const input = css`
   margin: 1rem 0rem;
+  padding-left: 0.2rem;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

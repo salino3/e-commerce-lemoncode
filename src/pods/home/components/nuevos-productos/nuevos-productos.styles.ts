@@ -33,14 +33,19 @@ export const containerLinks = css`
 
 export const content = css`
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, auto);
   margin: auto;
+  padding: 0rem 0.5rem;
+  justify-self: center;
+  align-items: center;
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
+    padding: 0rem;
+
   }
 `;
 
@@ -49,12 +54,15 @@ export const item = css`
   flex-direction: column;
   align-items: start;
   box-sizing: border-box;
-  padding: 1rem;
+  justify-content: center;
+
 
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
+
+  height: 100%;
 
   span {
     font-style: normal;
@@ -75,11 +83,3 @@ export const item2 = css`
   }
 `;
 
-export const fixIcon = css`
-  top: 2rem;
-  right: 2rem;
-
-  @media (min-width: 725px) {
-    right: 3rem;
-  }
-`;

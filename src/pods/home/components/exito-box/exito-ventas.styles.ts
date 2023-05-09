@@ -33,15 +33,16 @@ export const containerLinks = css`
 
 export const content = css`
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
   margin: auto;
-  padding: 0rem 2rem;
+  padding: 0rem 1rem;
   box-sizing: border-box;
   overflow-x: auto;
+  justify-content: center;
   margin-top: 1rem;
-  
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -64,11 +65,11 @@ export const item = css`
   gap: 5px;
 
   img {
-
     width: 100%;
     height: 100%;
+
   }
-  `;
+`;
 
  export const price = css`
    font-style: normal;

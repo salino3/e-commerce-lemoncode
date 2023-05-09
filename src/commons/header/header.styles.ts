@@ -10,6 +10,7 @@ export const header = css`
   scroll-margin-top: 70px;
   z-index: 3;
   height: 60px;
+  margin-left: 1rem;
 
   & > :last-child {
     justify-self: end;
@@ -21,14 +22,14 @@ export const header = css`
 
   @media (min-width: 1024px) {
     grid-template-columns: 20% 50% auto;
-    margin-left: 1rem;
   }
 `;
 
 export const menuIcon = css`
 
+
 @media (min-width: 1024px) {
-   display: none;
+  display: none;
  }
 `;
 

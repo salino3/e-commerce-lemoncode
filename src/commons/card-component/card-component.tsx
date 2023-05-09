@@ -40,7 +40,7 @@ export const CardComponent: React.FC<Props> = props => {
   };
 
   return (
-    <div className={cx(classes.root)}>
+    <div className={cx(classes.root, className)}>
       {showIcon && (
         <div onClick={onLike} className={classes.iconContainer}>
           <svg

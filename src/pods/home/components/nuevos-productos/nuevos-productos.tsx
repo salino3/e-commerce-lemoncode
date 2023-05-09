@@ -23,7 +23,6 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           className={classes.item}
           imageUrl="/assets/nuevos-productos1.png"
-          fixPosition={classes.fixIcon}
           name="Polo"
           price="44.95 €"
         />
@@ -32,7 +31,6 @@ export const NuevosProductos: React.FC = () => {
           className={classes.item}
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos2.png"
-          fixPosition={classes.fixIcon}
           name="Camiseta"
           price="25.00 €"
         />
@@ -41,7 +39,6 @@ export const NuevosProductos: React.FC = () => {
           className={classes.item}
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos3.png"
-          fixPosition={classes.fixIcon}
           name="Pantalones deportivos"
           price="49.95 €"
         />
@@ -50,7 +47,6 @@ export const NuevosProductos: React.FC = () => {
           className={classes.item}
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos4.png"
-          fixPosition={classes.fixIcon}
           name="Camiseta"
           price="27.99 €"
         />
@@ -59,7 +55,6 @@ export const NuevosProductos: React.FC = () => {
           className={classes.item}
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos6.png"
-          fixPosition={classes.fixIcon}
           name="Camisa"
           price="25.00 €"
         />
@@ -68,7 +63,6 @@ export const NuevosProductos: React.FC = () => {
           className={cx(classes.item, classes.item2)}
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos7.png"
-          fixPosition={classes.fixIcon}
           name="Sudadera"
           price="44.99 €"
         />
@@ -77,7 +71,6 @@ export const NuevosProductos: React.FC = () => {
           className={classes.item}
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos5.png"
-          fixPosition={classes.fixIcon}
           name="Juego de camisetas (5 piezas)"
           price="75.95 €"
         />
@@ -86,7 +79,6 @@ export const NuevosProductos: React.FC = () => {
           className={cx(classes.item, classes.item2)}
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos8.png"
-          fixPosition={classes.fixIcon}
           name="Camiseta"
           price="22.99 €"
         />

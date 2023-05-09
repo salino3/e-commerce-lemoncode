@@ -94,7 +94,7 @@ export const img = css`
   cursor: pointer;
   width: 100%;
   height: 100%;
-  min-height: 100%;
+  /* min-height: 100%; */
   object-fit: cover;
   flex-grow: 1;
   border-radius: 12px;

@@ -35,10 +35,10 @@ export const iconProducts = css`
 
 export const container = css`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40px, 40vw));
+  grid-template-columns: repeat(auto-fill, minmax(40px, 42vw));
   justify-content: center;
 
-  gap: 20px;
+  gap: 10px;
 
   img {
     width: 100%;
@@ -67,7 +67,7 @@ export const card = css`
 export const boxDescription = css`
   display: grid;
   grid-row-gap: 0.5rem;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
 
   color: #212429;
@@ -100,11 +100,4 @@ export const button = css`
   }
 `;
 
-export const fixIcon = css`
-  top: 1rem;
-  right: 0.8em;
 
-  @media (min-width: 725px) {
-    right: 1.5rem;
-  }
-`;

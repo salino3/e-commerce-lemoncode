@@ -47,16 +47,14 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid1.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Vaqueros"
             price="79.99 €"
             sizes="XS M L"
             colors="1 Color"
-          />{' '}
+          />
           <CardComponent
             imageUrl="/assets/image-grid2.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Vestido"
             price="34.99 €"
             sizes="XS M L"
@@ -65,7 +63,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid3.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Camisa"
             price="44.99 €"
             sizes="XS M L"
@@ -74,7 +71,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid4.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Vestido"
             price="59.99 €"
             sizes="XS M L"
@@ -83,7 +79,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid5.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Camiseta"
             price="22.99 €"
             sizes="XS M L"
@@ -92,7 +87,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid6.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Pantalones cortos"
             price="54.99 €"
             sizes="XS M L"
@@ -101,7 +95,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid7.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Vaqueros"
             price="79.99 €"
             sizes="XS M L"
@@ -110,7 +103,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid8.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Pantalones cortos"
             price="54.99 €"
             sizes="XS M L"
@@ -119,7 +111,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid9.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Vaqueros"
             price="79.99 €"
             sizes="XS M L"
@@ -128,7 +119,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid10.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Vestido"
             price="34.99 €"
             sizes="XS M L"
@@ -137,7 +127,6 @@ export const GridImages: React.FC = () => {
           <CardComponent
             imageUrl="/assets/image-grid11.png"
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Pantalones cortos"
             price="34.99 €"
             sizes="XS M L"
@@ -145,8 +134,8 @@ export const GridImages: React.FC = () => {
           />
           <CardComponent
             imageUrl="/assets/image-grid12.png"
+          
             onClick={handleNavigate}
-            fixPosition={classes.fixIcon}
             name="Camiseta"
             price="79.99 €"
             sizes="XS M L"
