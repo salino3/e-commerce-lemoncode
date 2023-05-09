@@ -940,7 +940,7 @@ Valid keys: `+JSON.stringify(Object.keys(L),null,"  "));var ke=R(Q,J,F,Z,W+"."+J
     color: #ffffff;
     border: 0;
   }
-`,y2=()=>l("div",{className:m2,children:m("div",{className:h2,children:[m("div",{className:g2,children:[l("p",{children:"ENVÍO GRATUITO EN TODOS LOS PEDIDOS"}),l("div",{children:"COLECCIÓN DE DEPORTES"})]}),l(se,{route:"/woman",className:v2,children:"Me interesa"})]})}),x2=p`
+`,y2=()=>l("div",{className:m2,children:m("div",{className:h2,children:[m("div",{className:g2,children:[l("p",{children:"ENVÍO GRATUITO EN TODOS LOS PEDIDOS"}),l("div",{children:"COLECCIÓN DE DEPORTES"})]}),l(se,{route:"/mujer",className:v2,children:"Me interesa"})]})}),x2=p`
   width: 100%;
   display: flex;
   flex-direction: column;
