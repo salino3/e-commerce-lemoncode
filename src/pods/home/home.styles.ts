@@ -44,8 +44,9 @@ export const imgPrimary = css`
 
 export const buttonHomeComponent = css`
   margin: 2rem auto 1rem;
+  padding: 0rem 1rem;
   border: solid 1px;
-  width: 180px;
+  width: 280px;
   cursor: pointer;
 
   &:hover {

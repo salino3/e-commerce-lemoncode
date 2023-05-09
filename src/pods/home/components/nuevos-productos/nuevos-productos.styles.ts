@@ -49,7 +49,6 @@ export const item = css`
   align-items: start;
   box-sizing: border-box;
   padding: 1rem;
-  width: 46vw;
 
   font-style: normal;
   font-weight: 400;
@@ -65,33 +64,20 @@ export const item = css`
 
   img {
     width: 100%;
-
-  }
-
-  @media (min-width: 1024px) {
-
-    width: 20vw;
-    box-sizing: content-box;
-
   }
 `;
 
 export const item2 = css`
-
-
   @media (max-width: 1024px) {
     display: none;
   }
 `;
 
-export const hearthIcon = css`
-  position: relative;
-  left: 1rem;
-  bottom: -2em;
+export const fixIcon = css`
+  top: 2rem;
+  right: 2rem;
 
+  @media (min-width: 725px) {
+    right: 3rem;
+  }
 `;
-
-export const hearthRed = css`
-  fill: red;
-`;
-

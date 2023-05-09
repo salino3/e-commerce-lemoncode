@@ -53,8 +53,8 @@ export const container = css`
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(auto-fit, minmax(40px, 350px));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 340px));
+    gap: 30px;
     justify-content: center;
   }
 `;
@@ -97,5 +97,14 @@ export const button = css`
     background-color: #212429;
     color: #ffffff;
     border: 0;
+  }
+`;
+
+export const fixIcon = css`
+  top: 1rem;
+  right: 0.8em;
+
+  @media (min-width: 725px) {
+    right: 1.5rem;
   }
 `;
