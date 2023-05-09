@@ -19,35 +19,34 @@ export const NuevasColecciones: React.FC = () => {
       <h2 className={classes.h2}>Nuevas colecciones</h2>
       {isMobile ? (
         <div className={classes.content}>
-          <CardComponent
+          <HomeCard imgUrl="/assets/new-collection-desktop1.png" text="Primavera/Verano 2022" route="/mujer" />{' '}
+          <HomeCard imgUrl="/assets/new-collection-desktop2.png" text="Vaqueros" route="/mujer" />{' '}
+          <HomeCard imgUrl="/assets/new-collection-desktop3.png" text="Bañadores" route="/mujer" />
+          {/* <CardComponent
             onClick={handleClick}
             showIcon={false}
             className={classes.item}
             imageUrl="/assets/nuevas-colecciones1.png"
           />
-          {/* <HomeCard
-          imgUrl='/assets/new-collection1.png'
-          text='Primavera/Verano 2022'
-          route='/mujer'
-          /> */}
-
           <CardComponent
             onClick={handleClick}
             showIcon={false}
             className={classes.item}
             imageUrl="/assets/nuevas-colecciones2.png"
           />
-
           <CardComponent
             onClick={handleClick}
             showIcon={false}
             className={classes.item}
             imageUrl="/assets/nuevas-colecciones3.png"
-          />
+          /> */}
         </div>
       ) : (
         <div className={classes.content}>
-          <CardComponent
+          <HomeCard imgUrl="/assets/new-collection1.png" text="Primavera/Verano 2022" route="/mujer" />{' '}
+          <HomeCard imgUrl="/assets/new-collection2.png" text="Vaqueros" route="/mujer" />{' '}
+          <HomeCard imgUrl="/assets/new-collection3.png" text="Bañadores" route="/mujer" />
+          {/* <CardComponent
             onClick={handleClick}
             showIcon={false}
             className={classes.item}
@@ -64,7 +63,7 @@ export const NuevasColecciones: React.FC = () => {
             showIcon={false}
             className={classes.item}
             imageUrl="/assets/mobile-coleccion3.png"
-          />
+          /> */}
         </div>
       )}
     </div>

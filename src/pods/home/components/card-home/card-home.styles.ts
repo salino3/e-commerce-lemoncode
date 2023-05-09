@@ -10,14 +10,18 @@ export const container = css`
   h3 {
     position: absolute;
     text-align: center;
-    bottom: 5rem;
-    /* font-family: fantasy; */
+    bottom: 2rem;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 120%;
-    width: 258px;
-    height: 24px;
+    text-align: center;
+    font-variant: small-caps;
     color: #ffffff;
+  }
+
+  img {
+    width: 100%;
+    box-sizing: border-box;
   }
 `;
