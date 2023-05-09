@@ -26,6 +26,7 @@ export const containerLinks = css`
   margin-left: 2rem;
 
   a {
+    text-decoration: none;
     color: #212429;
   }
 `;
@@ -40,6 +41,7 @@ export const content = css`
   box-sizing: border-box;
   overflow-x: auto;
   margin-top: 1rem;
+  
   &::-webkit-scrollbar {
     display: none;
   }
@@ -64,8 +66,18 @@ export const item = css`
   img {
 
     width: 100%;
+    height: 100%;
   }
   `;
+
+ export const price = css`
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-decoration-line: line-through;
+   color: rgba(0, 0, 0, 0.6);
+ `;
 
 export const fixIcon = css`
 

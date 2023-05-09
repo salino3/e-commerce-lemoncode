@@ -6,6 +6,7 @@ interface Props {
   onClick?: () => void;
   className?: string;
   fixPosition?: string;
+  classPrice?: string;
   imageUrl?: string;
   name?: string;
   price?: string;
@@ -22,6 +23,7 @@ export const CardComponent: React.FC<Props> = props => {
     onClick,
     className,
     fixPosition,
+    classPrice,
     imageUrl,
     alt = 'image',
     name,
@@ -66,9 +68,9 @@ export const CardComponent: React.FC<Props> = props => {
       <div className={classes.footer}>
         <div className={classes.contentLeft}>
         {name &&  <div>{name}</div>}
-         {price && <div>{price}</div>}
+         {price && <div className={classPrice}>{price}</div>}
         </div>
-       {offer && <div>{offer}</div> }
+       {offer && <div className={classes.offer}>{offer}</div> }
         <div className={classes.contentRight}>
        {sizes && <div> {sizes} </div>}
           {colors && <div> {colors} </div>}

@@ -11,6 +11,8 @@ export const footer = css`
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  width: 100%;
+
 `;
 
 export const contentLeft = css`
@@ -25,6 +27,18 @@ export const contentLeft = css`
     font-weight: 700;
     color: #212429;
   }
+`;
+
+export const offer = css`
+  position: absolute;
+  color: #ef3c3c;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  bottom: 0rem;
+  left: 6rem;
 `;
 
 export const contentRight = css`

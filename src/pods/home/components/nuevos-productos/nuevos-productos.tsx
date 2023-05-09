@@ -9,7 +9,7 @@ export const NuevosProductos: React.FC = () => {
 
   function handleNavigate() {
     navigate('/product');
-  }
+  };
 
   return (
     <div className={classes.container}>
@@ -24,6 +24,8 @@ export const NuevosProductos: React.FC = () => {
           className={classes.item}
           imageUrl="/assets/nuevos-productos1.png"
           fixPosition={classes.fixIcon}
+          name="Polo"
+          price="44.95 €"
         />
 
         <CardComponent
@@ -31,6 +33,8 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos2.png"
           fixPosition={classes.fixIcon}
+          name="Camiseta"
+          price="25.00 €"
         />
 
         <CardComponent
@@ -38,6 +42,8 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos3.png"
           fixPosition={classes.fixIcon}
+          name="Pantalones deportivos"
+          price="49.95 €"
         />
 
         <CardComponent
@@ -45,6 +51,8 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos4.png"
           fixPosition={classes.fixIcon}
+          name="Camiseta"
+          price="27.99 €"
         />
 
         <CardComponent
@@ -52,6 +60,8 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos5.png"
           fixPosition={classes.fixIcon}
+          name="Juego de camisetas (5 piezas)"
+          price="75.95 €"
         />
 
         <CardComponent
@@ -59,6 +69,8 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos6.png"
           fixPosition={classes.fixIcon}
+          name="Camisa"
+          price="25.00 €"
         />
 
         <CardComponent
@@ -66,6 +78,8 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos7.png"
           fixPosition={classes.fixIcon}
+          name="Sudadera"
+          price="44.99 €"
         />
 
         <CardComponent
@@ -73,6 +87,8 @@ export const NuevosProductos: React.FC = () => {
           onClick={() => handleNavigate()}
           imageUrl="/assets/nuevos-productos8.png"
           fixPosition={classes.fixIcon}
+          name="Camiseta"
+          price="22.99 €"
         />
       </div>
     </div>

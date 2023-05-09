@@ -26,6 +26,7 @@ export const containerLinks = css`
   margin-left: 2rem;
 
   a {
+    text-decoration: none;
     color: #212429;
   }
 `;
