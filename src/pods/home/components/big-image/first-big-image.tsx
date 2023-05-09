@@ -10,7 +10,7 @@ export const FirstBigImage: React.FC = () => {
           <p>ENVÍO GRATUITO EN TODOS LOS PEDIDOS</p>
           <div>COLECCIÓN DE DEPORTES</div>
         </div>
-        <Button route="/woman" className={classes.button}>
+        <Button route="/mujer" className={classes.button}>
           Me interesa
         </Button>
       </div>
