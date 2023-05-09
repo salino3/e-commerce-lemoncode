@@ -5,7 +5,7 @@ export const container = css`
   background-image: url("/assets/group93.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 525px;
 
 
@@ -26,7 +26,6 @@ export const content = css`
 
   @media (min-width: 1024px) {
     left: 20%;
-
   }
 `;
 

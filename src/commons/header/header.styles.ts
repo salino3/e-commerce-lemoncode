@@ -5,7 +5,12 @@ export const header = css`
   grid-template-columns: auto auto auto;
   align-items: center;
   width: 100vw;
-  margin: 1rem;
+  position: fixed;
+  background: white;
+  scroll-margin-top: 70px;
+  z-index: 3;
+  height: 60px;
+  margin-left: 1rem;
 
   & > :last-child {
     justify-self: end;
@@ -22,8 +27,9 @@ export const header = css`
 
 export const menuIcon = css`
 
+
 @media (min-width: 1024px) {
-   display: none;
+  display: none;
  }
 `;
 

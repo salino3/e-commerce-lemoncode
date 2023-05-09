@@ -5,7 +5,7 @@ import * as classes from './ropa-mujer.styles';
 
 export const RopaMujerComponent: React.FC = () => {
   return (
-    <div>
+    <div className={classes.root}>
       <PrimaryComponent />
       <GridImages />
     </div>

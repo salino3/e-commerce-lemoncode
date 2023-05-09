@@ -26,62 +26,36 @@ export const containerLinks = css`
   margin-left: 2rem;
 
   a {
+    text-decoration: none;
     color: #212429;
   }
 `;
 
 export const content = css`
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
   margin: auto;
   padding: 0rem 1rem;
   box-sizing: border-box;
+  overflow-x: auto;
+  justify-content: center;
+  margin-top: 1rem;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none; /* for IE y Edge */
+  scrollbar-width: none; /* for Firefox */
 
 
   @media (min-width: 725px) {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    overflow-x: auto;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
-
-    -ms-overflow-style: none; /* for IE y Edge */
-    scrollbar-width: none; /* for Firefox */
   }
-`;
-
-
-export const hearthIcon = css`
-  position: relative;
-  top: 2rem;
-//?
-  right: 400%;
-
-  @media (min-width: 600px) {
-
-    right: 700%;
-  }
-  @media (min-width: 725px) {
-    right: 380%;
-  }
-  @media (min-width: 906px) {
-    right: 500%;
-  }
-  @media (min-width: 1097px) {
-    right: 600%;
-  }
-  @media (min-width: 1280px) {
-    right: 750%;
-  }
-`;
-
-export const hearthRed = css`
-  fill: red;
 `;
 
 export const item = css`
@@ -91,35 +65,23 @@ export const item = css`
   gap: 5px;
 
   img {
-
     width: 100%;
+    height: 100%;
 
   }
 `;
 
-export const span = css`
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #212429;
-`;
+ export const price = css`
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-decoration-line: line-through;
+   color: rgba(0, 0, 0, 0.6);
+ `;
 
+export const fixIcon = css`
 
-export const spangrey = css`
-  text-decoration-line: line-through;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: rgba(0, 0, 0, 0.6);
-`;
-
-export const spanred = css`
-  text-decoration-line: none;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 150%;
-  color: #ef3c3c;
+ top: 1rem;
+ right: 1rem;
 `;

@@ -11,6 +11,7 @@ export const content = css`
   grid-template-columns: repeat(2, minmax(40px, 100%));
   justify-content: space-between;
   gap: 10px;
+  margin-top: 1rem;
 
   img {
     width: 100%;

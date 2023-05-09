@@ -35,10 +35,10 @@ export const iconProducts = css`
 
 export const container = css`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40px, 40vw));
+  grid-template-columns: repeat(auto-fill, minmax(40px, 42vw));
   justify-content: center;
 
-  gap: 20px;
+  gap: 10px;
 
   img {
     width: 100%;
@@ -53,8 +53,8 @@ export const container = css`
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(auto-fit, minmax(40px, 350px));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 340px));
+    gap: 30px;
     justify-content: center;
   }
 `;
@@ -67,7 +67,7 @@ export const card = css`
 export const boxDescription = css`
   display: grid;
   grid-row-gap: 0.5rem;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
 
   color: #212429;
@@ -99,3 +99,5 @@ export const button = css`
     border: 0;
   }
 `;
+
+

@@ -1,10 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Button } from '@/commons';
+import { Link, useNavigate } from 'react-router-dom';
+import { Button, CardComponent } from '@/commons';
 import { CardList } from '../card-list';
 import * as classes from './grid-images.styles';
 
 export const GridImages: React.FC = () => {
+
+  const navigate = useNavigate();
+
+  function handleNavigate() {
+    navigate('/product');
+  };
+
   return (
     <div className={classes.root}>
       <div id="div"></div>
@@ -36,131 +43,106 @@ export const GridImages: React.FC = () => {
             </div>
           </div>
         </div>
-        <div  className={classes.container}>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid1.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Vaqueros</span> <span>XS M L</span>
-              <span>74.99 €</span> <span>1 Color</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid2.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Vestido</span> <span>XS M L</span>
-              <span>34.99 €</span> <span>17 Colores</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid3.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Camisa</span> <span>XS M L</span>
-              <span>44.99 €</span> <span>2 Colores</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid4.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Vestido</span> <span>XS M L</span>
-              <span>59.99 €</span> <span>1 Color</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid5.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Camiseta</span> <span>XS M L</span>
-              <span>22.99 €</span> <span>17 Colores</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid6.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Shorts</span> <span>XS M L</span>
-              <span>54.99 €</span> <span>2 Colores</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid7.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Vaqueros</span> <span>XS M L</span>
-              <span>79.99 €</span> <span>1 Color</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid8.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Pantalones</span> <span>XS M L</span>
-              <span>54.99 €</span> <span>17 Colores</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid9.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Vaqueros</span> <span>XS M L</span>
-              <span>79.99 €</span> <span>2 Colores</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid10.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Vestido</span> <span>XS M L</span>
-              <span>34.99 €</span> <span>1 Color</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid11.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Pantalones</span> <span>XS M L</span>
-              <span>34.99 €</span> <span>17 Colores</span>
-            </CardList>
-          </Link>
-          <Link to={'/product'}>
-            <CardList
-              classCard={classes.card}
-              routeImg="/assets/image-grid12.png"
-              classDescription={classes.boxDescription}
-            >
-              <span>Camiseta</span> <span>XS M L</span>
-              <span>79.99 €</span> <span>2 Colores</span>
-            </CardList>
-          </Link>
+        <div className={classes.container}>
+          <CardComponent
+            imageUrl="/assets/image-grid1.png"
+            onClick={handleNavigate}
+            name="Vaqueros"
+            price="79.99 €"
+            sizes="XS M L"
+            colors="1 Color"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid2.png"
+            onClick={handleNavigate}
+            name="Vestido"
+            price="34.99 €"
+            sizes="XS M L"
+            colors="1 Color"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid3.png"
+            onClick={handleNavigate}
+            name="Camisa"
+            price="44.99 €"
+            sizes="XS M L"
+            colors="2 Colores"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid4.png"
+            onClick={handleNavigate}
+            name="Vestido"
+            price="59.99 €"
+            sizes="XS M L"
+            colors="1 Color"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid5.png"
+            onClick={handleNavigate}
+            name="Camiseta"
+            price="22.99 €"
+            sizes="XS M L"
+            colors="17 Colores"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid6.png"
+            onClick={handleNavigate}
+            name="Pantalones cortos"
+            price="54.99 €"
+            sizes="XS M L"
+            colors="2 Colores"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid7.png"
+            onClick={handleNavigate}
+            name="Vaqueros"
+            price="79.99 €"
+            sizes="XS M L"
+            colors="1 Color"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid8.png"
+            onClick={handleNavigate}
+            name="Pantalones cortos"
+            price="54.99 €"
+            sizes="XS M L"
+            colors="17 Colores"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid9.png"
+            onClick={handleNavigate}
+            name="Vaqueros"
+            price="79.99 €"
+            sizes="XS M L"
+            colors="2 Colores"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid10.png"
+            onClick={handleNavigate}
+            name="Vestido"
+            price="34.99 €"
+            sizes="XS M L"
+            colors="1 Color"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid11.png"
+            onClick={handleNavigate}
+            name="Pantalones cortos"
+            price="34.99 €"
+            sizes="XS M L"
+            colors="17 Colores"
+          />
+          <CardComponent
+            imageUrl="/assets/image-grid12.png"
+          
+            onClick={handleNavigate}
+            name="Camiseta"
+            price="79.99 €"
+            sizes="XS M L"
+            colors="2 Colores"
+          />
         </div>
-        <Button className={classes.button}>
-          Los 12 productos siguientes
-        </Button>
+        <Button className={classes.button}>Los 12 productos siguientes</Button>
       </div>
     </div>
   );

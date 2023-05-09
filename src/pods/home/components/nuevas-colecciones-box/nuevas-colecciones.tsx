@@ -1,38 +1,70 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { CardComponent } from '@/commons';
+import { HomeCard } from '../card-home';
 import * as classes from './nueva-colecciones.styles';
 
 export const NuevasColecciones: React.FC = () => {
   const isMobile: boolean = useMediaQuery({ minWidth: '725px' });
 
+  const navigate = useNavigate();
+
+  function handleClick() {
+    return navigate('/mujer');
+  }
+
   return (
-    <div id='nuevas-colecciones' className={classes.container}>
+    <div id="nuevas-colecciones" className={classes.container}>
       <h2 className={classes.h2}>Nuevas colecciones</h2>
       {isMobile ? (
         <div className={classes.content}>
-          <Link to={'/mujer'}>
-            <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones1.png" />
-          </Link>
-          <Link to={'/mujer'}>
-            <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones2.png" />
-          </Link>
-          <Link to={'/mujer'}>
-            <CardComponent className={classes.item} routeImg="/assets/nuevas-colecciones3.png" />
-          </Link>
+          <CardComponent
+            onClick={handleClick}
+            showIcon={false}
+            className={classes.item}
+            imageUrl="/assets/nuevas-colecciones1.png"
+          />
+          {/* <HomeCard
+          imgUrl='/assets/new-collection1.png'
+          text='Primavera/Verano 2022'
+          route='/mujer'
+          /> */}
+
+          <CardComponent
+            onClick={handleClick}
+            showIcon={false}
+            className={classes.item}
+            imageUrl="/assets/nuevas-colecciones2.png"
+          />
+
+          <CardComponent
+            onClick={handleClick}
+            showIcon={false}
+            className={classes.item}
+            imageUrl="/assets/nuevas-colecciones3.png"
+          />
         </div>
       ) : (
         <div className={classes.content}>
-          <Link to={'/mujer'}>
-          <CardComponent className={classes.item} routeImg="/assets/mobile-coleccion1.png" />
-          </Link>
-          <Link to={'/mujer'}>
-          <CardComponent className={classes.item} routeImg="/assets/mobile-coleccion2.png" />
-          </Link>
-          <Link to={'/mujer'}>
-          <CardComponent className={classes.item} routeImg="/assets/mobile-coleccion3.png" />
-          </Link>
+          <CardComponent
+            onClick={handleClick}
+            showIcon={false}
+            className={classes.item}
+            imageUrl="/assets/mobile-coleccion1.png"
+          />
+          <CardComponent
+            onClick={handleClick}
+            showIcon={false}
+            className={classes.item}
+            imageUrl="/assets/mobile-coleccion2.png"
+          />
+          <CardComponent
+            onClick={handleClick}
+            showIcon={false}
+            className={classes.item}
+            imageUrl="/assets/mobile-coleccion3.png"
+          />
         </div>
       )}
     </div>

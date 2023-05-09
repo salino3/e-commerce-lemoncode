@@ -2,6 +2,9 @@ import {css} from '@emotion/css';
 
 
 export const content = css`
+
+margin-top: 60px;
+
   @media (min-width: 1024px) {
     padding: 0rem 3rem;
   }
