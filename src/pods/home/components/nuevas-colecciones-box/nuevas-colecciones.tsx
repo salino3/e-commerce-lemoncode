@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { CardComponent } from '@/commons';
+import { HomeCard } from '../card-home';
 import * as classes from './nueva-colecciones.styles';
 
 export const NuevasColecciones: React.FC = () => {
@@ -24,6 +25,11 @@ export const NuevasColecciones: React.FC = () => {
             className={classes.item}
             imageUrl="/assets/nuevas-colecciones1.png"
           />
+          {/* <HomeCard
+          imgUrl='/assets/new-collection1.png'
+          text='Primavera/Verano 2022'
+          route='/mujer'
+          /> */}
 
           <CardComponent
             onClick={handleClick}

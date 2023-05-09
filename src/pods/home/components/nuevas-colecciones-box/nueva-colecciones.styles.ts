@@ -19,10 +19,11 @@ export const h2 = css`
 
 export const content = css`
   display: flex;
-  place-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   gap: 2px;
-  padding: 0rem 1rem;
 
   @media (min-width: 725px) {
     justify-content: space-around;
@@ -47,7 +48,7 @@ export const item = css`
   img {
     height: auto;
     object-fit: cover;
-    width: 100vw;
+    width: 100%;
     padding: 0.5rem;
     box-sizing: border-box;
     height: auto;

@@ -6,3 +6,4 @@ export * from './exito-box';
 export * from './image-down';
 export * from './nuevas-colecciones-box';
 export * from './nuevos-productos';
+export * from './card-home';
