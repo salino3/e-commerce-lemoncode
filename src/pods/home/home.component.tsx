@@ -21,6 +21,9 @@ export const HomeComponent: React.FC = () => {
         Todas las colecciones
       </Button>
       <NuevosProductos />
+      <Button route={'/mujer'} className={classes.buttonHomeComponent}>
+        Ver todos
+      </Button>
       <FirstBigImage />
       <ImageDown />
     </div>

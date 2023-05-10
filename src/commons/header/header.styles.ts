@@ -1,13 +1,15 @@
 import { css } from '@emotion/css';
 
 export const header = css`
+  position: fixed;
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
-  width: 100vw;
-  position: fixed;
+  width: 100%;
+
+
   background: white;
-  z-index: 3;
+  z-index: 99999;
   height: 60px;
   margin-left: 1rem;
 
@@ -20,17 +22,17 @@ export const header = css`
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: 20% 50% auto;
+    grid-template-columns:  20% 50% auto;
   }
 `;
 
 export const menuIcon = css`
 
-
 @media (min-width: 1024px) {
   display: none;
  }
 `;
+
 
 export const nav = css`
   margin: auto;

@@ -5,6 +5,7 @@ export const modal = css`
   animation-duration: 2s;
 
   position: fixed;
+  margin-top: 60px;
   top: 0;
   left: 0;
   width: 100%;
@@ -25,7 +26,7 @@ export const modal = css`
 
 export const content = css`
   position: fixed;
-  top: 8%;
+  top: 12%;
   left: 25%;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -94,7 +95,6 @@ export const title = css`
 
 export const price = css`
   margin: 1rem 0rem;
-
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

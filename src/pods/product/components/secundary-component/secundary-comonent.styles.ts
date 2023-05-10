@@ -64,10 +64,7 @@ export const buttonThirdPage = css`
   margin: 2rem auto 1rem;
   border: solid 1px;
   width: 100%;
+  background: #212429;
+  color: #ffffff;
 
-  &:hover {
-    background-color: #212429;
-    color: #ffffff;
-    border: 0;
-  }
 `;

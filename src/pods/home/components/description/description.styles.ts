@@ -18,7 +18,6 @@ export const messageTitleDesktop = css`
   color: #212429;
   margin: auto;
 
-
 `;
 
 export const messageTitleMobile = css`
@@ -46,6 +45,12 @@ export const boxButtons = css`
   display: flex;
   flex-direction: row;
   gap: 1rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212429;
 
   @media (max-width: 700px) {
     justify-content: center;

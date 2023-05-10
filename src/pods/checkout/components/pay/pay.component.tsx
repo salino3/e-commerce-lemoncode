@@ -16,17 +16,17 @@ export const PayComponent: React.FC<Props> = (props) => {
         Importe total del pedido
       </div>
       <div className={classes.div}>
-        Coste de los bienes: <span>159.98 €</span>
+        Coste de los bienes <span>159.98 €</span>
       </div>
       <div className={classes.div}>
-        Entrega: <span>10 €</span>
+        Entrega <span>10 €</span>
       </div>
       <div className={classes.div}>
-        Importe del descuento: <span>0 €</span>
+        Importe del descuento <span>0 €</span>
       </div>
       <hr />
       <div className={classes.lastDiv}>
-        Importe total: <span>169,98 €</span>
+        Importe total <span>169,98 €</span>
       </div>
       <Button route='/payment' className={classes.btn}>Pagar</Button>
     </div>

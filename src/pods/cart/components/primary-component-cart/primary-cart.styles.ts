@@ -3,6 +3,7 @@ import { css } from "@emotion/css";
 export const container = css`
   padding: 1rem;
 
+
   h2 {
     padding-bottom: 1rem;
     font-style: normal;
@@ -10,6 +11,7 @@ export const container = css`
     font-size: 24px;
     line-height: 120%;
     color: #212429;
+
   }
 `;
 
@@ -40,6 +42,10 @@ export const boxForm = css`
   display: flex;
   flex-direction: column;
   width: 70%;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 12px 12px 0px 0px;
+  height: 480px;
 
   form {
     display: flex;
@@ -47,7 +53,6 @@ export const boxForm = css`
 
     div:first-child {
       margin: auto;
-
     }
   }
 
@@ -67,6 +72,7 @@ export const boxForm = css`
     display: none;
   }
 `;
+
 
 export const boxInput = css`
   display: flex;
@@ -158,10 +164,13 @@ export const button = css`
   margin: 2rem auto 1rem;
   border: solid 1px;
   width: 178px;
+  color: #ffffff;
+  background: #212429;
+  width: 100%;
+  cursor: pointer;
 
-  &:hover {
-    background-color: #212429;
-    color: #ffffff;
-    border: 0;
-  }
-  `;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+`;

@@ -20,7 +20,9 @@ export const HomeCard: React.FC<Props> = (props) => {
   return (
     <div onClick={handleClick} className={classes.container}>
       <img src={imgUrl} alt="image" />
+      <div className={classes.boxh3}>
       <h3>{text}</h3>
+      </div>
     </div>
   )
 }

@@ -20,16 +20,12 @@ export const btn = css`
   font-weight: 500;
   margin: 2rem auto 3rem;
   width: 100%;
-  color: #000000;
-  background: #ffffff;
   border-radius: 48px;
   cursor: pointer;
   border: 1px solid #212429;
   border-radius: 48px;
+  color: #ffffff;
+   background: #212429;
 
-  &:hover {
-    color: #ffffff;
-    background: black;
-  }
 `;
 
