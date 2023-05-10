@@ -15,7 +15,6 @@ export const CartLayout: React.FC = () => {
   }, []);
 
 
-
   return (
     <div className={classes.container}>
       <Header />

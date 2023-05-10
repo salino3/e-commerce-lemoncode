@@ -6,10 +6,14 @@ export const root = css`
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
+
   scroll-margin-top: 70px;
 
   hr {
     border: 1px solid #b6b6b6;
-    margin-top: 5rem;
   }
+`;
+
+export const hr = css`
+  margin-top: 5rem;
 `;

@@ -18,7 +18,6 @@ export const PopUpComponent: React.FC<Props> = (props) => {
         <div>
           <div className={classes.boxClose}>
             <button onClick={onClick}>
-              
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M17.75 2.0125L15.9875 0.25L9 7.2375L2.0125 0.25L0.25 2.0125L7.2375 9L0.25 15.9875L2.0125 17.75L9 10.7625L15.9875 17.75L17.75 15.9875L10.7625 9L17.75 2.0125Z"
@@ -28,16 +27,16 @@ export const PopUpComponent: React.FC<Props> = (props) => {
             </button>
             <p>2 comentarios</p>
             <div className={classes.Icons}>
-              <img src="/assets/shape-hearth.png" alt="heart" />
-              <img src="/assets/shareIcon.png" alt="share" />
+              <img src="/assets/gallery/shape-hearth.png" alt="heart" />
+              <img src="/assets/gallery/shareIcon.png" alt="share" />
             </div>
           </div>
           <div className={classes.boxStars}>
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
           </div>
           <div className={classes.title}>Vestido negro de lunares</div>
           <div className={classes.price}>79.99 €</div>
@@ -64,12 +63,12 @@ export const PopUpComponent: React.FC<Props> = (props) => {
           </div>
           <div className={classes.boxButtons}>
             <Button className={classes.lightButton} route="/cart">
-              <img src={`/assets/icon-minus.png`} alt="icon" />
+              <img src={`/assets/gallery/icon-minus.png`} alt="icon" />
               1
-              <img src={`/assets/icon-plus.png`} alt="icon" />
+              <img src={`/assets/gallery/icon-plus.png`} alt="icon" />
             </Button>
             <Button className={classes.darkButton} route="/cart">
-              <img src="/assets/cartIcon.png" alt="image" />
+              <img src="/assets/gallery/cartIcon.png" alt="image" />
               &nbsp; En cesta
             </Button>
           </div>

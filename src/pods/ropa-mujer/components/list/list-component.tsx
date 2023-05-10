@@ -27,7 +27,7 @@ export const ListComponent: React.FC<Props> = props => {
     <div onClick={onClick}>
       <h2>
         {h2}
-        <img src={`/assets/icon-${!toggleIcon ? 'minus' : 'plus'}.png`} alt="icon" />
+        <img src={`/assets/gallery/icon-${!toggleIcon ? 'minus' : 'plus'}.png`} alt="icon" />
       </h2>
       {toggleIcon && (
         <ul className={classes.boxLinks}>

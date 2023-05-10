@@ -9,14 +9,14 @@ export const PaymentComponent: React.FC = () => {
         <div className={classes.txtRoute}>Inicio/Cesta de la compra/Pedidos/Pago</div>
         <h1 className={classes.title}>
           <div>
-            <img src="/assets/shape-arrow-left.png" alt="arrow-left" />
+            <img src="/assets/gallery/shape-arrow-left.png" alt="arrow-left" />
           </div>
           Orden de pago
         </h1>
         <div className={classes.description}>Todas las transacciones son seguras y están encriptadas</div>
         <div className={classes.boxImgs}>
-          <img className={classes.card1} src="/assets/card1.png" alt="card" />
-          <img className={classes.card2} src="/assets/card2.png" alt="card" />
+          <img className={classes.card1} src="/assets/gallery/card1.png" alt="card" />
+          <img className={classes.card2} src="/assets/gallery/card2.png" alt="card" />
         </div>
       </div>
       <div className={classes.boxForm}>
@@ -25,7 +25,7 @@ export const PaymentComponent: React.FC = () => {
           <div className={classes.boxInputs}>
             <div className={classes.boxInput1}>
               <InputCart pl="Número de tarjeta" className={classes.input1} />
-              <img src="/assets/fi_lock.png" alt="lock" />
+              <img src="/assets/gallery/fi_lock.png" alt="lock" />
             </div>
             <div className={classes.boxInput2}>
               <InputCart pl="Nombre del titular" className={classes.input2} />
@@ -56,7 +56,7 @@ export const PaymentComponent: React.FC = () => {
             </div>
             <div className={classes.boxInput5}>
               <InputCart pl="CVV" className={classes.input5} />
-              <img src="/assets/question-mark-icon.png" alt="quastion-mark" />
+              <img src="/assets/gallery/question-mark-icon.png" alt="quastion-mark" />
             </div>
           </div>
           <div className={classes.text}>

@@ -18,10 +18,10 @@ export const Header: React.FC = () => {
       </div>
       <Navbar />
       <div className={classes.boxIcons}>
-        <img src="/assets/shape-2.png" alt="magnifying glass" />
-        <img src="/assets/shape-hearth.png" alt="heart" />
+        <img src="/assets/gallery/shape-2.png" alt="magnifying glass" />
+        <img src="/assets/gallery/shape-hearth.png" alt="heart" />
         <Link to={'/cart'}>
-          <img src="/assets/shape.png" alt="cart" />
+          <img src="/assets/gallery/shape.png" alt="cart" />
         </Link>
       </div>
     </header>

@@ -5,7 +5,6 @@ export const modal = css`
   animation-duration: 2s;
 
   position: fixed;
-  margin-top: 60px;
   top: 0;
   left: 0;
   width: 100%;

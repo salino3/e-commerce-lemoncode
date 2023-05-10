@@ -8,7 +8,7 @@ export const HomeComponent: React.FC = () => {
   return (
     <div className={classes.root}>
       <div className={classes.boxDescription}>
-        <img className={classes.imgPrimary} src="/assets/primaryImage2.png" alt="home-image" />
+        <img className={classes.imgPrimary} src="/assets/gallery/primaryImage2.png" alt="home-image" />
         <Description />
       </div>
       <ActualBox />

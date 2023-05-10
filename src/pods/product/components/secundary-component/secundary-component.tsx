@@ -26,7 +26,7 @@ export const SecundaryComponent: React.FC = () => {
             </svg>
           </div>
           <div className={classes.deliveryText}>
-            <img src="/assets/iconoir_delivery-truck.png" alt="icon" />
+            <img src="/assets/gallery/iconoir_delivery-truck.png" alt="icon" />
             <div>
               Por mensajero a domicilio - a partir de 50 € gratis.
               <br />
@@ -34,7 +34,7 @@ export const SecundaryComponent: React.FC = () => {
             </div>
           </div>
           <div className={classes.deliveryText}>
-            <img src="/assets/iconoir_delivery.png" alt="icon" />
+            <img src="/assets/gallery/iconoir_delivery.png" alt="icon" />
             <div>Belarus Post - a partir de 50 € gratis. Sin la posibilidad de encajar</div>
           </div>
           <hr />

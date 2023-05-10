@@ -19,7 +19,7 @@ export const ProductLayout: React.FC = () => {
     <div className={classes.container}>
       <Header />
       <ProductComponent />
-      <hr />
+      <hr className={classes.hr} />
       <Boletin />
       <Footer />
     </div>

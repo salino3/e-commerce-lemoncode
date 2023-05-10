@@ -29,7 +29,7 @@ export const BoxImages: React.FC = () => {
           onClick={onClick}
           className={classes.card}
           showIcon={false}
-          imageUrl="/assets/images-grid-product1.png"
+          imageUrl="/assets/gallery/images-grid-product1.png"
           name="Vaqueros"
           price="59.99 €"
           colors="1 Color"
@@ -40,7 +40,7 @@ export const BoxImages: React.FC = () => {
           onClick={onClick}
           className={classes.card}
           showIcon={false}
-          imageUrl="/assets/images-grid-product2.png"
+          imageUrl="/assets/gallery/images-grid-product2.png"
           name="Vaqueros"
           price="22.99 €"
           colors="17 Colores"
@@ -51,7 +51,7 @@ export const BoxImages: React.FC = () => {
           onClick={onClick}
           showIcon={false}
           className={classes.card}
-          imageUrl="/assets/images-grid-product3.png"
+          imageUrl="/assets/gallery/images-grid-product3.png"
           name="Vaqueros"
           price="54.99 €"
           colors="2 Colores"
@@ -62,7 +62,7 @@ export const BoxImages: React.FC = () => {
           onClick={onClick}
           showIcon={false}
           className={classes.card}
-          imageUrl="/assets/images-grid-product4.png"
+          imageUrl="/assets/gallery/images-grid-product4.png"
           name="Pantalones cortos"
           price="22.99 €"
           sizes="XS M L"

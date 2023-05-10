@@ -18,7 +18,7 @@ const handleScroll = () => {
     <div className={classes.root}>
       <Header />
       <RopaMujerComponent />
-      <hr />
+      <hr className={classes.hr}/>
       <Boletin />
       <Footer />
     </div>

@@ -25,7 +25,7 @@ export const HomeLayout: React.FC = () => {
     <div className={classes.root}>
       <Header />
       <HomeComponent />
-      <hr />
+      <hr className={classes.hr} />
       <Boletin />
       <Footer />
     </div>

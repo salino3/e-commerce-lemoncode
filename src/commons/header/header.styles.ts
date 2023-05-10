@@ -11,8 +11,7 @@ export const header = css`
   background: white;
   z-index: 99999;
   height: 60px;
-  margin-left: 1rem;
-
+  padding-left: 1rem;
   & > :last-child {
     justify-self: end;
   }

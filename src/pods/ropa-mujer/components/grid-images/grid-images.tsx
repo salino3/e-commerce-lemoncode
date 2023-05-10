@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Button, CardComponent } from '@/commons';
-import { CardList } from '../card-list';
 import * as classes from './grid-images.styles';
 
 export const GridImages: React.FC = () => {
@@ -45,7 +44,7 @@ export const GridImages: React.FC = () => {
         </div>
         <div className={classes.container}>
           <CardComponent
-            imageUrl="/assets/image-grid1.png"
+            imageUrl="/assets/gallery/image-grid1.png"
             onClick={handleNavigate}
             name="Vaqueros"
             price="79.99 €"
@@ -53,7 +52,7 @@ export const GridImages: React.FC = () => {
             colors="1 Color"
           />
           <CardComponent
-            imageUrl="/assets/image-grid2.png"
+            imageUrl="/assets/gallery/image-grid2.png"
             onClick={handleNavigate}
             name="Vestido"
             price="34.99 €"
@@ -61,7 +60,7 @@ export const GridImages: React.FC = () => {
             colors="1 Color"
           />
           <CardComponent
-            imageUrl="/assets/image-grid3.png"
+            imageUrl="/assets/gallery/image-grid3.png"
             onClick={handleNavigate}
             name="Camisa"
             price="44.99 €"
@@ -69,7 +68,7 @@ export const GridImages: React.FC = () => {
             colors="2 Colores"
           />
           <CardComponent
-            imageUrl="/assets/image-grid4.png"
+            imageUrl="/assets/gallery/image-grid4.png"
             onClick={handleNavigate}
             name="Vestido"
             price="59.99 €"
@@ -77,7 +76,7 @@ export const GridImages: React.FC = () => {
             colors="1 Color"
           />
           <CardComponent
-            imageUrl="/assets/image-grid5.png"
+            imageUrl="/assets/gallery/image-grid5.png"
             onClick={handleNavigate}
             name="Camiseta"
             price="22.99 €"
@@ -85,7 +84,7 @@ export const GridImages: React.FC = () => {
             colors="17 Colores"
           />
           <CardComponent
-            imageUrl="/assets/image-grid6.png"
+            imageUrl="/assets/gallery/image-grid6.png"
             onClick={handleNavigate}
             name="Pantalones cortos"
             price="54.99 €"
@@ -93,7 +92,7 @@ export const GridImages: React.FC = () => {
             colors="2 Colores"
           />
           <CardComponent
-            imageUrl="/assets/image-grid7.png"
+            imageUrl="/assets/gallery/image-grid7.png"
             onClick={handleNavigate}
             name="Vaqueros"
             price="79.99 €"
@@ -101,7 +100,7 @@ export const GridImages: React.FC = () => {
             colors="1 Color"
           />
           <CardComponent
-            imageUrl="/assets/image-grid8.png"
+            imageUrl="/assets/gallery/image-grid8.png"
             onClick={handleNavigate}
             name="Pantalones cortos"
             price="54.99 €"
@@ -109,7 +108,7 @@ export const GridImages: React.FC = () => {
             colors="17 Colores"
           />
           <CardComponent
-            imageUrl="/assets/image-grid9.png"
+            imageUrl="/assets/gallery/image-grid9.png"
             onClick={handleNavigate}
             name="Vaqueros"
             price="79.99 €"
@@ -117,7 +116,7 @@ export const GridImages: React.FC = () => {
             colors="2 Colores"
           />
           <CardComponent
-            imageUrl="/assets/image-grid10.png"
+            imageUrl="/assets/gallery/image-grid10.png"
             onClick={handleNavigate}
             name="Vestido"
             price="34.99 €"
@@ -125,7 +124,7 @@ export const GridImages: React.FC = () => {
             colors="1 Color"
           />
           <CardComponent
-            imageUrl="/assets/image-grid11.png"
+            imageUrl="/assets/gallery/image-grid11.png"
             onClick={handleNavigate}
             name="Pantalones cortos"
             price="34.99 €"
@@ -133,8 +132,7 @@ export const GridImages: React.FC = () => {
             colors="17 Colores"
           />
           <CardComponent
-            imageUrl="/assets/image-grid12.png"
-          
+            imageUrl="/assets/gallery/image-grid12.png"
             onClick={handleNavigate}
             name="Camiseta"
             price="79.99 €"
