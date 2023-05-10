@@ -22,7 +22,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           onClick={() => handleNavigate()}
           className={classes.item}
-          imageUrl="/assets/nuevos-productos1.png"
+          imageUrl="/assets/gallery/nuevos-productos1.png"
           name="Polo"
           price="44.95 €"
         />
@@ -30,7 +30,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos2.png"
+          imageUrl="/assets/gallery/nuevos-productos2.png"
           name="Camiseta"
           price="25.00 €"
         />
@@ -38,7 +38,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos3.png"
+          imageUrl="/assets/gallery/nuevos-productos3.png"
           name="Pantalones deportivos"
           price="49.95 €"
         />
@@ -46,7 +46,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos4.png"
+          imageUrl="/assets/gallery/nuevos-productos4.png"
           name="Camiseta"
           price="27.99 €"
         />
@@ -54,7 +54,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos6.png"
+          imageUrl="/assets/gallery/nuevos-productos6.png"
           name="Camisa"
           price="25.00 €"
         />
@@ -62,7 +62,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={cx(classes.item, classes.item2)}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos7.png"
+          imageUrl="/assets/gallery/nuevos-productos7.png"
           name="Sudadera"
           price="44.99 €"
         />
@@ -70,7 +70,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={classes.item}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos5.png"
+          imageUrl="/assets/gallery/nuevos-productos5.png"
           name="Juego de camisetas (5 piezas)"
           price="75.95 €"
         />
@@ -78,7 +78,7 @@ export const NuevosProductos: React.FC = () => {
         <CardComponent
           className={cx(classes.item, classes.item2)}
           onClick={() => handleNavigate()}
-          imageUrl="/assets/nuevos-productos8.png"
+          imageUrl="/assets/gallery/nuevos-productos8.png"
           name="Camiseta"
           price="22.99 €"
         />

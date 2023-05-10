@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
       </div>
       <div>
         <Link to={'/'}>
-         <img className="img_1" src="/assets/logo.svg" alt="logo" />
+         <img className="img_1" src="/assets/icons/logo.svg" alt="logo" />
         </Link>
       </div>
       <Navbar />
