@@ -5,15 +5,6 @@ import * as classes from './home.styles';
 
 export const HomeComponent: React.FC = () => {
 
-  React.useEffect(() => {
-    const sectionId = window.location.hash.substring(1);
-    const element = document.getElementById(sectionId);
-
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    };
-  }, []);
-
   return (
     <div className={classes.root}>
       <div className={classes.boxDescription}>

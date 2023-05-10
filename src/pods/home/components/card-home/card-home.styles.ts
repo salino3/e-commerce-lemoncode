@@ -7,6 +7,11 @@ export const container = css`
   justify-content: center;
   align-items: center;
 
+  img {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   h3 {
     position: absolute;
     text-align: center;
@@ -19,9 +24,7 @@ export const container = css`
     font-variant: small-caps;
     color: #ffffff;
   }
-
-  img {
-    width: 100%;
-    box-sizing: border-box;
-  }
 `;
+
+
+

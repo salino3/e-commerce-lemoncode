@@ -7,7 +7,6 @@ export const header = css`
   width: 100vw;
   position: fixed;
   background: white;
-  scroll-margin-top: 70px;
   z-index: 3;
   height: 60px;
   margin-left: 1rem;

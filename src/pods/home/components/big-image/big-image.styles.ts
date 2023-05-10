@@ -50,6 +50,7 @@ export const button = css`
   font-size: 16px;
   line-height: 150%;
   color: #212429;
+  cursor: pointer;
 
 
   &:hover {
