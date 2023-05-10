@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { HomeCard } from '../card-home';
 import * as classes from './nueva-colecciones.styles';
