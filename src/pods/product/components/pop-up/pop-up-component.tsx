@@ -1,7 +1,8 @@
 import React from 'react';
 import { cx } from '@emotion/css';
-import * as classes from './popup.styles';
+import { switchRoutes } from '@/router/routes';
 import { Button } from '@/commons';
+import * as classes from './popup.styles';
 
 interface Props {
   className?: string;
@@ -62,12 +63,12 @@ export const PopUpComponent: React.FC<Props> = (props) => {
             </div>
           </div>
           <div className={classes.boxButtons}>
-            <Button className={classes.lightButton} route="/cart">
+            <Button className={classes.lightButton} >
               <img src={`/assets/gallery/icon-minus.png`} alt="icon" />
               1
               <img src={`/assets/gallery/icon-plus.png`} alt="icon" />
             </Button>
-            <Button className={classes.darkButton} route="/cart">
+            <Button className={classes.darkButton} route={switchRoutes.cart}>
               <img src="/assets/gallery/cartIcon.png" alt="image" />
               &nbsp; En cesta
             </Button>

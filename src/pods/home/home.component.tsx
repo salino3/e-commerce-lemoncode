@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@/commons';
+import { switchRoutes } from '@/router/routes';
 import { ActualBox, Description, ExitoVentas, FirstBigImage, ImageDown, NuevasColecciones, NuevosProductos } from './components';
 import * as classes from './home.styles';
 
@@ -13,15 +14,15 @@ export const HomeComponent: React.FC = () => {
       </div>
       <ActualBox />
       <ExitoVentas />
-      <Button route={'/mujer'} className={classes.buttonHomeComponent}>
+      <Button route={switchRoutes.woman} className={classes.buttonHomeComponent}>
         Todos los éxitos
       </Button>
       <NuevasColecciones />
-      <Button route={'/mujer'} className={classes.buttonHomeComponent}>
+      <Button route={switchRoutes.woman} className={classes.buttonHomeComponent}>
         Todas las colecciones
       </Button>
       <NuevosProductos />
-      <Button route={'/mujer'} className={classes.buttonHomeComponent}>
+      <Button route={switchRoutes.woman} className={classes.buttonHomeComponent}>
         Ver todos
       </Button>
       <FirstBigImage />

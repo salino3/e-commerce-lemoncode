@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { switchRoutes } from "@/router/routes";
 import * as classes from "./header.styles";
 
 export const Navbar: React.FC = () => {
@@ -7,16 +8,16 @@ export const Navbar: React.FC = () => {
     <nav className={classes.nav}>
       <ul className={classes.ul}>
         <li>
-          <Link to={"/mujer"}>PARA MUJERES</Link>
+          <Link to={switchRoutes.woman}>PARA MUJERES</Link>
         </li>
         <li>
-          <Link to={"/mujer"}>HOMBRE</Link>
+          <Link to={switchRoutes.woman}>HOMBRE</Link>
         </li>
         <li>
-          <Link to={"/mujer"}>NUEVO</Link>
+          <Link to={switchRoutes.woman}>NUEVO</Link>
         </li>
         <li>
-          <Link to={"/mujer"}>COLECCIONES ESPECIALES</Link>
+          <Link to={switchRoutes.woman}>COLECCIONES ESPECIALES</Link>
         </li>
       </ul>
     </nav>

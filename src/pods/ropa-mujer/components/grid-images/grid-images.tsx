@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { switchRoutes } from '@/router/routes';
 import { Button, CardComponent } from '@/commons';
 import * as classes from './grid-images.styles';
 
@@ -8,7 +9,7 @@ export const GridImages: React.FC = () => {
   const navigate = useNavigate();
 
   function handleNavigate() {
-    navigate('/product');
+    navigate(switchRoutes.product);
   };
 
   return (

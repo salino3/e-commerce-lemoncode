@@ -29,7 +29,7 @@ export const PrimaryComponent: React.FC = () => {
       ...prevState,
       [index]: !prevState[index],
     }));
-  }
+  };
 
   return (
     <div>

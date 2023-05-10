@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@/commons';
+import { switchRoutes } from '@/router/routes';
 import { ListComponent } from '@/pods/ropa-mujer/components';
 import * as classes from './main-isdesktop.styles';
 
@@ -88,12 +89,12 @@ export const MainComponentIsdesktop: React.FC = () => {
             <div>Belarus Post - a partir de 50 € gratis. Sin la posibilidad de encajar</div>
           </div>
           <div className={classes.boxButtons}>
-            <Button className={classes.lightButton} route="/cart">
+            <Button className={classes.lightButton} route={switchRoutes.cart}>
               <img src={`/assets/gallery/icon-minus.png`} alt="icon" />
               1
               <img src={`/assets/gallery/icon-plus.png`} alt="icon" />
             </Button>
-            <Button className={classes.darkButton} route="/cart">
+            <Button className={classes.darkButton} route={switchRoutes.cart}>
               <img src="/assets/gallery/cartIcon.png" alt="image" />
               &nbsp; En cesta
             </Button>

@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import {cx} from '@emotion/css'
 import { CardComponent } from '@/commons';
 import * as classes from './exito-ventas.styles';
+import { switchRoutes } from '@/router/routes';
 
 
 
@@ -18,8 +19,8 @@ export const ExitoVentas: React.FC = () => {
     <div className={classes.container}>
       <h2 className={classes.h2}>Éxitos de ventas</h2>
       <div className={classes.containerLinks}>
-        <Link to={'/mujer'}>Mujeres</Link>
-        <Link to={'/mujer'}>Hombres</Link>
+        <Link to={switchRoutes.woman}>Mujeres</Link>
+        <Link to={switchRoutes.woman}>Hombres</Link>
       </div>
       <div id="exito-ventas" className={classes.content}>
         <CardComponent

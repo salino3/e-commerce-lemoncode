@@ -1,6 +1,7 @@
 import React from 'react';
-import { Navbar } from './navbar.component';
 import { Link } from 'react-router-dom';
+import { switchRoutes } from '@/router/routes';
+import { Navbar } from './navbar.component';
 import * as classes from './header.styles';
 
 export const Header: React.FC = () => {
@@ -12,7 +13,7 @@ export const Header: React.FC = () => {
         <img src="/assets/shape-lines.png" alt="menu" />
       </div>
       <div>
-        <Link to={'/'}>
+        <Link to={switchRoutes.root}>
           <img className="img_1" src="/assets/icons/logo.svg" alt="logo" />
         </Link>
       </div>
@@ -20,7 +21,7 @@ export const Header: React.FC = () => {
       <div className={classes.boxIcons}>
         <img src="/assets/gallery/shape-2.png" alt="magnifying glass" />
         <img src="/assets/gallery/shape-hearth.png" alt="heart" />
-        <Link to={'/cart'}>
+        <Link to={switchRoutes.cart}>
           <img src="/assets/gallery/shape.png" alt="cart" />
         </Link>
       </div>

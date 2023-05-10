@@ -3,7 +3,6 @@ import "@fontsource/montserrat";
 
 injectGlobal`
 
-
 body {
 
   background: white;

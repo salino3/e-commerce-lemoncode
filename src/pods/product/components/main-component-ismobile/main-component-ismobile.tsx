@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@/commons';
 import * as classes from "./main-ismobile.style";
+import { switchRoutes } from '@/router/routes';
 
 
 export const MainComponentIsmobile: React.FC = () => {
@@ -60,14 +61,14 @@ export const MainComponentIsmobile: React.FC = () => {
             </div>
           </div>
           <div className={classes.stylesBtn}>
-            <Button className={classes.lightButton} route="/cart">
+            <Button className={classes.lightButton} route={switchRoutes.cart}>
               <img src={`/assets/gallery/icon-minus.png`} alt="icon" />
               1
               <img src={`/assets/gallery/icon-plus.png`} alt="icon" />
             </Button>
             <div className={classes.price}>79.99 €</div>
           </div>
-          <Button className={classes.darkButton} route="/cart">
+          <Button className={classes.darkButton} route={switchRoutes.cart}>
             <img src="/assets/gallery/cartIcon.png" alt="image" />
             &nbsp; En cesta
           </Button>

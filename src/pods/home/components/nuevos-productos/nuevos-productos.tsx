@@ -2,21 +2,22 @@ import React from 'react';
 import { cx } from '@emotion/css';
 import { Link, useNavigate } from 'react-router-dom';
 import { CardComponent } from '@/commons';
+import { switchRoutes } from '@/router/routes';
 import * as classes from './nuevos-productos.styles';
 
 export const NuevosProductos: React.FC = () => {
   const navigate = useNavigate();
 
   function handleNavigate() {
-    navigate('/product');
+    navigate(switchRoutes.product);
   };
 
   return (
     <div className={classes.container}>
       <h2 className={classes.h2}>Nuevo productos</h2>
       <div className={classes.containerLinks}>
-        <Link to={'/mujer'}>Mujeres</Link>
-        <Link to={'/mujer'}>Hombres</Link>
+        <Link to={switchRoutes.woman}>Mujeres</Link>
+        <Link to={switchRoutes.woman}>Hombres</Link>
       </div>
       <div id="nuevos-productos" className={classes.content}>
         <CardComponent

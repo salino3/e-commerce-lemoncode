@@ -13,7 +13,7 @@ export const BoxImages: React.FC = () => {
   const onClick = () => {
     if (!isMobile) {
       setShowPopup(true);
-    }
+    };
   };
 
   const handleHidePopup = () => {

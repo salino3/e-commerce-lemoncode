@@ -1,11 +1,12 @@
 import React from 'react';
 import { cx } from '@emotion/css';
+import { switchRoutes } from '@/router/routes';
 import { Button } from '@/commons';
 import * as classes from './pay.styles';
 
 interface Props {
   className?: string;
-}
+};
 
 export const PayComponent: React.FC<Props> = (props) => {
   const {className} = props;
@@ -28,7 +29,7 @@ export const PayComponent: React.FC<Props> = (props) => {
       <div className={classes.lastDiv}>
         Importe total <span>169,98 €</span>
       </div>
-      <Button route='/payment' className={classes.btn}>Pagar</Button>
+      <Button route={switchRoutes.payment} className={classes.btn}>Pagar</Button>
     </div>
   );
 }
