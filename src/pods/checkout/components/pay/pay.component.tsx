@@ -11,6 +11,7 @@ interface Props {
 export const PayComponent: React.FC<Props> = (props) => {
   const {className} = props;
 
+
   return (
     <div className={cx(classes.container, className)}>
       <div className={classes.div}>

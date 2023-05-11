@@ -2,8 +2,11 @@ import {css} from '@emotion/css';
 
 
 export const content = css`
+  margin-top: 60px;
 
-margin-top: 60px;
+  hr {
+    border: 1px solid #b6b6b6;
+  }
 
   @media (min-width: 1024px) {
     padding: 0rem 3rem;

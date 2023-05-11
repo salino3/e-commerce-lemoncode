@@ -6,6 +6,16 @@ import { EntregaComponent } from './components/entrega';
 import * as classes from './cart.styles';
 
 export const CartComponent: React.FC = () => {
+
+const handleScroll = () => {
+  window.scrollTo(0, 0);
+};
+
+React.useEffect(() => {
+  handleScroll();
+}, []);
+
+
   return (
     <div className={classes.content}>
       <PrimaryComponentCart />

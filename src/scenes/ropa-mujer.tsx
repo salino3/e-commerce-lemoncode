@@ -1,4 +1,4 @@
 import React from 'react';
-import {RopaMujerLayout} from '@/layout';
+import { RopaMujerComponent } from '@/pods';
 
-export const RopaMujer: React.FC  = () =>  <RopaMujerLayout />
+export const RopaMujer: React.FC  = () =>  <RopaMujerComponent />

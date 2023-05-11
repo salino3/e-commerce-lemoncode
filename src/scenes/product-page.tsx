@@ -1,4 +1,4 @@
 import React from 'react';
-import { ProductLayout } from '@/layout';
+import { ProductComponent } from '@/pods';
 
-export const ProductPage: React.FC = () => <ProductLayout />
+export const ProductPage: React.FC = () => <ProductComponent />;

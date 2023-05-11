@@ -3,13 +3,14 @@ import {css} from '@emotion/css';
 
 export const grid = css`
 
- margin-top: 60px;
-
+  margin-top: 60px;
+  padding: 0rem 1rem;
+  
   @media (min-width: 1024px) {
     display: grid;
     grid-template-columns: auto auto;
-
   }
+
 `;
 
 export const txtRoute = css`
@@ -21,6 +22,8 @@ export const txtRoute = css`
 `;
 
 export const container = css`
+
+
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -56,7 +59,7 @@ export const container = css`
   }
 
   @media (min-width: 1024px) {
-    padding: 1rem 5rem;
+    padding: 1rem 0rem;
   }
 `;
 
@@ -125,4 +128,3 @@ export const buttons = css`
     }
   }
 `;
-

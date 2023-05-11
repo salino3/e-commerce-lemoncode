@@ -3,6 +3,17 @@ import { Button, InputCart } from '@/commons';
 import * as classes from './payment.styles';
 
 export const PaymentComponent: React.FC = () => {
+
+
+const handleScroll = () => {
+  window.scrollTo(0, 0);
+};
+
+React.useEffect(() => {
+  handleScroll();
+}, []);
+
+
   return (
     <div className={classes.container}>
       <div className={classes.boxText}>

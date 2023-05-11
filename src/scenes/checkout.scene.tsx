@@ -1,4 +1,4 @@
 import React from 'react';
-import { CheckoutPage } from '@/layout';
+import { CheckoutComponent } from '@/pods';
 
-export const CheckoutScene: React.FC = () => <CheckoutPage />
+export const CheckoutScene: React.FC = () => <CheckoutComponent />

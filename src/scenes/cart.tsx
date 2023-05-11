@@ -1,4 +1,4 @@
 import React from 'react';
-import { CartLayout } from '@/layout';
+import { CartComponent } from '@/pods';
 
-export const Cart: React.FC = () => <CartLayout />
+export const Cart: React.FC = () => <CartComponent />
