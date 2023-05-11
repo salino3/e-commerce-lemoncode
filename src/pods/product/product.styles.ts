@@ -1,8 +1,10 @@
-import {css} from '@emotion/css';
+import { css } from '@emotion/css';
 
 export const root = css`
-
- margin-top: 60px;
+  margin-top: 60px;
 `;
 
-
+export const hr = css`
+  margin-top: 3rem;
+  border: 1px solid #b6b6b6;
+`;

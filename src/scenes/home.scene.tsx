@@ -1,4 +1,4 @@
 import React from "react";
-import { HomeLayout } from "@/layout";
+import {HomeComponent} from '@/pods';
 
-export const HomeScene: React.FC = () => <HomeLayout />;
+export const HomeScene: React.FC = () => <HomeComponent />;

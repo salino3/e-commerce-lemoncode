@@ -5,6 +5,17 @@ import * as classes from './checkout.styles';
 
 
 export const CheckoutComponent: React.FC = () => {
+
+
+const handleScroll = () => {
+  window.scrollTo(0, 0);
+};
+
+React.useEffect(() => {
+  handleScroll();
+}, []);
+
+
   return (
     <div className={classes.grid}>
       <div className={classes.container}>

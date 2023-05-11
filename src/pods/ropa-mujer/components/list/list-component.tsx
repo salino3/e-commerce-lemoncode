@@ -33,7 +33,7 @@ export const ListComponent: React.FC<Props> = props => {
         <ul className={classes.boxLinks}>
           <li>{text1}</li>
           <li>
-            <Link to={'/#exito-ventas'}>{text2}</Link>
+            <Link to={'/#exito-ventas'} >{text2}</Link>
           </li>
           <li>
             <Link to={'/#nuevas-colecciones'}>{text3}</Link>

@@ -1,19 +1,22 @@
-import {css} from '@emotion/css';
+import { css } from '@emotion/css';
 
 export const container = css`
+
+  padding: 1rem;
 
   hr {
     display: none;
   }
 
   @media (min-width: 725px) {
+    max-width: 530px;
+    width: 100%;
 
     hr {
-
       display: unset;
       background: #212429;
       border: 1px solid #212429;
-      margin: 1rem 0rem;
+      margin: 1rem 5rem;
     }
   }
 
@@ -42,12 +45,17 @@ export const container = css`
   }
 
   @media (min-width: 725px) {
-    padding: 1rem 5rem;
+    padding: 1rem 0rem;
 
     div {
       padding: 0rem 5rem;
       gap: 150px;
     }
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 530px;
+    width: 100%;
   }
 `;
 
@@ -79,7 +87,8 @@ export const lastDiv = css`
 export const btn = css`
   font-weight: 500;
   border-radius: 48px;
-  width: 80%;
+  max-width: calc(530px - 150px);
+  width: 100%;
   margin: 2rem auto 3rem;
   border: 1px solid #212429;
 
@@ -88,4 +97,3 @@ export const btn = css`
   background: black;
   border-radius: 48px;
 `;
-

@@ -1,4 +1,4 @@
 import React from 'react';
-import { PaymentLayout } from '@/layout';
+import { PaymentComponent } from '@/pods';
 
-export const Payment: React.FC = () => <PaymentLayout />
+export const Payment: React.FC = () => <PaymentComponent />
