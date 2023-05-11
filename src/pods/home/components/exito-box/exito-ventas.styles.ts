@@ -71,17 +71,5 @@ export const item = css`
   }
 `;
 
- export const price = css`
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 150%;
-   text-decoration-line: line-through;
-   color: rgba(0, 0, 0, 0.6);
- `;
 
-export const fixIcon = css`
 
- top: 1rem;
- right: 1rem;
-`;

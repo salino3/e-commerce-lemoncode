@@ -27,7 +27,6 @@ export const ExitoVentas: React.FC = () => {
           onClick={() => handleClick()}
           className={classes.item}
           imageUrl="/assets/gallery/exito-venta1.png"
-          fixPosition={classes.fixIcon}
           name="Camiseta"
           price="34.95 €"
         />
@@ -36,14 +35,12 @@ export const ExitoVentas: React.FC = () => {
           className={classes.item}
           onClick={() => handleClick()}
           imageUrl="/assets/gallery/exito-venta2.png"
-          fixPosition={classes.fixIcon}
           name="Vestido"
           price="34.95 €"
         />
 
         <CardComponent
           onClick={() => handleClick()}
-          fixPosition={classes.fixIcon}
           imageUrl="/assets/gallery/exito-venta3.png"
           className={classes.item}
           name="Vaqueros"
@@ -52,10 +49,8 @@ export const ExitoVentas: React.FC = () => {
 
         <CardComponent
           onClick={() => handleClick()}
-          fixPosition={classes.fixIcon}
           imageUrl={'/assets/gallery/exito-venta4.png'}
           className={classes.item}
-          classPrice={classes.price}
           name="Vestido"
           price="179.00 €"
           offer="75.00 €"

@@ -5,8 +5,6 @@ import * as classes from './card-component.styles';
 interface Props {
   onClick?: () => void;
   className?: string;
-  fixPosition?: string;
-  classPrice?: string;
   imageUrl?: string;
   name?: string;
   price?: string;
@@ -21,8 +19,6 @@ export const CardComponent: React.FC<Props> = props => {
   const {
     onClick,
     className,
-    fixPosition,
-    classPrice,
     imageUrl,
     alt = 'image',
     name,
