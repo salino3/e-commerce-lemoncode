@@ -3,8 +3,8 @@ import "@fontsource/montserrat";
 
 injectGlobal`
 
-
 body {
+
   background: white;
   width: 100%;
   overflow-y: auto;

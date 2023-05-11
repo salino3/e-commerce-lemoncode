@@ -10,7 +10,7 @@ export interface SwitchRoutes {
 export const switchRoutes: SwitchRoutes = {
   root: "/",
   woman: "/mujer",
-  product: "product",
+  product: "/product",
   cart: "/cart",
   checkout: '/checkout',
   payment: '/payment',

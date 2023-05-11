@@ -1,17 +1,17 @@
 import { css } from '@emotion/css';
 
 export const header = css`
+  position: fixed;
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
-  width: 100vw;
-  position: fixed;
-  background: white;
-  scroll-margin-top: 70px;
-  z-index: 3;
-  height: 60px;
-  margin-left: 1rem;
+  width: 100%;
 
+
+  background: white;
+  z-index: 99999;
+  height: 60px;
+  padding-left: 1rem;
   & > :last-child {
     justify-self: end;
   }
@@ -21,17 +21,17 @@ export const header = css`
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: 20% 50% auto;
+    grid-template-columns:  20% 50% auto;
   }
 `;
 
 export const menuIcon = css`
 
-
 @media (min-width: 1024px) {
   display: none;
  }
 `;
+
 
 export const nav = css`
   margin: auto;

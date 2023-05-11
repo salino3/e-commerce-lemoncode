@@ -84,13 +84,8 @@ export const btn = css`
   border: 1px solid #212429;
 
   cursor: pointer;
-  color: #000000;
-  background: #ffffff;
+  color: #ffffff;
+  background: black;
   border-radius: 48px;
-
-  &:hover {
-    color: #ffffff;
-    background: black;
-  }
 `;
 

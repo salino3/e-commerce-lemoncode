@@ -45,11 +45,9 @@ export const button = css`
   line-height: 150%;
   width: 100%;
   border: solid 1px;
+  color: #ffffff;
+  background: #212429;
 
-  &:hover {
-    color: #ffffff;
-    background: #212429;
-  }
 
   @media (min-width: 725px) {
     width: 280px;

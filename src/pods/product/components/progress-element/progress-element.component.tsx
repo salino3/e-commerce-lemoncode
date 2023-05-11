@@ -7,10 +7,10 @@ export const ProgressElement: React.FC = () => {
       <div className={classes.numOpinion}>4.5</div>
       <div className={classes.text}>basados en 2 opiniones</div>
       <div className={classes.stars}>
-        <img src="/assets/star.png" alt="reviews" />
-        <img src="/assets/star.png" alt="reviews" />
-        <img src="/assets/star.png" alt="reviews" />
-        <img src="/assets/star.png" alt="reviews" />
+        <img src="/assets/gallery/star.png" alt="reviews" />
+        <img src="/assets/gallery/star.png" alt="reviews" />
+        <img src="/assets/gallery/star.png" alt="reviews" />
+        <img src="/assets/gallery/star.png" alt="reviews" />
         <img src="/assets/star-half-color.png" alt="reviews" />
       </div>
       <div className={classes.progressLines}>

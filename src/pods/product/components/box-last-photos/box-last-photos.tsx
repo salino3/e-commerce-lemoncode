@@ -30,7 +30,7 @@ export const BoxLastsPhotos: React.FC = () => {
           onClick={onClick}
           showIcon={false}
           className={classes.card}
-          imageUrl="/assets/images-grid-product4.png"
+          imageUrl="/assets/gallery/images-grid-product4.png"
           name="Pantalones cortos"
           price="22.99 €"
           sizes="XS M L"
@@ -41,7 +41,7 @@ export const BoxLastsPhotos: React.FC = () => {
           onClick={onClick}
           showIcon={false}
           className={classes.card}
-          imageUrl="/assets/images-grid-product5.png"
+          imageUrl="/assets/gallery/images-grid-product5.png"
           name="Camiseta"
           price="59.99 €"
           sizes="XS S M L"
@@ -52,7 +52,7 @@ export const BoxLastsPhotos: React.FC = () => {
           onClick={onClick}
           showIcon={false}
           className={classes.card}
-          imageUrl="/assets/images-grid-product1.png"
+          imageUrl="/assets/gallery/images-grid-product1.png"
           name="Vaqueros"
           price="59.99 €"
           colors="1 Color"
@@ -63,7 +63,7 @@ export const BoxLastsPhotos: React.FC = () => {
           onClick={onClick}
           showIcon={false}
           className={classes.card}
-          imageUrl="/assets/images-grid-product6.png"
+          imageUrl="/assets/gallery/images-grid-product6.png"
           name="Camiseta"
           price="59.99 €"
           colors="1 Color"

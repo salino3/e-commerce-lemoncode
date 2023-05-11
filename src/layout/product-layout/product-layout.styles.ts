@@ -11,8 +11,11 @@ export const container = css`
 
   hr {
     border: 1px solid #b6b6b6;
-    margin-top: 1rem;
   }
+`;
+
+export const hr = css`
+ margin-top: 1rem;
 `;
 
 

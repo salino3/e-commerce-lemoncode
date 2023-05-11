@@ -20,11 +20,11 @@ export const ReviewComponent: React.FC = () => {
         </div>
         <div className={classes.starsView}>
           <div>
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
           </div>
           <div>Color: blanco</div>
           <div>Talla: M</div>
@@ -32,7 +32,7 @@ export const ReviewComponent: React.FC = () => {
         <div className={classes.description}>
           Tejido agradable, ajuste perfecto. En la cintura. Color negro. Se ajusta perfectamente a la talla M.
         </div>
-        <img src="/assets/opinion-image1.png" alt="reviewer" />
+        <img src="/assets/gallery/opinion-image1.png" alt="reviewer" />
         <div className={classes.footerReview}>
           <div>Quejarse de la revision</div>
           <div>Respuesta</div>
@@ -44,11 +44,11 @@ export const ReviewComponent: React.FC = () => {
         </div>
         <div className={classes.starsView}>
           <div>
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star.png" alt="reviews" />
-            <img src="/assets/star-white.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star.png" alt="reviews" />
+            <img src="/assets/gallery/star-white.png" alt="reviews" />
           </div>
           <div>Color: blanco</div>
           <div>Talla: M</div>
@@ -56,7 +56,7 @@ export const ReviewComponent: React.FC = () => {
         <div className={classes.description}>
           Buenos vaqueros, la calidad en general es satisfactoria, la única pega es que son un poco cortos
         </div>
-        <img src="/assets/opinion-image2.png" alt="reviewer" />
+        <img src="/assets/gallery/opinion-image2.png" alt="reviewer" />
         <div className={classes.footerReview}>
           <div>Quejarse de la revision</div>
           <div>Respuesta</div>

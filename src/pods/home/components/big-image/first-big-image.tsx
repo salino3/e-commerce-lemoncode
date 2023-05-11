@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@/commons';
+import { switchRoutes } from '@/router/routes';
 import * as classes from './big-image.styles';
 
 export const FirstBigImage: React.FC = () => {
@@ -10,7 +11,7 @@ export const FirstBigImage: React.FC = () => {
           <p>ENVÍO GRATUITO EN TODOS LOS PEDIDOS</p>
           <div>COLECCIÓN DE DEPORTES</div>
         </div>
-        <Button route="/mujer" className={classes.button}>
+        <Button route={switchRoutes.woman} className={classes.button}>
           Me interesa
         </Button>
       </div>

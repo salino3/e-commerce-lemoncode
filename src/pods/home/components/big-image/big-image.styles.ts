@@ -2,15 +2,15 @@ import {css} from '@emotion/css';
 
 
 export const container = css`
-  background-image: url("/assets/group93.png");
+  background-image: url('/assets/group93.png');
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 2rem;
   width: 100%;
   height: 525px;
 
-
   @media (min-width: 725px) {
-    background-image: url("/assets/grupo192.png");
+    background-image: url('/assets/gallery/grupo192.png');
     height: 800px;
   }
 `;
@@ -41,16 +41,15 @@ export const message = css`
 `;
 
 export const button = css`
-
- width: 180px;
- border: solid 1px;
+  width: 180px;
+  border: solid 1px;
 
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #212429;
-
+  cursor: pointer;
+  background-color: Transparent;
 
   &:hover {
     background-color: #212429;

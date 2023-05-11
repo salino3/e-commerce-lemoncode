@@ -29,20 +29,20 @@ export const PrimaryComponent: React.FC = () => {
       ...prevState,
       [index]: !prevState[index],
     }));
-  }
+  };
 
   return (
-    <div >
+    <div>
       {isMobile ? (
         <div>
           <div className={classes.texto}>Inicio/Mujer</div>
           <div className={classes.boxIcons}>
             <div className={classes.boxArrow}>
-              <img src="/assets/shape-arrow-left.png" alt="arrow" />
+              <img src="/assets/gallery/shape-arrow-left.png" alt="arrow" />
               Ropa de mujer
             </div>
             <div className={classes.settingsIcon}>
-              <img src="/assets/shape-aside-1.png" alt="settings" />
+              <img src="/assets/gallery/shape-aside-1.png" alt="settings" />
             </div>
           </div>
           <ImagesRopaMujeres />

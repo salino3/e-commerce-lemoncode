@@ -62,7 +62,7 @@ export const contentRight = css`
   font-weight: 400;
   color: #212429;
 
-  @media (min-width: 725px) {
+  @media (min-width: 1024px) { 
     display: flex;
   }
 `;
@@ -94,7 +94,6 @@ export const img = css`
   cursor: pointer;
   width: 100%;
   height: 100%;
-  /* min-height: 100%; */
   object-fit: cover;
   flex-grow: 1;
   border-radius: 12px;

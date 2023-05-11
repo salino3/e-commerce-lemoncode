@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@/commons';
+import { switchRoutes } from '@/router/routes';
 import { ListComponent } from '@/pods/ropa-mujer/components';
 import * as classes from './main-isdesktop.styles';
 
@@ -41,29 +42,27 @@ export const MainComponentIsdesktop: React.FC = () => {
       </aside>
       <div className={classes.boxImages}>
         <div className={classes.boxPrimaryImages}>
-          <div className={classes.txtRoute} >
-            Inicio/Mujer/Ropa de mujer/Vaqueros
-          </div>
-          <img src="/assets/primaryImage.png" alt="image" /> <br />
+          <div className={classes.txtRoute}>Inicio/Mujer/Ropa de mujer/Vaqueros</div>
+          <img src="/assets/gallery/primaryImage.png" alt="image" /> <br />
           <div>
-            <img src="/assets/small-image-second-page1.png" alt="image" />
-            <img src="/assets/small-image-second-page2.png" alt="image" />
-            <img src="/assets/small-image-second-page3.png" alt="image" />
+            <img src="/assets/gallery/small-image-second-page1.png" alt="image" />
+            <img src="/assets/gallery/small-image-second-page2.png" alt="image" />
+            <img src="/assets/gallery/small-image-second-page3.png" alt="image" />
           </div>
         </div>
         <div className={classes.boxSecondaryImages}>
           <div>
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
-            <img src="/assets/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
+            <img src="/assets/gallery/star.png" alt="star" />
           </div>
           <div className={classes.title}>
             <h2> Vaqueros largos rectos en blanco</h2>
             <div>
-              <img src="/assets/shape-hearth.png" alt="hearth" /> &nbsp;
-              <img src="/assets/shareIcon.png" alt="star" />
+              <img src="/assets/gallery/shape-hearth.png" alt="hearth" /> &nbsp;
+              <img src="/assets/gallery/shareIcon.png" alt="star" />
             </div>
           </div>
           <div className={classes.price}>79.99 €</div>
@@ -82,24 +81,21 @@ export const MainComponentIsdesktop: React.FC = () => {
             </div>
           </div>
           <div className={classes.deliveryText}>
-            <img src="/assets/iconoir_delivery-truck.png" alt="icon" />
-            <div>
-              Por mensajero a domicilio - a partir de 50 € gratis.
-              Montaje antes de la compra en 15 minutos
-            </div>
+            <img src="/assets/gallery/iconoir_delivery-truck.png" alt="icon" />
+            <div>Por mensajero a domicilio - a partir de 50 € gratis. Montaje antes de la compra en 15 minutos</div>
           </div>
           <div className={classes.deliveryText}>
-            <img src="/assets/iconoir_delivery.png" alt="icon" />
+            <img src="/assets/gallery/iconoir_delivery.png" alt="icon" />
             <div>Belarus Post - a partir de 50 € gratis. Sin la posibilidad de encajar</div>
           </div>
           <div className={classes.boxButtons}>
-            <Button className={classes.lightButton} route="/cart">
-              <img src={`/assets/icon-minus.png`} alt="icon" />
+            <Button className={classes.lightButton} route={switchRoutes.cart}>
+              <img src={`/assets/gallery/icon-minus.png`} alt="icon" />
               1
-              <img src={`/assets/icon-plus.png`} alt="icon" />
+              <img src={`/assets/gallery/icon-plus.png`} alt="icon" />
             </Button>
-            <Button className={classes.darkButton} route="/cart">
-              <img src="/assets/cartIcon.png" alt="image" />
+            <Button className={classes.darkButton} route={switchRoutes.cart}>
+              <img src="/assets/gallery/cartIcon.png" alt="image" />
               &nbsp; En cesta
             </Button>
           </div>

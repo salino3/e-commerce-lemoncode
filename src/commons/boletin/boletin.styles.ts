@@ -65,12 +65,8 @@ export const button = css`
   border: solid 1px;
   width: 178px;
   cursor: pointer;
-
-  &:hover {
-    background-color: #212429;
-    color: #ffffff;
-    border: 0;
-  }
+  background: #212429;
+  color: #ffffff;
 
   @media (min-width: 1024px) {
     margin-left: 1rem;

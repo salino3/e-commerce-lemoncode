@@ -6,11 +6,20 @@ import * as classes from './product-layout.styles';
 
 export const ProductLayout: React.FC = () => {
 
+  const handleScroll = () => {
+    window.scrollTo(0, 0);
+  };
+
+  React.useEffect(() => {
+    handleScroll();
+  }, []);
+
+
   return (
     <div className={classes.container}>
       <Header />
       <ProductComponent />
-      <hr />
+      <hr className={classes.hr} />
       <Boletin />
       <Footer />
     </div>

@@ -1,35 +1,30 @@
 import React from 'react';
 import { Button } from '@/commons';
+import { switchRoutes } from '@/router/routes';
 import { ActualBox, Description, ExitoVentas, FirstBigImage, ImageDown, NuevasColecciones, NuevosProductos } from './components';
 import * as classes from './home.styles';
 
 export const HomeComponent: React.FC = () => {
 
-  React.useEffect(() => {
-    const sectionId = window.location.hash.substring(1);
-    const element = document.getElementById(sectionId);
-
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    };
-  }, []);
-
   return (
     <div className={classes.root}>
       <div className={classes.boxDescription}>
-        <img className={classes.imgPrimary} src="/assets/primaryImage2.png" alt="home-image" />
+        <img className={classes.imgPrimary} src="/assets/gallery/primaryImage2.png" alt="home-image" />
         <Description />
       </div>
       <ActualBox />
       <ExitoVentas />
-      <Button route={'/mujer'} className={classes.buttonHomeComponent}>
+      <Button route={switchRoutes.woman} className={classes.buttonHomeComponent}>
         Todos los éxitos
       </Button>
       <NuevasColecciones />
-      <Button route={'/mujer'} className={classes.buttonHomeComponent}>
+      <Button route={switchRoutes.woman} className={classes.buttonHomeComponent}>
         Todas las colecciones
       </Button>
       <NuevosProductos />
+      <Button route={switchRoutes.woman} className={classes.buttonHomeComponent}>
+        Ver todos
+      </Button>
       <FirstBigImage />
       <ImageDown />
     </div>

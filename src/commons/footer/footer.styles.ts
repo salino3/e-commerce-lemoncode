@@ -84,14 +84,13 @@ export const boxShapes = css`
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
-
   }
 `;
 
 export const boxSocialNetworks = css`
   display: flex;
   flex-direction: column;
-  margin: 1rem 2rem 0rem;
+  margin: 2rem 2rem 0rem;
   justify-content: space-between;
   height: 100%;
 
@@ -110,7 +109,6 @@ export const boxSocialNetworks = css`
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-
   }
   @media (min-width: 725px) {
     margin-top: 0rem;

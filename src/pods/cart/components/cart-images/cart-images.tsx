@@ -16,13 +16,8 @@ export const CartImages: React.FC<Props> = (props) => {
 
   return (
     <div className={classes.image}>
-      <img
-        className={classes.img}
-        src={`/assets/${routeImg}`}
-        alt="image"
-      />
+      <img className={classes.img} src={`/assets/gallery/${routeImg}`} alt="image" />
       <div className={classes.text}>
-
         <h3>{article}</h3>
         <h3>
           Color: <span>{text1}</span>
@@ -33,7 +28,6 @@ export const CartImages: React.FC<Props> = (props) => {
         <h3>
           Cantidad: <span>{numArticle}</span>
         </h3>
-    
       </div>
       <h4 className={classes.price}>{price} €</h4>
       <svg
@@ -51,9 +45,9 @@ export const CartImages: React.FC<Props> = (props) => {
       </svg>
       <div className={classes.btnBox}>
         <Button className={classes.lightButton} route="/cart">
-          <img src={`/assets/icon-minus.png`} alt="icon" />
+          <img src={`/assets/gallery/icon-minus.png`} alt="icon" />
           1
-          <img src={`/assets/icon-plus.png`} alt="icon" />
+          <img src={`/assets/gallery/icon-plus.png`} alt="icon" />
         </Button>
       </div>
     </div>

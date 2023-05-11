@@ -23,24 +23,25 @@ export const content = css`
   justify-content: center;
   align-items: center;
   margin: auto;
-  gap: 2px;
+  gap: 20px;
+  padding: 0rem 1rem;
 
   @media (min-width: 725px) {
     justify-content: space-around;
     flex-direction: row;
     gap: 10px;
-    overflow-x: auto;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
-
-    -ms-overflow-style: none; /* for IE y Edge */
-    scrollbar-width: none; /* for Firefox */
+  }
+  
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    display: none;
   }
 
+  -ms-overflow-style: none; /* for IE y Edge */
+  scrollbar-width: none; /* for Firefox */
+
   @media (min-width: 1024px) {
-    gap: 0px;
+    gap: 20px;
   }
 `;
 
@@ -51,7 +52,6 @@ export const item = css`
     width: 100%;
     padding: 0.5rem;
     box-sizing: border-box;
-    height: auto;
 
     @media (min-width: 725px) {
       width: 100%;

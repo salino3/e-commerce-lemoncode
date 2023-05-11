@@ -8,9 +8,9 @@ export const CheckoutComponent: React.FC = () => {
   return (
     <div className={classes.grid}>
       <div className={classes.container}>
-      <div className={classes.txtRoute}>Inicio / Cesta / Pedidos</div>
+        <div className={classes.txtRoute}>Inicio / Cesta / Pedidos</div>
         <h1>
-          <img id="img" src="/assets/shape-arrow-left.png" alt="arrow-left" />
+          <img id="img" src="/assets/gallery/shape-arrow-left.png" alt="arrow-left" />
           Pedidos
         </h1>
         <h2>Datos de contacto</h2>

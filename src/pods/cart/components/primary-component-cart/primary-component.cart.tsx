@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@/commons';
+import { switchRoutes } from '@/router/routes';
 import { CartImages } from '../cart-images';
 import * as classes from './primary-cart.styles';
 
@@ -61,7 +62,7 @@ export const PrimaryComponentCart: React.FC = () => {
             <div className={classes.totalImport}>
               Importe total <span>0 €</span>
             </div>
-            <Button route="/checkout" className={classes.button}>
+            <Button route={switchRoutes.checkout} className={classes.button}>
               Pagar
             </Button>
           </form>

@@ -297,17 +297,12 @@ export const button = css`
   margin-top: 2rem;
   width: 100%;
   height: 48px;
-  background: #ffffff;
   border-radius: 48px;
-  color: #000000;
+  color: #ffffff;
+  background: black;
   cursor: pointer;
   border: 1px solid #212429;
   border-radius: 48px;
-
-  &:hover {
-    color: #ffffff;
-    background: black;
-  }
 `;
 
 
